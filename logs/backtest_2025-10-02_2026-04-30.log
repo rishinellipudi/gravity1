@@ -1,0 +1,2387 @@
+2026-05-20 11:36:15 | INFO    | Backtest: 2025-10-02 → 2026-04-30 | symbols=['SPY', 'QQQ'] | size=$1000
+2026-05-20 11:36:15 | INFO    | --- 2025-10-02 (55 bars) ---
+2026-05-20 11:36:15 | DEBUG   | SPY | State 0→1 | break DN -1.42 SD
+2026-05-20 11:36:15 | DEBUG   | QQQ | State 0→1 | break DN -1.20 SD
+2026-05-20 11:36:15 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0215 ratio=0.826
+2026-05-20 11:36:15 | INFO    | Position opened | QQQ long | 1 shares @ 603.72 | $604
+2026-05-20 11:36:15 | INFO    | QQQ | State 2→0 | TP hit at 604.61
+2026-05-20 11:36:15 | INFO    | Position closed | QQQ long | exit=604.61 | P&L=$0.89 | reason=TP
+2026-05-20 11:36:15 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:36:15 | DEBUG   | QQQ | State 0→1 | break UP 1.24 SD
+2026-05-20 11:36:15 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0056 ratio=0.780
+2026-05-20 11:36:15 | INFO    | Position opened | QQQ short | 1 shares @ 604.71 | $605
+2026-05-20 11:36:15 | INFO    | QQQ | State 2→0 | stall exit | progress=14.0%
+2026-05-20 11:36:15 | INFO    | Position closed | QQQ short | exit=604.67 | P&L=$0.04 | reason=TP
+2026-05-20 11:36:16 | DEBUG   | QQQ | State 0→1 | break UP 1.23 SD
+2026-05-20 11:36:16 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0109 ratio=0.812
+2026-05-20 11:36:16 | INFO    | Position opened | QQQ short | 1 shares @ 604.61 | $605
+2026-05-20 11:36:16 | INFO    | QQQ | State 2→3 | stop hit at 605.23
+2026-05-20 11:36:16 | INFO    | Position closed | QQQ short | exit=605.23 | P&L=$-0.62 | reason=SL
+2026-05-20 11:36:16 | DEBUG   | QQQ | State 3 | cooldown 2 bars left
+2026-05-20 11:36:16 | DEBUG   | QQQ | State 3 | cooldown 1 bars left
+2026-05-20 11:36:16 | DEBUG   | SPY | State 0→1 | break UP 1.29 SD
+2026-05-20 11:36:16 | INFO    | 2025-10-02 done | running P&L: $0.32
+2026-05-20 11:36:16 | INFO    | --- 2025-10-03 (55 bars) ---
+2026-05-20 11:36:16 | DEBUG   | QQQ | State 0→1 | break UP 1.32 SD
+2026-05-20 11:36:16 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:36:17 | DEBUG   | QQQ | State 0→1 | break UP 1.09 SD
+2026-05-20 11:36:17 | DEBUG   | SPY | State 0→1 | break UP 1.25 SD
+2026-05-20 11:36:17 | INFO    | SPY | State 1→2 | enter_short | slope=0.0396 ratio=0.680
+2026-05-20 11:36:17 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0455 ratio=0.718
+2026-05-20 11:36:17 | INFO    | Position opened | SPY short | 1 shares @ 672.29 | $672
+2026-05-20 11:36:17 | INFO    | SPY | State 2→0 | TP hit at 670.92
+2026-05-20 11:36:17 | INFO    | Position closed | SPY short | exit=670.92 | P&L=$1.37 | reason=TP
+2026-05-20 11:36:17 | DEBUG   | QQQ | State 0→1 | break DN -1.40 SD
+2026-05-20 11:36:17 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:17 | DEBUG   | SPY | State 0→1 | break DN -1.23 SD
+2026-05-20 11:36:17 | DEBUG   | QQQ | State 0→1 | break DN -1.98 SD
+2026-05-20 11:36:17 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:17 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:17 | INFO    | 2025-10-03 done | running P&L: $1.69
+2026-05-20 11:36:18 | INFO    | --- 2025-10-06 (55 bars) ---
+2026-05-20 11:36:18 | DEBUG   | SPY | State 0→1 | break UP 1.88 SD
+2026-05-20 11:36:18 | DEBUG   | QQQ | State 0→1 | break UP 1.60 SD
+2026-05-20 11:36:18 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:36:18 | DEBUG   | QQQ | State 0→1 | break UP 1.20 SD
+2026-05-20 11:36:18 | INFO    | SPY | State 1→2 | enter_short | slope=0.0411 ratio=0.724
+2026-05-20 11:36:18 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0414 ratio=0.642
+2026-05-20 11:36:18 | INFO    | Position opened | SPY short | 1 shares @ 671.48 | $671
+2026-05-20 11:36:18 | INFO    | SPY | State 2→3 | stop hit at 672.22
+2026-05-20 11:36:18 | INFO    | Position closed | SPY short | exit=672.22 | P&L=$-0.74 | reason=SL
+2026-05-20 11:36:18 | DEBUG   | SPY | State 3 | cooldown 2 bars left
+2026-05-20 11:36:18 | DEBUG   | QQQ | State 0→1 | break UP 1.78 SD
+2026-05-20 11:36:18 | DEBUG   | SPY | State 3 | cooldown 1 bars left
+2026-05-20 11:36:19 | INFO    | 2025-10-06 done | running P&L: $0.95
+2026-05-20 11:36:19 | INFO    | --- 2025-10-07 (55 bars) ---
+2026-05-20 11:36:19 | DEBUG   | SPY | State 0→1 | break DN -1.32 SD
+2026-05-20 11:36:19 | DEBUG   | QQQ | State 0→1 | break DN -1.53 SD
+2026-05-20 11:36:19 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:19 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:19 | DEBUG   | SPY | State 0→1 | break DN -1.21 SD
+2026-05-20 11:36:19 | DEBUG   | QQQ | State 0→1 | break DN -1.05 SD
+2026-05-20 11:36:19 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:19 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:20 | DEBUG   | SPY | State 0→1 | break DN -1.14 SD
+2026-05-20 11:36:20 | DEBUG   | QQQ | State 0→1 | break DN -1.15 SD
+2026-05-20 11:36:20 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0177 ratio=0.880
+2026-05-20 11:36:20 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0367 ratio=0.859
+2026-05-20 11:36:20 | INFO    | Position opened | QQQ long | 1 shares @ 603.91 | $604
+2026-05-20 11:36:20 | INFO    | Position closed | QQQ long | exit=604.29 | P&L=$0.38 | reason=EOD
+2026-05-20 11:36:20 | INFO    | 2025-10-07 done | running P&L: $1.33
+2026-05-20 11:36:20 | INFO    | --- 2025-10-08 (55 bars) ---
+2026-05-20 11:36:20 | DEBUG   | SPY | State 0→1 | break UP 1.64 SD
+2026-05-20 11:36:20 | DEBUG   | QQQ | State 0→1 | break UP 2.08 SD
+2026-05-20 11:36:21 | INFO    | SPY | State 1→2 | enter_short | slope=0.0453 ratio=0.680
+2026-05-20 11:36:21 | INFO    | Position opened | SPY short | 1 shares @ 672.59 | $673
+2026-05-20 11:36:21 | INFO    | SPY | State 2→0 | stall exit | progress=1.9%
+2026-05-20 11:36:21 | INFO    | Position closed | SPY short | exit=672.58 | P&L=$0.01 | reason=TP
+2026-05-20 11:36:21 | DEBUG   | SPY | State 0→1 | break UP 1.07 SD
+2026-05-20 11:36:21 | INFO    | SPY | State 1→2 | enter_short | slope=0.0341 ratio=0.697
+2026-05-20 11:36:21 | INFO    | Position opened | SPY short | 1 shares @ 672.64 | $673
+2026-05-20 11:36:21 | INFO    | SPY | State 2→0 | stall exit | progress=-82.8%
+2026-05-20 11:36:21 | INFO    | Position closed | SPY short | exit=672.98 | P&L=$-0.34 | reason=TP
+2026-05-20 11:36:21 | DEBUG   | SPY | State 0→1 | break UP 1.43 SD
+2026-05-20 11:36:21 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:36:21 | INFO    | 2025-10-08 done | running P&L: $1.00
+2026-05-20 11:36:22 | INFO    | --- 2025-10-09 (55 bars) ---
+2026-05-20 11:36:22 | DEBUG   | SPY | State 0→1 | break DN -1.77 SD
+2026-05-20 11:36:22 | DEBUG   | QQQ | State 0→1 | break DN -1.71 SD
+2026-05-20 11:36:22 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:36:22 | DEBUG   | QQQ | State 0→1 | break DN -1.24 SD
+2026-05-20 11:36:22 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:36:22 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:36:22 | DEBUG   | QQQ | State 0→1 | break UP 1.07 SD
+2026-05-20 11:36:22 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0210 ratio=0.749
+2026-05-20 11:36:22 | INFO    | Position opened | QQQ short | 1 shares @ 609.96 | $610
+2026-05-20 11:36:22 | INFO    | QQQ | State 2→0 | TP hit at 609.36
+2026-05-20 11:36:22 | INFO    | Position closed | QQQ short | exit=609.37 | P&L=$0.59 | reason=TP
+2026-05-20 11:36:22 | DEBUG   | SPY | State 0→1 | break DN -1.63 SD
+2026-05-20 11:36:22 | DEBUG   | QQQ | State 0→1 | break DN -2.00 SD
+2026-05-20 11:36:22 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:36:22 | DEBUG   | QQQ | State 0→1 | break DN -1.88 SD
+2026-05-20 11:36:22 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:36:22 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:36:22 | DEBUG   | SPY | State 0→1 | break DN -1.09 SD
+2026-05-20 11:36:23 | DEBUG   | QQQ | State 0→1 | break DN -1.03 SD
+2026-05-20 11:36:23 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0223 ratio=0.823
+2026-05-20 11:36:23 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0237 ratio=0.885
+2026-05-20 11:36:23 | INFO    | Position opened | SPY long | 1 shares @ 670.18 | $670
+2026-05-20 11:36:23 | INFO    | SPY | State 2→3 | stop hit at 669.71
+2026-05-20 11:36:23 | INFO    | Position closed | SPY long | exit=669.71 | P&L=$-0.47 | reason=SL
+2026-05-20 11:36:23 | DEBUG   | SPY | State 3 | cooldown 2 bars left
+2026-05-20 11:36:23 | DEBUG   | QQQ | State 0→1 | break DN -1.26 SD
+2026-05-20 11:36:23 | DEBUG   | SPY | State 3 | cooldown 1 bars left
+2026-05-20 11:36:23 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0188 ratio=0.807
+2026-05-20 11:36:23 | INFO    | Position opened | QQQ long | 1 shares @ 608.60 | $609
+2026-05-20 11:36:23 | INFO    | Position closed | QQQ long | exit=608.70 | P&L=$0.10 | reason=EOD
+2026-05-20 11:36:23 | INFO    | 2025-10-09 done | running P&L: $1.22
+2026-05-20 11:36:23 | INFO    | --- 2025-10-10 (55 bars) ---
+2026-05-20 11:36:23 | DEBUG   | SPY | State 0→1 | break DN -1.69 SD
+2026-05-20 11:36:23 | DEBUG   | QQQ | State 0→1 | break DN -1.57 SD
+2026-05-20 11:36:23 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:23 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:23 | DEBUG   | SPY | State 0→1 | break DN -1.01 SD
+2026-05-20 11:36:23 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:23 | DEBUG   | SPY | State 0→1 | break DN -1.05 SD
+2026-05-20 11:36:23 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:23 | DEBUG   | SPY | State 0→1 | break DN -1.11 SD
+2026-05-20 11:36:23 | DEBUG   | QQQ | State 0→1 | break DN -1.06 SD
+2026-05-20 11:36:24 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:36:24 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0449 ratio=0.792
+2026-05-20 11:36:24 | INFO    | Position opened | SPY long | 1 shares @ 660.25 | $660
+2026-05-20 11:36:24 | INFO    | SPY | State 2→0 | stall exit | progress=-35.3%
+2026-05-20 11:36:24 | INFO    | Position closed | SPY long | exit=659.01 | P&L=$-1.24 | reason=TP
+2026-05-20 11:36:24 | DEBUG   | SPY | State 0→1 | break DN -1.20 SD
+2026-05-20 11:36:24 | DEBUG   | QQQ | State 0→1 | break DN -1.06 SD
+2026-05-20 11:36:24 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0288 ratio=0.727
+2026-05-20 11:36:24 | INFO    | Position opened | QQQ long | 1 shares @ 596.34 | $596
+2026-05-20 11:36:24 | INFO    | Position closed | QQQ long | exit=595.52 | P&L=$-0.82 | reason=EOD
+2026-05-20 11:36:24 | INFO    | 2025-10-10 done | running P&L: $-0.84
+2026-05-20 11:36:24 | INFO    | --- 2025-10-13 (55 bars) ---
+2026-05-20 11:36:24 | DEBUG   | SPY | State 0→1 | break UP 1.48 SD
+2026-05-20 11:36:24 | INFO    | SPY | State 1→2 | enter_short | slope=0.0448 ratio=0.666
+2026-05-20 11:36:24 | INFO    | Position opened | SPY short | 1 shares @ 662.30 | $662
+2026-05-20 11:36:24 | INFO    | SPY | State 2→0 | stall exit | progress=-287.1%
+2026-05-20 11:36:24 | INFO    | Position closed | SPY short | exit=663.40 | P&L=$-1.10 | reason=TP
+2026-05-20 11:36:24 | DEBUG   | SPY | State 0→1 | break UP 1.81 SD
+2026-05-20 11:36:24 | DEBUG   | QQQ | State 0→1 | break UP 1.51 SD
+2026-05-20 11:36:24 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0470 ratio=0.812
+2026-05-20 11:36:24 | INFO    | Position opened | QQQ short | 1 shares @ 601.48 | $601
+2026-05-20 11:36:25 | INFO    | QQQ | State 2→3 | stop hit at 602.58
+2026-05-20 11:36:25 | INFO    | Position closed | QQQ short | exit=602.60 | P&L=$-1.12 | reason=SL
+2026-05-20 11:36:25 | DEBUG   | QQQ | State 3 | cooldown 2 bars left
+2026-05-20 11:36:25 | DEBUG   | QQQ | State 3 | cooldown 1 bars left
+2026-05-20 11:36:25 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:36:25 | DEBUG   | QQQ | State 3→0 | cooldown done, price inside band
+2026-05-20 11:36:25 | DEBUG   | QQQ | State 0→1 | break UP 1.14 SD
+2026-05-20 11:36:25 | DEBUG   | SPY | State 0→1 | break UP 1.29 SD
+2026-05-20 11:36:25 | INFO    | 2025-10-13 done | running P&L: $-3.06
+2026-05-20 11:36:25 | INFO    | --- 2025-10-14 (55 bars) ---
+2026-05-20 11:36:25 | DEBUG   | SPY | State 0→1 | break UP 1.81 SD
+2026-05-20 11:36:25 | DEBUG   | QQQ | State 0→1 | break UP 1.74 SD
+2026-05-20 11:36:25 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:36:25 | DEBUG   | QQQ | State 0→1 | break UP 1.36 SD
+2026-05-20 11:36:26 | INFO    | 2025-10-14 done | running P&L: $-3.06
+2026-05-20 11:36:26 | INFO    | --- 2025-10-15 (55 bars) ---
+2026-05-20 11:36:26 | DEBUG   | SPY | State 0→1 | break DN -2.82 SD
+2026-05-20 11:36:26 | DEBUG   | QQQ | State 0→1 | break DN -2.51 SD
+2026-05-20 11:36:27 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:27 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:27 | DEBUG   | SPY | State 0→1 | break DN -1.02 SD
+2026-05-20 11:36:27 | DEBUG   | QQQ | State 0→1 | break DN -1.05 SD
+2026-05-20 11:36:27 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:27 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:27 | DEBUG   | SPY | State 0→1 | break DN -1.19 SD
+2026-05-20 11:36:27 | DEBUG   | QQQ | State 0→1 | break DN -1.30 SD
+2026-05-20 11:36:27 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:27 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:27 | INFO    | 2025-10-15 done | running P&L: $-3.06
+2026-05-20 11:36:27 | INFO    | --- 2025-10-16 (55 bars) ---
+2026-05-20 11:36:28 | DEBUG   | QQQ | State 0→1 | break DN -1.12 SD
+2026-05-20 11:36:28 | DEBUG   | SPY | State 0→1 | break DN -2.17 SD
+2026-05-20 11:36:28 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:28 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:28 | DEBUG   | QQQ | State 0→1 | break DN -1.08 SD
+2026-05-20 11:36:28 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:28 | DEBUG   | SPY | State 0→1 | break DN -1.13 SD
+2026-05-20 11:36:28 | DEBUG   | QQQ | State 0→1 | break DN -1.19 SD
+2026-05-20 11:36:28 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0279 ratio=0.748
+2026-05-20 11:36:28 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0206 ratio=0.766
+2026-05-20 11:36:28 | INFO    | Position opened | QQQ long | 1 shares @ 600.78 | $601
+2026-05-20 11:36:28 | INFO    | QQQ | State 2→3 | stop hit at 599.12
+2026-05-20 11:36:28 | INFO    | Position closed | QQQ long | exit=599.14 | P&L=$-1.64 | reason=SL
+2026-05-20 11:36:28 | DEBUG   | SPY | State 0→1 | break DN -1.70 SD
+2026-05-20 11:36:28 | DEBUG   | QQQ | State 3 | cooldown 2 bars left
+2026-05-20 11:36:28 | DEBUG   | QQQ | State 3 | cooldown 1 bars left
+2026-05-20 11:36:28 | INFO    | 2025-10-16 done | running P&L: $-4.70
+2026-05-20 11:36:29 | INFO    | --- 2025-10-17 (55 bars) ---
+2026-05-20 11:36:29 | DEBUG   | SPY | State 0→1 | break DN -1.43 SD
+2026-05-20 11:36:29 | DEBUG   | QQQ | State 0→1 | break DN -1.69 SD
+2026-05-20 11:36:29 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:36:29 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:36:29 | DEBUG   | SPY | State 0→1 | break UP 1.73 SD
+2026-05-20 11:36:29 | DEBUG   | QQQ | State 0→1 | break UP 1.57 SD
+2026-05-20 11:36:29 | INFO    | SPY | State 1→2 | enter_short | slope=0.0282 ratio=0.770
+2026-05-20 11:36:29 | INFO    | Position opened | SPY short | 1 shares @ 662.33 | $662
+2026-05-20 11:36:29 | INFO    | SPY | State 2→3 | stop hit at 663.07
+2026-05-20 11:36:29 | INFO    | Position closed | SPY short | exit=663.07 | P&L=$-0.74 | reason=SL
+2026-05-20 11:36:29 | DEBUG   | SPY | State 3 | cooldown 2 bars left
+2026-05-20 11:36:29 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:36:29 | DEBUG   | SPY | State 3 | cooldown 1 bars left
+2026-05-20 11:36:29 | DEBUG   | SPY | State 3→0 | cooldown done, price inside band
+2026-05-20 11:36:29 | DEBUG   | SPY | State 0→1 | break UP 1.36 SD
+2026-05-20 11:36:29 | DEBUG   | QQQ | State 0→1 | break UP 1.39 SD
+2026-05-20 11:36:30 | INFO    | 2025-10-17 done | running P&L: $-5.44
+2026-05-20 11:36:30 | INFO    | --- 2025-10-20 (55 bars) ---
+2026-05-20 11:36:30 | DEBUG   | QQQ | State 0→1 | break UP 1.18 SD
+2026-05-20 11:36:30 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:36:30 | DEBUG   | SPY | State 0→1 | break UP 1.17 SD
+2026-05-20 11:36:30 | DEBUG   | QQQ | State 0→1 | break UP 1.50 SD
+2026-05-20 11:36:30 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:36:30 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:30 | DEBUG   | SPY | State 0→1 | break UP 1.92 SD
+2026-05-20 11:36:30 | DEBUG   | QQQ | State 0→1 | break UP 1.39 SD
+2026-05-20 11:36:31 | INFO    | 2025-10-20 done | running P&L: $-5.44
+2026-05-20 11:36:31 | INFO    | --- 2025-10-21 (55 bars) ---
+2026-05-20 11:36:31 | DEBUG   | QQQ | State 0→1 | break UP 1.33 SD
+2026-05-20 11:36:31 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:36:31 | DEBUG   | QQQ | State 0→1 | break UP 1.93 SD
+2026-05-20 11:36:31 | DEBUG   | SPY | State 0→1 | break UP 1.09 SD
+2026-05-20 11:36:31 | INFO    | SPY | State 1→2 | enter_short | slope=0.0345 ratio=0.654
+2026-05-20 11:36:31 | INFO    | Position opened | SPY short | 1 shares @ 672.25 | $672
+2026-05-20 11:36:31 | INFO    | SPY | State 2→0 | stall exit | progress=-142.6%
+2026-05-20 11:36:31 | INFO    | Position closed | SPY short | exit=672.83 | P&L=$-0.58 | reason=TP
+2026-05-20 11:36:31 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:32 | DEBUG   | QQQ | State 0→1 | break UP 1.01 SD
+2026-05-20 11:36:32 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0126 ratio=0.598
+2026-05-20 11:36:32 | INFO    | Position opened | QQQ short | 1 shares @ 611.86 | $612
+2026-05-20 11:36:32 | INFO    | Position closed | QQQ short | exit=612.02 | P&L=$-0.16 | reason=EOD
+2026-05-20 11:36:32 | INFO    | 2025-10-21 done | running P&L: $-6.18
+2026-05-20 11:36:32 | INFO    | --- 2025-10-22 (55 bars) ---
+2026-05-20 11:36:32 | DEBUG   | SPY | State 0→1 | break DN -1.61 SD
+2026-05-20 11:36:32 | DEBUG   | QQQ | State 0→1 | break DN -1.70 SD
+2026-05-20 11:36:32 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:32 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:32 | DEBUG   | SPY | State 0→1 | break DN -1.06 SD
+2026-05-20 11:36:32 | DEBUG   | QQQ | State 0→1 | break DN -1.53 SD
+2026-05-20 11:36:32 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:32 | DEBUG   | SPY | State 0→1 | break DN -1.17 SD
+2026-05-20 11:36:32 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:32 | DEBUG   | SPY | State 0→1 | break DN -1.13 SD
+2026-05-20 11:36:32 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:36:32 | DEBUG   | SPY | State 0→1 | break DN -1.57 SD
+2026-05-20 11:36:33 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:36:33 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:36:33 | DEBUG   | QQQ | State 0→1 | break DN -1.05 SD
+2026-05-20 11:36:33 | INFO    | 2025-10-22 done | running P&L: $-6.18
+2026-05-20 11:36:33 | INFO    | --- 2025-10-23 (55 bars) ---
+2026-05-20 11:36:33 | DEBUG   | SPY | State 0→1 | break UP 1.13 SD
+2026-05-20 11:36:33 | DEBUG   | QQQ | State 0→1 | break UP 1.44 SD
+2026-05-20 11:36:33 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:36:33 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0219 ratio=0.890
+2026-05-20 11:36:33 | INFO    | Position opened | QQQ short | 1 shares @ 608.63 | $609
+2026-05-20 11:36:33 | INFO    | QQQ | State 2→0 | TP hit at 607.59
+2026-05-20 11:36:33 | INFO    | Position closed | QQQ short | exit=607.60 | P&L=$1.03 | reason=TP
+2026-05-20 11:36:33 | DEBUG   | SPY | State 0→1 | break UP 1.63 SD
+2026-05-20 11:36:33 | DEBUG   | QQQ | State 0→1 | break UP 1.79 SD
+2026-05-20 11:36:33 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:33 | DEBUG   | SPY | State 0→1 | break UP 1.79 SD
+2026-05-20 11:36:34 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0417 ratio=0.867
+2026-05-20 11:36:34 | INFO    | Position opened | QQQ short | 1 shares @ 609.47 | $609
+2026-05-20 11:36:34 | INFO    | QQQ | State 2→3 | stop hit at 610.96
+2026-05-20 11:36:34 | INFO    | Position closed | QQQ short | exit=610.96 | P&L=$-1.49 | reason=SL
+2026-05-20 11:36:34 | DEBUG   | QQQ | State 3 | cooldown 2 bars left
+2026-05-20 11:36:34 | DEBUG   | QQQ | State 3 | cooldown 1 bars left
+2026-05-20 11:36:34 | INFO    | 2025-10-23 done | running P&L: $-6.64
+2026-05-20 11:36:34 | INFO    | --- 2025-10-24 (55 bars) ---
+2026-05-20 11:36:34 | DEBUG   | SPY | State 0→1 | break UP 1.38 SD
+2026-05-20 11:36:34 | DEBUG   | QQQ | State 0→1 | break UP 1.08 SD
+2026-05-20 11:36:34 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:36:34 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0364 ratio=0.747
+2026-05-20 11:36:34 | INFO    | Position opened | QQQ short | 1 shares @ 617.29 | $617
+2026-05-20 11:36:34 | INFO    | QQQ | State 2→0 | stall exit | progress=-208.2%
+2026-05-20 11:36:34 | INFO    | Position closed | QQQ short | exit=617.72 | P&L=$-0.43 | reason=TP
+2026-05-20 11:36:34 | DEBUG   | SPY | State 0→1 | break UP 1.19 SD
+2026-05-20 11:36:34 | DEBUG   | QQQ | State 0→1 | break UP 1.31 SD
+2026-05-20 11:36:34 | INFO    | SPY | State 1→2 | enter_short | slope=0.0385 ratio=0.732
+2026-05-20 11:36:34 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0251 ratio=0.658
+2026-05-20 11:36:34 | INFO    | Position opened | QQQ short | 1 shares @ 617.67 | $618
+2026-05-20 11:36:34 | INFO    | QQQ | State 2→3 | stop hit at 618.03
+2026-05-20 11:36:34 | INFO    | Position closed | QQQ short | exit=618.01 | P&L=$-0.35 | reason=SL
+2026-05-20 11:36:34 | DEBUG   | QQQ | State 3 | cooldown 2 bars left
+2026-05-20 11:36:35 | DEBUG   | QQQ | State 3 | cooldown 1 bars left
+2026-05-20 11:36:35 | DEBUG   | SPY | State 0→1 | break UP 1.03 SD
+2026-05-20 11:36:35 | INFO    | SPY | State 1→2 | enter_short | slope=0.0129 ratio=0.828
+2026-05-20 11:36:35 | INFO    | Position opened | SPY short | 1 shares @ 678.05 | $678
+2026-05-20 11:36:35 | INFO    | SPY | State 2→0 | stall exit | progress=-2.4%
+2026-05-20 11:36:35 | INFO    | Position closed | SPY short | exit=678.07 | P&L=$-0.02 | reason=TP
+2026-05-20 11:36:35 | DEBUG   | QQQ | State 3→0 | cooldown done, price inside band
+2026-05-20 11:36:35 | DEBUG   | SPY | State 0→1 | break UP 1.07 SD
+2026-05-20 11:36:35 | DEBUG   | QQQ | State 0→1 | break UP 1.10 SD
+2026-05-20 11:36:35 | INFO    | SPY | State 1→2 | enter_short | slope=0.0178 ratio=0.684
+2026-05-20 11:36:35 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0295 ratio=0.661
+2026-05-20 11:36:35 | INFO    | Position opened | QQQ short | 1 shares @ 617.89 | $618
+2026-05-20 11:36:35 | INFO    | Position closed | QQQ short | exit=617.93 | P&L=$-0.03 | reason=EOD
+2026-05-20 11:36:35 | INFO    | 2025-10-24 done | running P&L: $-7.47
+2026-05-20 11:36:35 | INFO    | --- 2025-10-27 (55 bars) ---
+2026-05-20 11:36:35 | DEBUG   | SPY | State 0→1 | break UP 1.58 SD
+2026-05-20 11:36:35 | DEBUG   | QQQ | State 0→1 | break UP 1.79 SD
+2026-05-20 11:36:35 | INFO    | SPY | State 1→2 | enter_short | slope=0.0337 ratio=0.585
+2026-05-20 11:36:35 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:36:35 | INFO    | Position opened | SPY short | 1 shares @ 683.25 | $683
+2026-05-20 11:36:35 | INFO    | SPY | State 2→3 | stop hit at 683.71
+2026-05-20 11:36:35 | INFO    | Position closed | SPY short | exit=683.71 | P&L=$-0.46 | reason=SL
+2026-05-20 11:36:35 | DEBUG   | SPY | State 3 | cooldown 2 bars left
+2026-05-20 11:36:35 | DEBUG   | QQQ | State 0→1 | break UP 1.65 SD
+2026-05-20 11:36:35 | DEBUG   | SPY | State 3 | cooldown 1 bars left
+2026-05-20 11:36:36 | DEBUG   | SPY | State 3→0 | cooldown done, price inside band
+2026-05-20 11:36:36 | DEBUG   | SPY | State 0→1 | break UP 1.13 SD
+2026-05-20 11:36:36 | INFO    | SPY | State 1→2 | enter_short | slope=0.0325 ratio=0.836
+2026-05-20 11:36:36 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0496 ratio=0.771
+2026-05-20 11:36:36 | INFO    | Position opened | QQQ short | 1 shares @ 626.62 | $627
+2026-05-20 11:36:36 | INFO    | QQQ | State 2→3 | stop hit at 627.13
+2026-05-20 11:36:36 | INFO    | Position closed | QQQ short | exit=627.13 | P&L=$-0.50 | reason=SL
+2026-05-20 11:36:36 | DEBUG   | SPY | State 0→1 | break UP 1.68 SD
+2026-05-20 11:36:36 | DEBUG   | QQQ | State 3 | cooldown 2 bars left
+2026-05-20 11:36:36 | DEBUG   | QQQ | State 3 | cooldown 1 bars left
+2026-05-20 11:36:36 | INFO    | 2025-10-27 done | running P&L: $-8.44
+2026-05-20 11:36:36 | INFO    | --- 2025-10-28 (55 bars) ---
+2026-05-20 11:36:36 | DEBUG   | SPY | State 0→1 | break DN -4.05 SD
+2026-05-20 11:36:36 | DEBUG   | QQQ | State 0→1 | break DN -1.29 SD
+2026-05-20 11:36:36 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:36:37 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:36:37 | DEBUG   | QQQ | State 0→1 | break UP 1.35 SD
+2026-05-20 11:36:37 | DEBUG   | SPY | State 0→1 | break UP 1.60 SD
+2026-05-20 11:36:37 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:37 | DEBUG   | SPY | State 0→1 | break UP 1.60 SD
+2026-05-20 11:36:37 | INFO    | 2025-10-28 done | running P&L: $-8.44
+2026-05-20 11:36:37 | INFO    | --- 2025-10-29 (55 bars) ---
+2026-05-20 11:36:37 | DEBUG   | SPY | State 0→1 | break DN -1.53 SD
+2026-05-20 11:36:37 | DEBUG   | QQQ | State 0→1 | break DN -2.39 SD
+2026-05-20 11:36:38 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0372 ratio=0.868
+2026-05-20 11:36:38 | INFO    | Position opened | SPY long | 1 shares @ 688.31 | $688
+2026-05-20 11:36:38 | INFO    | SPY | State 2→3 | stop hit at 687.62
+2026-05-20 11:36:38 | INFO    | Position closed | SPY long | exit=687.62 | P&L=$-0.68 | reason=SL
+2026-05-20 11:36:38 | DEBUG   | SPY | State 3 | cooldown 2 bars left
+2026-05-20 11:36:38 | DEBUG   | SPY | State 3 | cooldown 1 bars left
+2026-05-20 11:36:38 | DEBUG   | SPY | State 3→0 | cooldown done, price inside band
+2026-05-20 11:36:38 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:36:38 | DEBUG   | SPY | State 0→1 | break DN -1.58 SD
+2026-05-20 11:36:38 | DEBUG   | QQQ | State 0→1 | break DN -1.32 SD
+2026-05-20 11:36:38 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0191 ratio=0.798
+2026-05-20 11:36:38 | INFO    | Position opened | QQQ long | 1 shares @ 634.93 | $635
+2026-05-20 11:36:38 | INFO    | QQQ | State 2→0 | stall exit | progress=11.5%
+2026-05-20 11:36:38 | INFO    | Position closed | QQQ long | exit=634.99 | P&L=$0.06 | reason=TP
+2026-05-20 11:36:38 | DEBUG   | QQQ | State 0→1 | break DN -1.49 SD
+2026-05-20 11:36:38 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:36:38 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:36:38 | DEBUG   | SPY | State 0→1 | break DN -1.67 SD
+2026-05-20 11:36:38 | INFO    | 2025-10-29 done | running P&L: $-9.07
+2026-05-20 11:36:39 | INFO    | --- 2025-10-30 (55 bars) ---
+2026-05-20 11:36:39 | DEBUG   | SPY | State 0→1 | break DN -1.77 SD
+2026-05-20 11:36:39 | DEBUG   | QQQ | State 0→1 | break DN -1.74 SD
+2026-05-20 11:36:39 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0399 ratio=0.798
+2026-05-20 11:36:39 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0406 ratio=0.771
+2026-05-20 11:36:39 | INFO    | Position opened | SPY long | 1 shares @ 684.13 | $684
+2026-05-20 11:36:39 | INFO    | SPY | State 2→0 | TP hit at 684.77
+2026-05-20 11:36:39 | INFO    | Position closed | SPY long | exit=684.77 | P&L=$0.64 | reason=TP
+2026-05-20 11:36:39 | DEBUG   | SPY | State 0→1 | break UP 1.24 SD
+2026-05-20 11:36:39 | DEBUG   | QQQ | State 0→1 | break UP 1.07 SD
+2026-05-20 11:36:39 | INFO    | SPY | State 1→2 | enter_short | slope=-0.0034 ratio=0.666
+2026-05-20 11:36:39 | INFO    | QQQ | State 1→2 | enter_short | slope=-0.0029 ratio=0.688
+2026-05-20 11:36:39 | INFO    | Position opened | SPY short | 1 shares @ 684.90 | $685
+2026-05-20 11:36:39 | INFO    | SPY | State 2→0 | TP hit at 684.00
+2026-05-20 11:36:39 | INFO    | Position closed | SPY short | exit=684.00 | P&L=$0.90 | reason=TP
+2026-05-20 11:36:39 | DEBUG   | SPY | State 0→1 | break DN -1.52 SD
+2026-05-20 11:36:39 | DEBUG   | QQQ | State 0→1 | break DN -1.17 SD
+2026-05-20 11:36:39 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0075 ratio=0.765
+2026-05-20 11:36:39 | INFO    | Position opened | QQQ long | 1 shares @ 629.66 | $630
+2026-05-20 11:36:39 | INFO    | QQQ | State 2→0 | TP hit at 630.42
+2026-05-20 11:36:39 | INFO    | Position closed | QQQ long | exit=630.45 | P&L=$0.79 | reason=TP
+2026-05-20 11:36:39 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0167 ratio=0.896
+2026-05-20 11:36:39 | INFO    | Position opened | SPY long | 1 shares @ 684.40 | $684
+2026-05-20 11:36:39 | INFO    | SPY | State 2→0 | TP hit at 684.54
+2026-05-20 11:36:39 | INFO    | Position closed | SPY long | exit=684.54 | P&L=$0.14 | reason=TP
+2026-05-20 11:36:39 | DEBUG   | SPY | State 0→1 | break DN -1.40 SD
+2026-05-20 11:36:39 | DEBUG   | QQQ | State 0→1 | break DN -1.29 SD
+2026-05-20 11:36:39 | INFO    | 2025-10-30 done | running P&L: $-6.60
+2026-05-20 11:36:40 | INFO    | --- 2025-10-31 (55 bars) ---
+2026-05-20 11:36:40 | DEBUG   | SPY | State 0→1 | break DN -1.07 SD
+2026-05-20 11:36:40 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:36:40 | DEBUG   | SPY | State 0→1 | break DN -1.78 SD
+2026-05-20 11:36:40 | DEBUG   | QQQ | State 0→1 | break DN -1.62 SD
+2026-05-20 11:36:40 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:40 | DEBUG   | SPY | State 0→1 | break DN -1.56 SD
+2026-05-20 11:36:40 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:36:40 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:40 | DEBUG   | QQQ | State 0→1 | break DN -1.12 SD
+2026-05-20 11:36:40 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0474 ratio=0.893
+2026-05-20 11:36:40 | INFO    | Position opened | QQQ long | 1 shares @ 628.86 | $629
+2026-05-20 11:36:41 | INFO    | Position closed | QQQ long | exit=629.40 | P&L=$0.54 | reason=EOD
+2026-05-20 11:36:41 | INFO    | 2025-10-31 done | running P&L: $-6.06
+2026-05-20 11:36:41 | INFO    | --- 2025-11-03 (55 bars) ---
+2026-05-20 11:36:41 | DEBUG   | SPY | State 0→1 | break UP 1.38 SD
+2026-05-20 11:36:41 | INFO    | SPY | State 1→2 | enter_short | slope=0.0326 ratio=0.861
+2026-05-20 11:36:41 | INFO    | Position opened | SPY short | 1 shares @ 682.49 | $682
+2026-05-20 11:36:41 | INFO    | SPY | State 2→3 | stop hit at 683.41
+2026-05-20 11:36:41 | INFO    | Position closed | SPY short | exit=683.41 | P&L=$-0.92 | reason=SL
+2026-05-20 11:36:41 | DEBUG   | SPY | State 3 | cooldown 2 bars left
+2026-05-20 11:36:41 | DEBUG   | SPY | State 3 | cooldown 1 bars left
+2026-05-20 11:36:41 | DEBUG   | QQQ | State 0→1 | break UP 1.38 SD
+2026-05-20 11:36:41 | DEBUG   | SPY | State 3→0 | cooldown done, price inside band
+2026-05-20 11:36:41 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0269 ratio=0.856
+2026-05-20 11:36:41 | INFO    | Position opened | QQQ short | 1 shares @ 631.91 | $632
+2026-05-20 11:36:41 | INFO    | QQQ | State 2→3 | stop hit at 632.68
+2026-05-20 11:36:41 | INFO    | Position closed | QQQ short | exit=632.68 | P&L=$-0.77 | reason=SL
+2026-05-20 11:36:41 | DEBUG   | SPY | State 0→1 | break UP 1.53 SD
+2026-05-20 11:36:41 | DEBUG   | QQQ | State 3 | cooldown 2 bars left
+2026-05-20 11:36:41 | DEBUG   | QQQ | State 3 | cooldown 1 bars left
+2026-05-20 11:36:41 | DEBUG   | QQQ | State 3→0 | cooldown done, price inside band
+2026-05-20 11:36:42 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:36:42 | INFO    | 2025-11-03 done | running P&L: $-7.75
+2026-05-20 11:36:42 | INFO    | --- 2025-11-04 (55 bars) ---
+2026-05-20 11:36:42 | DEBUG   | SPY | State 0→1 | break DN -1.05 SD
+2026-05-20 11:36:42 | DEBUG   | QQQ | State 0→1 | break DN -1.44 SD
+2026-05-20 11:36:42 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:42 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:42 | DEBUG   | QQQ | State 0→1 | break DN -1.23 SD
+2026-05-20 11:36:42 | DEBUG   | SPY | State 0→1 | break DN -1.84 SD
+2026-05-20 11:36:42 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:36:42 | DEBUG   | SPY | State 0→1 | break DN -1.67 SD
+2026-05-20 11:36:43 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:43 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:43 | DEBUG   | SPY | State 0→1 | break DN -1.14 SD
+2026-05-20 11:36:43 | DEBUG   | QQQ | State 0→1 | break DN -1.16 SD
+2026-05-20 11:36:43 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:36:43 | DEBUG   | SPY | State 0→1 | break DN -1.00 SD
+2026-05-20 11:36:43 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:36:43 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0328 ratio=0.876
+2026-05-20 11:36:43 | INFO    | Position opened | QQQ long | 1 shares @ 621.45 | $621
+2026-05-20 11:36:43 | INFO    | Position closed | QQQ long | exit=620.98 | P&L=$-0.47 | reason=EOD
+2026-05-20 11:36:43 | INFO    | 2025-11-04 done | running P&L: $-8.22
+2026-05-20 11:36:43 | INFO    | --- 2025-11-05 (55 bars) ---
+2026-05-20 11:36:43 | DEBUG   | SPY | State 0→1 | break UP 2.66 SD
+2026-05-20 11:36:43 | DEBUG   | QQQ | State 0→1 | break UP 2.31 SD
+2026-05-20 11:36:44 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:44 | DEBUG   | SPY | State 0→1 | break UP 1.16 SD
+2026-05-20 11:36:44 | INFO    | 2025-11-05 done | running P&L: $-8.22
+2026-05-20 11:36:44 | INFO    | --- 2025-11-06 (55 bars) ---
+2026-05-20 11:36:44 | DEBUG   | SPY | State 0→1 | break DN -1.20 SD
+2026-05-20 11:36:44 | DEBUG   | QQQ | State 0→1 | break DN -1.27 SD
+2026-05-20 11:36:45 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:45 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:36:45 | DEBUG   | SPY | State 0→1 | break DN -1.19 SD
+2026-05-20 11:36:45 | DEBUG   | QQQ | State 0→1 | break DN -1.16 SD
+2026-05-20 11:36:45 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0416 ratio=0.861
+2026-05-20 11:36:45 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0379 ratio=0.842
+2026-05-20 11:36:45 | INFO    | Position opened | SPY long | 1 shares @ 670.61 | $671
+2026-05-20 11:36:45 | INFO    | SPY | State 2→0 | stall exit | progress=-126.3%
+2026-05-20 11:36:45 | INFO    | Position closed | SPY long | exit=669.59 | P&L=$-1.02 | reason=TP
+2026-05-20 11:36:45 | DEBUG   | SPY | State 0→1 | break DN -1.16 SD
+2026-05-20 11:36:45 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:36:45 | DEBUG   | SPY | State 0→1 | break UP 1.31 SD
+2026-05-20 11:36:45 | DEBUG   | QQQ | State 0→1 | break UP 1.20 SD
+2026-05-20 11:36:45 | INFO    | 2025-11-06 done | running P&L: $-9.24
+2026-05-20 11:36:46 | INFO    | --- 2025-11-07 (55 bars) ---
+2026-05-20 11:36:46 | DEBUG   | QQQ | State 0→1 | break DN -1.03 SD
+2026-05-20 11:36:46 | DEBUG   | SPY | State 0→1 | break DN -1.51 SD
+2026-05-20 11:36:46 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:36:46 | DEBUG   | SPY | State 0→1 | break DN -1.39 SD
+2026-05-20 11:36:46 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:46 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:36:46 | DEBUG   | SPY | State 0→1 | break DN -1.11 SD
+2026-05-20 11:36:46 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:36:46 | DEBUG   | SPY | State 0→1 | break UP 1.10 SD
+2026-05-20 11:36:46 | DEBUG   | QQQ | State 0→1 | break UP 1.24 SD
+2026-05-20 11:36:46 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0288 ratio=0.803
+2026-05-20 11:36:46 | INFO    | Position opened | QQQ short | 1 shares @ 604.05 | $604
+2026-05-20 11:36:46 | INFO    | QQQ | State 2→0 | stall exit | progress=-27.5%
+2026-05-20 11:36:46 | INFO    | Position closed | QQQ short | exit=604.51 | P&L=$-0.46 | reason=TP
+2026-05-20 11:36:46 | DEBUG   | QQQ | State 0→1 | break UP 1.31 SD
+2026-05-20 11:36:46 | INFO    | 2025-11-07 done | running P&L: $-9.71
+2026-05-20 11:36:47 | INFO    | --- 2025-11-10 (55 bars) ---
+2026-05-20 11:36:47 | DEBUG   | SPY | State 0→1 | break DN -1.25 SD
+2026-05-20 11:36:47 | DEBUG   | QQQ | State 0→1 | break DN -1.31 SD
+2026-05-20 11:36:47 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:47 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:47 | DEBUG   | SPY | State 0→1 | break UP 1.09 SD
+2026-05-20 11:36:47 | DEBUG   | QQQ | State 0→1 | break UP 1.13 SD
+2026-05-20 11:36:47 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0362 ratio=0.734
+2026-05-20 11:36:47 | INFO    | Position opened | QQQ short | 1 shares @ 621.22 | $621
+2026-05-20 11:36:47 | INFO    | QQQ | State 2→3 | stop hit at 622.38
+2026-05-20 11:36:47 | INFO    | Position closed | QQQ short | exit=622.37 | P&L=$-1.15 | reason=SL
+2026-05-20 11:36:47 | DEBUG   | QQQ | State 3 | cooldown 2 bars left
+2026-05-20 11:36:47 | DEBUG   | QQQ | State 3 | cooldown 1 bars left
+2026-05-20 11:36:47 | INFO    | 2025-11-10 done | running P&L: $-10.86
+2026-05-20 11:36:48 | INFO    | --- 2025-11-11 (55 bars) ---
+2026-05-20 11:36:48 | DEBUG   | SPY | State 0→1 | break UP 1.38 SD
+2026-05-20 11:36:48 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:36:48 | DEBUG   | QQQ | State 0→1 | break DN -1.04 SD
+2026-05-20 11:36:48 | DEBUG   | SPY | State 0→1 | break UP 1.60 SD
+2026-05-20 11:36:48 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0162 ratio=0.895
+2026-05-20 11:36:48 | INFO    | Position opened | QQQ long | 1 shares @ 618.93 | $619
+2026-05-20 11:36:48 | INFO    | QQQ | State 2→0 | TP hit at 619.43
+2026-05-20 11:36:48 | INFO    | Position closed | QQQ long | exit=619.47 | P&L=$0.54 | reason=TP
+2026-05-20 11:36:48 | DEBUG   | QQQ | State 0→1 | break UP 1.45 SD
+2026-05-20 11:36:48 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0259 ratio=0.873
+2026-05-20 11:36:48 | INFO    | Position opened | QQQ short | 1 shares @ 619.58 | $620
+2026-05-20 11:36:48 | INFO    | QQQ | State 2→3 | stop hit at 620.25
+2026-05-20 11:36:48 | INFO    | Position closed | QQQ short | exit=620.25 | P&L=$-0.67 | reason=SL
+2026-05-20 11:36:48 | DEBUG   | QQQ | State 3 | cooldown 2 bars left
+2026-05-20 11:36:48 | DEBUG   | QQQ | State 3 | cooldown 1 bars left
+2026-05-20 11:36:49 | INFO    | 2025-11-11 done | running P&L: $-10.99
+2026-05-20 11:36:49 | INFO    | --- 2025-11-12 (55 bars) ---
+2026-05-20 11:36:49 | DEBUG   | SPY | State 0→1 | break DN -1.90 SD
+2026-05-20 11:36:49 | DEBUG   | QQQ | State 0→1 | break DN -2.07 SD
+2026-05-20 11:36:49 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:36:49 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0327 ratio=0.868
+2026-05-20 11:36:49 | INFO    | Position opened | QQQ long | 1 shares @ 619.02 | $619
+2026-05-20 11:36:49 | INFO    | QQQ | State 2→0 | TP hit at 619.74
+2026-05-20 11:36:49 | INFO    | Position closed | QQQ long | exit=619.75 | P&L=$0.73 | reason=TP
+2026-05-20 11:36:49 | DEBUG   | SPY | State 0→1 | break UP 1.46 SD
+2026-05-20 11:36:49 | DEBUG   | QQQ | State 0→1 | break UP 1.27 SD
+2026-05-20 11:36:49 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0057 ratio=0.892
+2026-05-20 11:36:49 | INFO    | Position opened | QQQ short | 1 shares @ 620.40 | $620
+2026-05-20 11:36:49 | INFO    | QQQ | State 2→0 | stall exit | progress=-74.3%
+2026-05-20 11:36:49 | INFO    | Position closed | QQQ short | exit=620.78 | P&L=$-0.38 | reason=TP
+2026-05-20 11:36:49 | DEBUG   | QQQ | State 0→1 | break UP 1.59 SD
+2026-05-20 11:36:50 | INFO    | SPY | State 1→2 | enter_short | slope=0.0291 ratio=0.816
+2026-05-20 11:36:50 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:36:50 | INFO    | Position opened | SPY short | 1 shares @ 683.37 | $683
+2026-05-20 11:36:50 | INFO    | SPY | State 2→0 | TP hit at 682.73
+2026-05-20 11:36:50 | INFO    | Position closed | SPY short | exit=682.74 | P&L=$0.63 | reason=TP
+2026-05-20 11:36:50 | INFO    | 2025-11-12 done | running P&L: $-10.01
+2026-05-20 11:36:50 | INFO    | --- 2025-11-13 (55 bars) ---
+2026-05-20 11:36:50 | DEBUG   | SPY | State 0→1 | break DN -1.45 SD
+2026-05-20 11:36:50 | DEBUG   | QQQ | State 0→1 | break DN -1.38 SD
+2026-05-20 11:36:50 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:36:50 | DEBUG   | QQQ | State 0→1 | break DN -1.16 SD
+2026-05-20 11:36:50 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:36:50 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:36:50 | DEBUG   | SPY | State 0→1 | break DN -1.21 SD
+2026-05-20 11:36:50 | DEBUG   | QQQ | State 0→1 | break DN -1.14 SD
+2026-05-20 11:36:50 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:50 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:36:50 | DEBUG   | QQQ | State 0→1 | break DN -1.06 SD
+2026-05-20 11:36:50 | DEBUG   | SPY | State 0→1 | break DN -1.36 SD
+2026-05-20 11:36:51 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:51 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:51 | INFO    | 2025-11-13 done | running P&L: $-10.01
+2026-05-20 11:36:51 | INFO    | --- 2025-11-14 (55 bars) ---
+2026-05-20 11:36:51 | DEBUG   | SPY | State 0→1 | break UP 1.51 SD
+2026-05-20 11:36:51 | DEBUG   | QQQ | State 0→1 | break UP 1.53 SD
+2026-05-20 11:36:51 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:51 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:52 | INFO    | 2025-11-14 done | running P&L: $-10.01
+2026-05-20 11:36:52 | INFO    | --- 2025-11-17 (55 bars) ---
+2026-05-20 11:36:52 | DEBUG   | SPY | State 0→1 | break UP 1.05 SD
+2026-05-20 11:36:52 | DEBUG   | QQQ | State 0→1 | break UP 1.20 SD
+2026-05-20 11:36:52 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0340 ratio=0.663
+2026-05-20 11:36:52 | INFO    | Position opened | QQQ short | 1 shares @ 609.80 | $610
+2026-05-20 11:36:52 | INFO    | QQQ | State 2→0 | TP hit at 608.16
+2026-05-20 11:36:52 | INFO    | Position closed | QQQ short | exit=608.19 | P&L=$1.61 | reason=TP
+2026-05-20 11:36:52 | INFO    | SPY | State 1→2 | enter_short | slope=0.0123 ratio=0.839
+2026-05-20 11:36:53 | INFO    | Position opened | SPY short | 1 shares @ 670.78 | $671
+2026-05-20 11:36:53 | INFO    | SPY | State 2→0 | TP hit at 669.73
+2026-05-20 11:36:53 | INFO    | Position closed | SPY short | exit=669.72 | P&L=$1.06 | reason=TP
+2026-05-20 11:36:53 | DEBUG   | SPY | State 0→1 | break DN -1.37 SD
+2026-05-20 11:36:53 | DEBUG   | QQQ | State 0→1 | break DN -1.74 SD
+2026-05-20 11:36:53 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:36:53 | DEBUG   | QQQ | State 0→1 | break DN -1.63 SD
+2026-05-20 11:36:53 | INFO    | 2025-11-17 done | running P&L: $-7.34
+2026-05-20 11:36:53 | INFO    | --- 2025-11-18 (55 bars) ---
+2026-05-20 11:36:53 | DEBUG   | SPY | State 0→1 | break UP 2.41 SD
+2026-05-20 11:36:53 | DEBUG   | QQQ | State 0→1 | break UP 2.38 SD
+2026-05-20 11:36:53 | INFO    | SPY | State 1→2 | enter_short | slope=0.0249 ratio=0.746
+2026-05-20 11:36:53 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0289 ratio=0.722
+2026-05-20 11:36:53 | INFO    | Position opened | SPY short | 1 shares @ 659.92 | $660
+2026-05-20 11:36:54 | INFO    | SPY | State 2→0 | TP hit at 658.62
+2026-05-20 11:36:54 | INFO    | Position closed | SPY short | exit=658.61 | P&L=$1.31 | reason=TP
+2026-05-20 11:36:54 | DEBUG   | SPY | State 0→1 | break UP 1.44 SD
+2026-05-20 11:36:54 | DEBUG   | QQQ | State 0→1 | break UP 1.40 SD
+2026-05-20 11:36:54 | INFO    | 2025-11-18 done | running P&L: $-6.03
+2026-05-20 11:36:54 | INFO    | --- 2025-11-19 (55 bars) ---
+2026-05-20 11:36:54 | DEBUG   | SPY | State 0→1 | break DN -1.41 SD
+2026-05-20 11:36:54 | DEBUG   | QQQ | State 0→1 | break DN -1.49 SD
+2026-05-20 11:36:54 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:55 | DEBUG   | SPY | State 0→1 | break DN -1.46 SD
+2026-05-20 11:36:55 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:55 | DEBUG   | SPY | State 0→1 | break DN -1.11 SD
+2026-05-20 11:36:55 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:55 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:55 | DEBUG   | QQQ | State 0→1 | break DN -1.21 SD
+2026-05-20 11:36:55 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:36:55 | DEBUG   | QQQ | State 0→1 | break DN -1.08 SD
+2026-05-20 11:36:55 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:36:55 | DEBUG   | SPY | State 0→1 | break DN -1.40 SD
+2026-05-20 11:36:55 | DEBUG   | QQQ | State 0→1 | break DN -1.16 SD
+2026-05-20 11:36:55 | INFO    | 2025-11-19 done | running P&L: $-6.03
+2026-05-20 11:36:55 | INFO    | --- 2025-11-20 (55 bars) ---
+2026-05-20 11:36:55 | DEBUG   | SPY | State 0→1 | break DN -1.67 SD
+2026-05-20 11:36:56 | DEBUG   | QQQ | State 0→1 | break DN -1.68 SD
+2026-05-20 11:36:56 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:56 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:56 | DEBUG   | SPY | State 0→1 | break DN -1.08 SD
+2026-05-20 11:36:56 | DEBUG   | QQQ | State 0→1 | break DN -1.13 SD
+2026-05-20 11:36:56 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:56 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:36:56 | INFO    | 2025-11-20 done | running P&L: $-6.03
+2026-05-20 11:36:57 | INFO    | --- 2025-11-21 (55 bars) ---
+2026-05-20 11:36:57 | DEBUG   | SPY | State 0→1 | break UP 2.10 SD
+2026-05-20 11:36:57 | DEBUG   | QQQ | State 0→1 | break UP 1.44 SD
+2026-05-20 11:36:57 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:36:57 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0390 ratio=0.899
+2026-05-20 11:36:57 | INFO    | Position opened | QQQ short | 1 shares @ 589.11 | $589
+2026-05-20 11:36:57 | INFO    | QQQ | State 2→0 | stall exit | progress=-50.0%
+2026-05-20 11:36:57 | INFO    | Position closed | QQQ short | exit=590.27 | P&L=$-1.16 | reason=TP
+2026-05-20 11:36:57 | DEBUG   | SPY | State 0→1 | break UP 1.34 SD
+2026-05-20 11:36:57 | DEBUG   | QQQ | State 0→1 | break UP 1.45 SD
+2026-05-20 11:36:58 | INFO    | 2025-11-21 done | running P&L: $-7.19
+2026-05-20 11:36:58 | INFO    | --- 2025-11-24 (55 bars) ---
+2026-05-20 11:36:58 | DEBUG   | SPY | State 0→1 | break UP 1.26 SD
+2026-05-20 11:36:58 | DEBUG   | QQQ | State 0→1 | break UP 1.45 SD
+2026-05-20 11:36:58 | INFO    | SPY | State 1→2 | enter_short | slope=0.0470 ratio=0.767
+2026-05-20 11:36:58 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:36:58 | INFO    | Position opened | SPY short | 1 shares @ 667.47 | $667
+2026-05-20 11:36:58 | INFO    | SPY | State 2→0 | stall exit | progress=-92.0%
+2026-05-20 11:36:58 | INFO    | Position closed | SPY short | exit=668.18 | P&L=$-0.71 | reason=TP
+2026-05-20 11:36:58 | DEBUG   | SPY | State 0→1 | break UP 1.10 SD
+2026-05-20 11:36:58 | DEBUG   | QQQ | State 0→1 | break UP 1.43 SD
+2026-05-20 11:36:59 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:36:59 | INFO    | 2025-11-24 done | running P&L: $-7.90
+2026-05-20 11:36:59 | INFO    | --- 2025-11-25 (55 bars) ---
+2026-05-20 11:36:59 | DEBUG   | SPY | State 0→1 | break UP 1.58 SD
+2026-05-20 11:36:59 | DEBUG   | QQQ | State 0→1 | break UP 1.99 SD
+2026-05-20 11:37:00 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:00 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:00 | INFO    | 2025-11-25 done | running P&L: $-7.90
+2026-05-20 11:37:00 | INFO    | --- 2025-11-26 (55 bars) ---
+2026-05-20 11:37:00 | DEBUG   | SPY | State 0→1 | break UP 1.71 SD
+2026-05-20 11:37:00 | DEBUG   | QQQ | State 0→1 | break UP 1.72 SD
+2026-05-20 11:37:00 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:37:00 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:37:00 | DEBUG   | SPY | State 0→1 | break UP 1.02 SD
+2026-05-20 11:37:00 | DEBUG   | QQQ | State 0→1 | break UP 1.10 SD
+2026-05-20 11:37:00 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:37:00 | DEBUG   | SPY | State 0→1 | break UP 1.22 SD
+2026-05-20 11:37:00 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:37:00 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0485 ratio=0.714
+2026-05-20 11:37:00 | INFO    | Position opened | QQQ short | 1 shares @ 615.35 | $615
+2026-05-20 11:37:01 | INFO    | QQQ | State 2→0 | stall exit | progress=-0.7%
+2026-05-20 11:37:01 | INFO    | Position closed | QQQ short | exit=615.36 | P&L=$-0.01 | reason=TP
+2026-05-20 11:37:01 | INFO    | 2025-11-26 done | running P&L: $-7.91
+2026-05-20 11:37:01 | DEBUG   | 2025-11-27: no market data, skipping
+2026-05-20 11:37:02 | INFO    | --- 2025-11-28 (55 bars) ---
+2026-05-20 11:37:02 | DEBUG   | SPY | State 0→1 | break UP 1.22 SD
+2026-05-20 11:37:02 | DEBUG   | QQQ | State 0→1 | break UP 1.41 SD
+2026-05-20 11:37:02 | INFO    | SPY | State 1→2 | enter_short | slope=0.0374 ratio=0.827
+2026-05-20 11:37:02 | INFO    | Position opened | SPY short | 1 shares @ 682.74 | $683
+2026-05-20 11:37:02 | INFO    | SPY | State 2→0 | TP hit at 682.32
+2026-05-20 11:37:02 | INFO    | Position closed | SPY short | exit=682.32 | P&L=$0.42 | reason=TP
+2026-05-20 11:37:02 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0349 ratio=0.722
+2026-05-20 11:37:02 | INFO    | Position opened | QQQ short | 1 shares @ 617.40 | $617
+2026-05-20 11:37:02 | INFO    | QQQ | State 2→0 | TP hit at 617.07
+2026-05-20 11:37:02 | INFO    | Position closed | QQQ short | exit=617.07 | P&L=$0.33 | reason=TP
+2026-05-20 11:37:02 | DEBUG   | SPY | State 0→1 | break DN -1.00 SD
+2026-05-20 11:37:02 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0152 ratio=0.869
+2026-05-20 11:37:02 | INFO    | Position opened | SPY long | 1 shares @ 682.03 | $682
+2026-05-20 11:37:02 | INFO    | SPY | State 2→0 | TP hit at 682.55
+2026-05-20 11:37:02 | INFO    | Position closed | SPY long | exit=682.55 | P&L=$0.52 | reason=TP
+2026-05-20 11:37:02 | DEBUG   | SPY | State 0→1 | break UP 2.08 SD
+2026-05-20 11:37:02 | DEBUG   | QQQ | State 0→1 | break UP 2.74 SD
+2026-05-20 11:37:02 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:02 | DEBUG   | SPY | State 0→1 | break UP 1.10 SD
+2026-05-20 11:37:02 | INFO    | SPY | State 1→2 | enter_short | slope=0.0283 ratio=0.630
+2026-05-20 11:37:02 | INFO    | Position opened | SPY short | 1 shares @ 683.08 | $683
+2026-05-20 11:37:02 | INFO    | SPY | State 2→0 | stall exit | progress=12.3%
+2026-05-20 11:37:02 | INFO    | Position closed | SPY short | exit=683.03 | P&L=$0.05 | reason=TP
+2026-05-20 11:37:02 | DEBUG   | SPY | State 0→1 | break UP 1.11 SD
+2026-05-20 11:37:02 | INFO    | 2025-11-28 done | running P&L: $-6.58
+2026-05-20 11:37:03 | INFO    | --- 2025-12-01 (55 bars) ---
+2026-05-20 11:37:03 | DEBUG   | SPY | State 0→1 | break UP 1.09 SD
+2026-05-20 11:37:03 | DEBUG   | QQQ | State 0→1 | break UP 1.54 SD
+2026-05-20 11:37:03 | INFO    | SPY | State 1→2 | enter_short | slope=0.0367 ratio=0.791
+2026-05-20 11:37:03 | INFO    | Position opened | SPY short | 1 shares @ 681.66 | $682
+2026-05-20 11:37:03 | INFO    | SPY | State 2→3 | stop hit at 682.58
+2026-05-20 11:37:03 | INFO    | Position closed | SPY short | exit=682.58 | P&L=$-0.92 | reason=SL
+2026-05-20 11:37:03 | DEBUG   | SPY | State 3 | cooldown 2 bars left
+2026-05-20 11:37:03 | DEBUG   | SPY | State 3 | cooldown 1 bars left
+2026-05-20 11:37:03 | DEBUG   | SPY | State 3→0 | cooldown done, price inside band
+2026-05-20 11:37:04 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:04 | INFO    | 2025-12-01 done | running P&L: $-7.50
+2026-05-20 11:37:04 | INFO    | --- 2025-12-02 (55 bars) ---
+2026-05-20 11:37:04 | DEBUG   | SPY | State 0→1 | break DN -1.76 SD
+2026-05-20 11:37:04 | DEBUG   | QQQ | State 0→1 | break DN -1.97 SD
+2026-05-20 11:37:04 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:04 | DEBUG   | SPY | State 0→1 | break DN -1.28 SD
+2026-05-20 11:37:04 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:37:04 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:37:04 | DEBUG   | SPY | State 0→1 | break DN -1.09 SD
+2026-05-20 11:37:04 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:04 | DEBUG   | SPY | State 0→1 | break DN -1.06 SD
+2026-05-20 11:37:04 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0231 ratio=0.883
+2026-05-20 11:37:04 | INFO    | Position opened | SPY long | 1 shares @ 681.24 | $681
+2026-05-20 11:37:04 | INFO    | SPY | State 2→0 | TP hit at 682.16
+2026-05-20 11:37:04 | INFO    | Position closed | SPY long | exit=682.18 | P&L=$0.94 | reason=TP
+2026-05-20 11:37:04 | DEBUG   | SPY | State 0→1 | break DN -1.54 SD
+2026-05-20 11:37:04 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:05 | DEBUG   | SPY | State 0→1 | break DN -1.21 SD
+2026-05-20 11:37:05 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0143 ratio=0.849
+2026-05-20 11:37:05 | INFO    | Position opened | SPY long | 1 shares @ 680.69 | $681
+2026-05-20 11:37:05 | INFO    | SPY | State 2→0 | TP hit at 681.66
+2026-05-20 11:37:05 | INFO    | Position closed | SPY long | exit=681.66 | P&L=$0.97 | reason=TP
+2026-05-20 11:37:05 | INFO    | 2025-12-02 done | running P&L: $-5.59
+2026-05-20 11:37:05 | INFO    | --- 2025-12-03 (55 bars) ---
+2026-05-20 11:37:05 | DEBUG   | SPY | State 0→1 | break UP 2.74 SD
+2026-05-20 11:37:05 | DEBUG   | QQQ | State 0→1 | break UP 2.38 SD
+2026-05-20 11:37:05 | INFO    | SPY | State 1→2 | enter_short | slope=0.0386 ratio=0.651
+2026-05-20 11:37:05 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0293 ratio=0.600
+2026-05-20 11:37:05 | INFO    | Position opened | SPY short | 1 shares @ 682.43 | $682
+2026-05-20 11:37:05 | INFO    | SPY | State 2→0 | TP hit at 682.21
+2026-05-20 11:37:05 | INFO    | Position closed | SPY short | exit=682.21 | P&L=$0.22 | reason=TP
+2026-05-20 11:37:05 | DEBUG   | QQQ | State 0→1 | break UP 1.14 SD
+2026-05-20 11:37:05 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0085 ratio=0.809
+2026-05-20 11:37:05 | INFO    | Position opened | QQQ short | 1 shares @ 621.31 | $621
+2026-05-20 11:37:05 | INFO    | QQQ | State 2→3 | stop hit at 622.25
+2026-05-20 11:37:05 | INFO    | Position closed | QQQ short | exit=622.23 | P&L=$-0.92 | reason=SL
+2026-05-20 11:37:05 | DEBUG   | SPY | State 0→1 | break UP 2.23 SD
+2026-05-20 11:37:05 | DEBUG   | QQQ | State 3 | cooldown 2 bars left
+2026-05-20 11:37:05 | DEBUG   | QQQ | State 3 | cooldown 1 bars left
+2026-05-20 11:37:06 | INFO    | 2025-12-03 done | running P&L: $-6.29
+2026-05-20 11:37:06 | INFO    | --- 2025-12-04 (55 bars) ---
+2026-05-20 11:37:06 | DEBUG   | SPY | State 0→1 | break UP 1.36 SD
+2026-05-20 11:37:06 | DEBUG   | QQQ | State 0→1 | break UP 1.89 SD
+2026-05-20 11:37:06 | INFO    | SPY | State 1→2 | enter_short | slope=0.0325 ratio=0.899
+2026-05-20 11:37:06 | INFO    | Position opened | SPY short | 1 shares @ 683.69 | $684
+2026-05-20 11:37:07 | INFO    | SPY | State 2→0 | stall exit | progress=-453.9%
+2026-05-20 11:37:07 | INFO    | Position closed | SPY short | exit=683.94 | P&L=$-0.25 | reason=TP
+2026-05-20 11:37:07 | DEBUG   | SPY | State 0→1 | break UP 1.21 SD
+2026-05-20 11:37:07 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0138 ratio=0.807
+2026-05-20 11:37:07 | INFO    | Position opened | QQQ short | 1 shares @ 622.56 | $623
+2026-05-20 11:37:07 | INFO    | QQQ | State 2→0 | TP hit at 620.91
+2026-05-20 11:37:07 | INFO    | Position closed | QQQ short | exit=620.90 | P&L=$1.66 | reason=TP
+2026-05-20 11:37:07 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:07 | DEBUG   | QQQ | State 0→1 | break DN -2.44 SD
+2026-05-20 11:37:07 | DEBUG   | SPY | State 0→1 | break DN -2.17 SD
+2026-05-20 11:37:07 | INFO    | 2025-12-04 done | running P&L: $-4.88
+2026-05-20 11:37:07 | INFO    | --- 2025-12-05 (55 bars) ---
+2026-05-20 11:37:07 | DEBUG   | SPY | State 0→1 | break DN -1.89 SD
+2026-05-20 11:37:07 | DEBUG   | QQQ | State 0→1 | break DN -1.65 SD
+2026-05-20 11:37:08 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:08 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:08 | DEBUG   | SPY | State 0→1 | break DN -1.07 SD
+2026-05-20 11:37:08 | DEBUG   | QQQ | State 0→1 | break DN -1.10 SD
+2026-05-20 11:37:08 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0340 ratio=0.680
+2026-05-20 11:37:08 | INFO    | Position opened | QQQ long | 1 shares @ 625.02 | $625
+2026-05-20 11:37:08 | INFO    | QQQ | State 2→0 | TP hit at 626.17
+2026-05-20 11:37:08 | INFO    | Position closed | QQQ long | exit=626.18 | P&L=$1.16 | reason=TP
+2026-05-20 11:37:08 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0069 ratio=0.891
+2026-05-20 11:37:08 | INFO    | Position opened | SPY long | 1 shares @ 686.66 | $687
+2026-05-20 11:37:08 | INFO    | SPY | State 2→0 | stall exit | progress=-600.8%
+2026-05-20 11:37:08 | INFO    | Position closed | SPY long | exit=686.21 | P&L=$-0.45 | reason=TP
+2026-05-20 11:37:08 | INFO    | 2025-12-05 done | running P&L: $-4.17
+2026-05-20 11:37:09 | INFO    | --- 2025-12-08 (55 bars) ---
+2026-05-20 11:37:09 | DEBUG   | QQQ | State 0→1 | break DN -1.21 SD
+2026-05-20 11:37:09 | DEBUG   | SPY | State 0→1 | break DN -1.17 SD
+2026-05-20 11:37:09 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0379 ratio=0.838
+2026-05-20 11:37:09 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:37:09 | INFO    | Position opened | SPY long | 1 shares @ 683.83 | $684
+2026-05-20 11:37:09 | INFO    | SPY | State 2→3 | stop hit at 682.77
+2026-05-20 11:37:09 | INFO    | Position closed | SPY long | exit=682.74 | P&L=$-1.09 | reason=SL
+2026-05-20 11:37:09 | DEBUG   | SPY | State 3 | cooldown 2 bars left
+2026-05-20 11:37:09 | DEBUG   | SPY | State 3 | cooldown 1 bars left
+2026-05-20 11:37:09 | DEBUG   | QQQ | State 0→1 | break DN -1.34 SD
+2026-05-20 11:37:09 | DEBUG   | SPY | State 3→0 | cooldown done, price inside band
+2026-05-20 11:37:09 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0347 ratio=0.890
+2026-05-20 11:37:09 | INFO    | Position opened | QQQ long | 1 shares @ 623.49 | $623
+2026-05-20 11:37:09 | INFO    | QQQ | State 2→0 | TP hit at 624.49
+2026-05-20 11:37:09 | INFO    | Position closed | QQQ long | exit=624.49 | P&L=$1.00 | reason=TP
+2026-05-20 11:37:09 | DEBUG   | SPY | State 0→1 | break DN -1.36 SD
+2026-05-20 11:37:09 | DEBUG   | QQQ | State 0→1 | break DN -1.07 SD
+2026-05-20 11:37:09 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:09 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:09 | DEBUG   | QQQ | State 0→1 | break DN -1.07 SD
+2026-05-20 11:37:09 | DEBUG   | SPY | State 0→1 | break DN -1.33 SD
+2026-05-20 11:37:09 | INFO    | 2025-12-08 done | running P&L: $-4.25
+2026-05-20 11:37:10 | INFO    | --- 2025-12-09 (55 bars) ---
+2026-05-20 11:37:10 | DEBUG   | SPY | State 0→1 | break UP 2.10 SD
+2026-05-20 11:37:10 | DEBUG   | QQQ | State 0→1 | break UP 1.72 SD
+2026-05-20 11:37:10 | INFO    | SPY | State 1→2 | enter_short | slope=0.0491 ratio=0.834
+2026-05-20 11:37:10 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:37:10 | INFO    | Position opened | SPY short | 1 shares @ 684.60 | $685
+2026-05-20 11:37:10 | INFO    | SPY | State 2→3 | stop hit at 685.27
+2026-05-20 11:37:10 | INFO    | Position closed | SPY short | exit=685.28 | P&L=$-0.68 | reason=SL
+2026-05-20 11:37:10 | DEBUG   | SPY | State 3 | cooldown 2 bars left
+2026-05-20 11:37:10 | DEBUG   | QQQ | State 0→1 | break UP 1.37 SD
+2026-05-20 11:37:10 | DEBUG   | SPY | State 3 | cooldown 1 bars left
+2026-05-20 11:37:10 | DEBUG   | SPY | State 3→0 | cooldown done, price inside band
+2026-05-20 11:37:10 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:37:10 | DEBUG   | SPY | State 0→1 | break DN -1.03 SD
+2026-05-20 11:37:10 | DEBUG   | QQQ | State 0→1 | break UP 1.02 SD
+2026-05-20 11:37:10 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0359 ratio=0.786
+2026-05-20 11:37:10 | INFO    | Position opened | QQQ short | 1 shares @ 625.10 | $625
+2026-05-20 11:37:10 | INFO    | QQQ | State 2→0 | stall exit | progress=-80.4%
+2026-05-20 11:37:10 | INFO    | Position closed | QQQ short | exit=625.44 | P&L=$-0.34 | reason=TP
+2026-05-20 11:37:10 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0162 ratio=0.889
+2026-05-20 11:37:10 | DEBUG   | QQQ | State 0→1 | break UP 1.48 SD
+2026-05-20 11:37:10 | INFO    | Position opened | SPY long | 1 shares @ 684.38 | $684
+2026-05-20 11:37:10 | INFO    | SPY | State 2→3 | stop hit at 683.67
+2026-05-20 11:37:10 | INFO    | Position closed | SPY long | exit=683.68 | P&L=$-0.70 | reason=SL
+2026-05-20 11:37:10 | DEBUG   | SPY | State 3 | cooldown 2 bars left
+2026-05-20 11:37:10 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:10 | DEBUG   | SPY | State 3 | cooldown 1 bars left
+2026-05-20 11:37:10 | DEBUG   | QQQ | State 0→1 | break UP 1.47 SD
+2026-05-20 11:37:10 | DEBUG   | SPY | State 3→0 | cooldown done, price inside band
+2026-05-20 11:37:10 | DEBUG   | SPY | State 0→1 | break DN -1.15 SD
+2026-05-20 11:37:10 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:11 | INFO    | 2025-12-09 done | running P&L: $-5.97
+2026-05-20 11:37:11 | INFO    | --- 2025-12-10 (55 bars) ---
+2026-05-20 11:37:11 | DEBUG   | SPY | State 0→1 | break UP 1.81 SD
+2026-05-20 11:37:11 | DEBUG   | QQQ | State 0→1 | break UP 1.40 SD
+2026-05-20 11:37:11 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:37:11 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0426 ratio=0.742
+2026-05-20 11:37:11 | INFO    | Position opened | QQQ short | 1 shares @ 623.31 | $623
+2026-05-20 11:37:11 | INFO    | QQQ | State 2→0 | stall exit | progress=-66.3%
+2026-05-20 11:37:11 | INFO    | Position closed | QQQ short | exit=623.50 | P&L=$-0.19 | reason=TP
+2026-05-20 11:37:11 | DEBUG   | SPY | State 0→1 | break UP 1.67 SD
+2026-05-20 11:37:11 | DEBUG   | QQQ | State 0→1 | break UP 1.74 SD
+2026-05-20 11:37:11 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:11 | DEBUG   | QQQ | State 0→1 | break UP 1.32 SD
+2026-05-20 11:37:11 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0376 ratio=0.837
+2026-05-20 11:37:11 | INFO    | Position opened | QQQ short | 1 shares @ 623.90 | $624
+2026-05-20 11:37:11 | INFO    | QQQ | State 2→0 | TP hit at 622.87
+2026-05-20 11:37:11 | INFO    | Position closed | QQQ short | exit=622.86 | P&L=$1.04 | reason=TP
+2026-05-20 11:37:11 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:12 | DEBUG   | SPY | State 0→1 | break UP 1.31 SD
+2026-05-20 11:37:12 | DEBUG   | QQQ | State 0→1 | break UP 1.05 SD
+2026-05-20 11:37:12 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:12 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:12 | INFO    | 2025-12-10 done | running P&L: $-5.12
+2026-05-20 11:37:12 | INFO    | --- 2025-12-11 (55 bars) ---
+2026-05-20 11:37:12 | DEBUG   | SPY | State 0→1 | break UP 1.40 SD
+2026-05-20 11:37:12 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:12 | DEBUG   | SPY | State 0→1 | break UP 1.58 SD
+2026-05-20 11:37:12 | DEBUG   | QQQ | State 0→1 | break UP 1.02 SD
+2026-05-20 11:37:13 | INFO    | 2025-12-11 done | running P&L: $-5.12
+2026-05-20 11:37:13 | INFO    | --- 2025-12-12 (55 bars) ---
+2026-05-20 11:37:13 | DEBUG   | SPY | State 0→1 | break DN -1.38 SD
+2026-05-20 11:37:13 | DEBUG   | QQQ | State 0→1 | break DN -1.26 SD
+2026-05-20 11:37:13 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:37:13 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:37:14 | INFO    | 2025-12-12 done | running P&L: $-5.12
+2026-05-20 11:37:14 | INFO    | --- 2025-12-15 (55 bars) ---
+2026-05-20 11:37:14 | DEBUG   | SPY | State 0→1 | break DN -1.09 SD
+2026-05-20 11:37:14 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0089 ratio=0.715
+2026-05-20 11:37:14 | INFO    | Position opened | SPY long | 1 shares @ 680.58 | $681
+2026-05-20 11:37:14 | INFO    | SPY | State 2→0 | TP hit at 681.19
+2026-05-20 11:37:14 | INFO    | Position closed | SPY long | exit=681.18 | P&L=$0.60 | reason=TP
+2026-05-20 11:37:14 | DEBUG   | SPY | State 0→1 | break DN -1.16 SD
+2026-05-20 11:37:14 | DEBUG   | QQQ | State 0→1 | break DN -1.09 SD
+2026-05-20 11:37:14 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:14 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:15 | DEBUG   | SPY | State 0→1 | break DN -1.76 SD
+2026-05-20 11:37:15 | DEBUG   | QQQ | State 0→1 | break DN -1.18 SD
+2026-05-20 11:37:15 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0158 ratio=0.828
+2026-05-20 11:37:15 | INFO    | Position opened | QQQ long | 1 shares @ 611.27 | $611
+2026-05-20 11:37:15 | INFO    | QQQ | State 2→0 | TP hit at 612.16
+2026-05-20 11:37:15 | INFO    | Position closed | QQQ long | exit=612.14 | P&L=$0.87 | reason=TP
+2026-05-20 11:37:15 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0038 ratio=0.840
+2026-05-20 11:37:15 | INFO    | Position opened | SPY long | 1 shares @ 681.44 | $681
+2026-05-20 11:37:15 | INFO    | SPY | State 2→0 | TP hit at 681.03
+2026-05-20 11:37:15 | INFO    | Position closed | SPY long | exit=681.02 | P&L=$-0.42 | reason=TP
+2026-05-20 11:37:15 | INFO    | 2025-12-15 done | running P&L: $-4.07
+2026-05-20 11:37:15 | INFO    | --- 2025-12-16 (55 bars) ---
+2026-05-20 11:37:15 | DEBUG   | SPY | State 0→1 | break DN -1.11 SD
+2026-05-20 11:37:15 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0282 ratio=0.693
+2026-05-20 11:37:15 | INFO    | Position opened | SPY long | 1 shares @ 677.37 | $677
+2026-05-20 11:37:15 | INFO    | SPY | State 2→0 | TP hit at 678.28
+2026-05-20 11:37:15 | INFO    | Position closed | SPY long | exit=678.30 | P&L=$0.93 | reason=TP
+2026-05-20 11:37:15 | DEBUG   | QQQ | State 0→1 | break UP 1.43 SD
+2026-05-20 11:37:15 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0170 ratio=0.820
+2026-05-20 11:37:15 | INFO    | Position opened | QQQ short | 1 shares @ 609.98 | $610
+2026-05-20 11:37:15 | INFO    | QQQ | State 2→0 | TP hit at 609.28
+2026-05-20 11:37:15 | INFO    | Position closed | QQQ short | exit=609.25 | P&L=$0.73 | reason=TP
+2026-05-20 11:37:15 | DEBUG   | SPY | State 0→1 | break DN -1.23 SD
+2026-05-20 11:37:16 | DEBUG   | QQQ | State 0→1 | break DN -1.23 SD
+2026-05-20 11:37:16 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:16 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:16 | DEBUG   | QQQ | State 0→1 | break UP 1.02 SD
+2026-05-20 11:37:16 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0099 ratio=0.888
+2026-05-20 11:37:16 | INFO    | Position opened | QQQ short | 1 shares @ 610.32 | $610
+2026-05-20 11:37:16 | INFO    | QQQ | State 2→0 | TP hit at 608.93
+2026-05-20 11:37:16 | INFO    | Position closed | QQQ short | exit=608.92 | P&L=$1.40 | reason=TP
+2026-05-20 11:37:16 | DEBUG   | SPY | State 0→1 | break DN -1.22 SD
+2026-05-20 11:37:16 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0318 ratio=0.863
+2026-05-20 11:37:16 | INFO    | Position opened | SPY long | 1 shares @ 676.40 | $676
+2026-05-20 11:37:16 | INFO    | Position closed | SPY long | exit=677.45 | P&L=$1.05 | reason=EOD
+2026-05-20 11:37:16 | INFO    | 2025-12-16 done | running P&L: $0.04
+2026-05-20 11:37:16 | INFO    | --- 2025-12-17 (55 bars) ---
+2026-05-20 11:37:16 | DEBUG   | SPY | State 0→1 | break DN -1.30 SD
+2026-05-20 11:37:16 | DEBUG   | QQQ | State 0→1 | break DN -1.31 SD
+2026-05-20 11:37:16 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:16 | DEBUG   | SPY | State 0→1 | break DN -1.13 SD
+2026-05-20 11:37:16 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:16 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:16 | DEBUG   | SPY | State 0→1 | break DN -1.31 SD
+2026-05-20 11:37:16 | DEBUG   | QQQ | State 0→1 | break DN -1.26 SD
+2026-05-20 11:37:16 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:16 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:17 | DEBUG   | SPY | State 0→1 | break DN -1.05 SD
+2026-05-20 11:37:17 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0298 ratio=0.736
+2026-05-20 11:37:17 | INFO    | Position opened | SPY long | 1 shares @ 673.81 | $674
+2026-05-20 11:37:17 | INFO    | SPY | State 2→0 | stall exit | progress=-31.1%
+2026-05-20 11:37:17 | INFO    | Position closed | SPY long | exit=673.36 | P&L=$-0.45 | reason=TP
+2026-05-20 11:37:17 | DEBUG   | SPY | State 0→1 | break DN -1.05 SD
+2026-05-20 11:37:17 | DEBUG   | QQQ | State 0→1 | break DN -1.12 SD
+2026-05-20 11:37:17 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:37:17 | DEBUG   | SPY | State 0→1 | break DN -1.12 SD
+2026-05-20 11:37:17 | INFO    | 2025-12-17 done | running P&L: $-0.41
+2026-05-20 11:37:17 | INFO    | --- 2025-12-18 (55 bars) ---
+2026-05-20 11:37:17 | DEBUG   | QQQ | State 0→1 | break UP 1.01 SD
+2026-05-20 11:37:17 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:37:17 | DEBUG   | SPY | State 0→1 | break DN -1.90 SD
+2026-05-20 11:37:18 | DEBUG   | QQQ | State 0→1 | break DN -1.30 SD
+2026-05-20 11:37:18 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:18 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:18 | DEBUG   | QQQ | State 0→1 | break UP 1.08 SD
+2026-05-20 11:37:18 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0181 ratio=0.762
+2026-05-20 11:37:18 | INFO    | Position opened | QQQ short | 1 shares @ 611.96 | $612
+2026-05-20 11:37:18 | INFO    | QQQ | State 2→0 | TP hit at 609.46
+2026-05-20 11:37:18 | INFO    | Position closed | QQQ short | exit=609.42 | P&L=$2.54 | reason=TP
+2026-05-20 11:37:18 | INFO    | 2025-12-18 done | running P&L: $2.13
+2026-05-20 11:37:18 | INFO    | --- 2025-12-19 (55 bars) ---
+2026-05-20 11:37:18 | DEBUG   | SPY | State 0→1 | break UP 1.94 SD
+2026-05-20 11:37:18 | DEBUG   | QQQ | State 0→1 | break UP 1.35 SD
+2026-05-20 11:37:18 | INFO    | SPY | State 1→2 | enter_short | slope=0.0258 ratio=0.753
+2026-05-20 11:37:18 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0166 ratio=0.691
+2026-05-20 11:37:18 | INFO    | Position opened | SPY short | 1 shares @ 679.79 | $680
+2026-05-20 11:37:18 | INFO    | SPY | State 2→0 | TP hit at 679.46
+2026-05-20 11:37:19 | INFO    | Position closed | SPY short | exit=679.46 | P&L=$0.33 | reason=TP
+2026-05-20 11:37:19 | DEBUG   | SPY | State 0→1 | break UP 1.27 SD
+2026-05-20 11:37:19 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:19 | DEBUG   | SPY | State 0→1 | break UP 1.40 SD
+2026-05-20 11:37:19 | DEBUG   | QQQ | State 0→1 | break UP 1.25 SD
+2026-05-20 11:37:19 | INFO    | SPY | State 1→2 | enter_short | slope=0.0228 ratio=0.809
+2026-05-20 11:37:19 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0293 ratio=0.811
+2026-05-20 11:37:19 | INFO    | Position opened | SPY short | 1 shares @ 680.38 | $680
+2026-05-20 11:37:19 | INFO    | SPY | State 2→0 | stall exit | progress=-49.2%
+2026-05-20 11:37:19 | INFO    | Position closed | SPY short | exit=680.59 | P&L=$-0.21 | reason=TP
+2026-05-20 11:37:19 | DEBUG   | SPY | State 0→1 | break UP 1.33 SD
+2026-05-20 11:37:19 | DEBUG   | QQQ | State 0→1 | break UP 1.20 SD
+2026-05-20 11:37:19 | INFO    | 2025-12-19 done | running P&L: $2.25
+2026-05-20 11:37:19 | INFO    | --- 2025-12-22 (55 bars) ---
+2026-05-20 11:37:20 | DEBUG   | SPY | State 0→1 | break UP 1.06 SD
+2026-05-20 11:37:20 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:37:20 | DEBUG   | SPY | State 0→1 | break UP 1.31 SD
+2026-05-20 11:37:20 | DEBUG   | QQQ | State 0→1 | break UP 1.29 SD
+2026-05-20 11:37:20 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0112 ratio=0.582
+2026-05-20 11:37:20 | INFO    | Position opened | QQQ short | 1 shares @ 619.66 | $620
+2026-05-20 11:37:20 | INFO    | QQQ | State 2→0 | TP hit at 619.29
+2026-05-20 11:37:20 | INFO    | Position closed | QQQ short | exit=619.31 | P&L=$0.35 | reason=TP
+2026-05-20 11:37:20 | DEBUG   | QQQ | State 0→1 | break UP 1.29 SD
+2026-05-20 11:37:20 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0130 ratio=0.816
+2026-05-20 11:37:20 | INFO    | Position opened | QQQ short | 1 shares @ 619.42 | $619
+2026-05-20 11:37:20 | INFO    | QQQ | State 2→0 | TP hit at 619.23
+2026-05-20 11:37:20 | INFO    | Position closed | QQQ short | exit=619.24 | P&L=$0.18 | reason=TP
+2026-05-20 11:37:20 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:37:20 | INFO    | 2025-12-22 done | running P&L: $2.79
+2026-05-20 11:37:21 | INFO    | --- 2025-12-23 (55 bars) ---
+2026-05-20 11:37:21 | DEBUG   | SPY | State 0→1 | break UP 1.03 SD
+2026-05-20 11:37:21 | DEBUG   | QQQ | State 0→1 | break UP 1.16 SD
+2026-05-20 11:37:21 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:37:21 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:37:21 | DEBUG   | SPY | State 0→1 | break UP 1.26 SD
+2026-05-20 11:37:21 | DEBUG   | QQQ | State 0→1 | break UP 1.02 SD
+2026-05-20 11:37:21 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:37:21 | DEBUG   | QQQ | State 0→1 | break UP 1.09 SD
+2026-05-20 11:37:21 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0479 ratio=0.673
+2026-05-20 11:37:21 | INFO    | Position opened | QQQ short | 1 shares @ 621.25 | $621
+2026-05-20 11:37:21 | INFO    | QQQ | State 2→0 | stall exit | progress=-33.3%
+2026-05-20 11:37:21 | INFO    | Position closed | QQQ short | exit=621.53 | P&L=$-0.28 | reason=TP
+2026-05-20 11:37:21 | DEBUG   | QQQ | State 0→1 | break UP 1.18 SD
+2026-05-20 11:37:21 | INFO    | 2025-12-23 done | running P&L: $2.51
+2026-05-20 11:37:22 | INFO    | --- 2025-12-24 (55 bars) ---
+2026-05-20 11:37:22 | DEBUG   | SPY | State 0→1 | break UP 2.06 SD
+2026-05-20 11:37:22 | DEBUG   | QQQ | State 0→1 | break UP 2.41 SD
+2026-05-20 11:37:22 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:22 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:22 | DEBUG   | SPY | State 0→1 | break UP 1.27 SD
+2026-05-20 11:37:22 | DEBUG   | QQQ | State 0→1 | break UP 1.17 SD
+2026-05-20 11:37:22 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:22 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:22 | DEBUG   | QQQ | State 0→1 | break UP 1.09 SD
+2026-05-20 11:37:22 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:22 | INFO    | 2025-12-24 done | running P&L: $2.51
+2026-05-20 11:37:23 | DEBUG   | 2025-12-25: no market data, skipping
+2026-05-20 11:37:23 | INFO    | --- 2025-12-26 (55 bars) ---
+2026-05-20 11:37:23 | DEBUG   | SPY | State 0→1 | break DN -1.74 SD
+2026-05-20 11:37:23 | DEBUG   | QQQ | State 0→1 | break DN -1.46 SD
+2026-05-20 11:37:23 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0431 ratio=0.844
+2026-05-20 11:37:23 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0189 ratio=0.837
+2026-05-20 11:37:23 | INFO    | Position opened | SPY long | 1 shares @ 690.13 | $690
+2026-05-20 11:37:23 | INFO    | SPY | State 2→3 | stop hit at 689.65
+2026-05-20 11:37:23 | INFO    | Position closed | SPY long | exit=689.65 | P&L=$-0.48 | reason=SL
+2026-05-20 11:37:23 | DEBUG   | SPY | State 3 | cooldown 2 bars left
+2026-05-20 11:37:23 | DEBUG   | SPY | State 3 | cooldown 1 bars left
+2026-05-20 11:37:23 | DEBUG   | SPY | State 3→0 | cooldown done, price inside band
+2026-05-20 11:37:23 | DEBUG   | SPY | State 0→1 | break DN -1.22 SD
+2026-05-20 11:37:23 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:24 | DEBUG   | QQQ | State 0→1 | break UP 1.01 SD
+2026-05-20 11:37:24 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0200 ratio=0.782
+2026-05-20 11:37:24 | INFO    | Position opened | QQQ short | 1 shares @ 624.33 | $624
+2026-05-20 11:37:24 | INFO    | Position closed | QQQ short | exit=624.30 | P&L=$0.03 | reason=EOD
+2026-05-20 11:37:24 | INFO    | 2025-12-26 done | running P&L: $2.06
+2026-05-20 11:37:24 | INFO    | --- 2025-12-29 (55 bars) ---
+2026-05-20 11:37:24 | DEBUG   | SPY | State 0→1 | break DN -1.43 SD
+2026-05-20 11:37:24 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0368 ratio=0.720
+2026-05-20 11:37:24 | INFO    | Position opened | SPY long | 1 shares @ 687.07 | $687
+2026-05-20 11:37:24 | INFO    | SPY | State 2→3 | stop hit at 686.82
+2026-05-20 11:37:24 | INFO    | Position closed | SPY long | exit=686.82 | P&L=$-0.25 | reason=SL
+2026-05-20 11:37:24 | DEBUG   | SPY | State 3 | cooldown 2 bars left
+2026-05-20 11:37:24 | DEBUG   | SPY | State 3 | cooldown 1 bars left
+2026-05-20 11:37:24 | DEBUG   | QQQ | State 0→1 | break DN -1.02 SD
+2026-05-20 11:37:24 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0427 ratio=0.805
+2026-05-20 11:37:24 | INFO    | Position opened | QQQ long | 1 shares @ 619.46 | $619
+2026-05-20 11:37:24 | INFO    | QQQ | State 2→0 | stall exit | progress=21.7%
+2026-05-20 11:37:24 | INFO    | Position closed | QQQ long | exit=619.56 | P&L=$0.10 | reason=TP
+2026-05-20 11:37:25 | DEBUG   | SPY | State 3→0 | cooldown done, price inside band
+2026-05-20 11:37:25 | DEBUG   | SPY | State 0→1 | break UP 1.15 SD
+2026-05-20 11:37:25 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:25 | INFO    | 2025-12-29 done | running P&L: $1.91
+2026-05-20 11:37:25 | INFO    | --- 2025-12-30 (55 bars) ---
+2026-05-20 11:37:25 | DEBUG   | SPY | State 0→1 | break UP 1.14 SD
+2026-05-20 11:37:25 | DEBUG   | QQQ | State 0→1 | break UP 1.11 SD
+2026-05-20 11:37:25 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:25 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:26 | DEBUG   | SPY | State 0→1 | break UP 1.05 SD
+2026-05-20 11:37:26 | INFO    | SPY | State 1→2 | enter_short | slope=0.0140 ratio=0.892
+2026-05-20 11:37:26 | INFO    | Position opened | SPY short | 1 shares @ 687.61 | $688
+2026-05-20 11:37:26 | INFO    | SPY | State 2→0 | stall exit | progress=-16.0%
+2026-05-20 11:37:26 | INFO    | Position closed | SPY short | exit=687.62 | P&L=$-0.01 | reason=TP
+2026-05-20 11:37:26 | INFO    | 2025-12-30 done | running P&L: $1.90
+2026-05-20 11:37:26 | INFO    | --- 2025-12-31 (55 bars) ---
+2026-05-20 11:37:26 | DEBUG   | QQQ | State 0→1 | break UP 1.45 SD
+2026-05-20 11:37:26 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0094 ratio=0.795
+2026-05-20 11:37:26 | INFO    | Position opened | QQQ short | 1 shares @ 617.73 | $618
+2026-05-20 11:37:26 | INFO    | QQQ | State 2→0 | TP hit at 617.10
+2026-05-20 11:37:26 | INFO    | Position closed | QQQ short | exit=617.12 | P&L=$0.61 | reason=TP
+2026-05-20 11:37:27 | DEBUG   | QQQ | State 0→1 | break UP 1.36 SD
+2026-05-20 11:37:27 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:27 | DEBUG   | QQQ | State 0→1 | break UP 1.35 SD
+2026-05-20 11:37:27 | DEBUG   | SPY | State 0→1 | break UP 1.16 SD
+2026-05-20 11:37:27 | INFO    | SPY | State 1→2 | enter_short | slope=0.0120 ratio=0.813
+2026-05-20 11:37:27 | INFO    | Position opened | SPY short | 1 shares @ 685.40 | $685
+2026-05-20 11:37:27 | INFO    | SPY | State 2→3 | stop hit at 685.73
+2026-05-20 11:37:27 | INFO    | Position closed | SPY short | exit=685.74 | P&L=$-0.34 | reason=SL
+2026-05-20 11:37:27 | DEBUG   | SPY | State 3 | cooldown 2 bars left
+2026-05-20 11:37:27 | DEBUG   | SPY | State 3 | cooldown 1 bars left
+2026-05-20 11:37:27 | DEBUG   | SPY | State 3→0 | cooldown done, price inside band
+2026-05-20 11:37:27 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:27 | INFO    | 2025-12-31 done | running P&L: $2.16
+2026-05-20 11:37:27 | DEBUG   | 2026-01-01: no market data, skipping
+2026-05-20 11:37:27 | INFO    | --- 2026-01-02 (55 bars) ---
+2026-05-20 11:37:28 | DEBUG   | SPY | State 0→1 | break DN -1.03 SD
+2026-05-20 11:37:28 | DEBUG   | QQQ | State 0→1 | break DN -1.02 SD
+2026-05-20 11:37:28 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:28 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0451 ratio=0.845
+2026-05-20 11:37:28 | INFO    | Position opened | QQQ long | 1 shares @ 613.24 | $613
+2026-05-20 11:37:28 | INFO    | QQQ | State 2→0 | stall exit | progress=-38.9%
+2026-05-20 11:37:28 | INFO    | Position closed | QQQ long | exit=612.69 | P&L=$-0.55 | reason=TP
+2026-05-20 11:37:28 | DEBUG   | SPY | State 0→1 | break DN -1.03 SD
+2026-05-20 11:37:28 | DEBUG   | QQQ | State 0→1 | break DN -1.10 SD
+2026-05-20 11:37:28 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0146 ratio=0.878
+2026-05-20 11:37:28 | INFO    | Position opened | SPY long | 1 shares @ 681.36 | $681
+2026-05-20 11:37:28 | INFO    | SPY | State 2→0 | stall exit | progress=-20.7%
+2026-05-20 11:37:28 | INFO    | Position closed | SPY long | exit=681.16 | P&L=$-0.20 | reason=TP
+2026-05-20 11:37:28 | DEBUG   | SPY | State 0→1 | break DN -1.07 SD
+2026-05-20 11:37:28 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0257 ratio=0.774
+2026-05-20 11:37:28 | INFO    | Position opened | QQQ long | 1 shares @ 611.75 | $612
+2026-05-20 11:37:28 | INFO    | QQQ | State 2→0 | stall exit | progress=-39.8%
+2026-05-20 11:37:28 | INFO    | Position closed | QQQ long | exit=610.84 | P&L=$-0.91 | reason=TP
+2026-05-20 11:37:28 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:28 | INFO    | 2026-01-02 done | running P&L: $0.50
+2026-05-20 11:37:29 | INFO    | --- 2026-01-05 (55 bars) ---
+2026-05-20 11:37:29 | DEBUG   | SPY | State 0→1 | break UP 1.65 SD
+2026-05-20 11:37:29 | DEBUG   | QQQ | State 0→1 | break UP 1.27 SD
+2026-05-20 11:37:29 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0279 ratio=0.576
+2026-05-20 11:37:29 | INFO    | Position opened | QQQ short | 1 shares @ 620.16 | $620
+2026-05-20 11:37:29 | INFO    | QQQ | State 2→3 | stop hit at 620.66
+2026-05-20 11:37:29 | INFO    | Position closed | QQQ short | exit=620.67 | P&L=$-0.51 | reason=SL
+2026-05-20 11:37:29 | DEBUG   | QQQ | State 3 | cooldown 2 bars left
+2026-05-20 11:37:29 | DEBUG   | QQQ | State 3 | cooldown 1 bars left
+2026-05-20 11:37:29 | DEBUG   | QQQ | State 3→0 | cooldown done, price inside band
+2026-05-20 11:37:29 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:37:29 | DEBUG   | SPY | State 0→1 | break UP 1.11 SD
+2026-05-20 11:37:29 | INFO    | SPY | State 1→2 | enter_short | slope=0.0450 ratio=0.682
+2026-05-20 11:37:29 | INFO    | Position opened | SPY short | 1 shares @ 688.67 | $689
+2026-05-20 11:37:29 | INFO    | SPY | State 2→0 | TP hit at 688.35
+2026-05-20 11:37:29 | INFO    | Position closed | SPY short | exit=688.36 | P&L=$0.31 | reason=TP
+2026-05-20 11:37:29 | DEBUG   | QQQ | State 0→1 | break DN -2.04 SD
+2026-05-20 11:37:29 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0389 ratio=0.794
+2026-05-20 11:37:29 | INFO    | Position opened | QQQ long | 1 shares @ 618.71 | $619
+2026-05-20 11:37:29 | INFO    | QQQ | State 2→0 | stall exit | progress=-71.8%
+2026-05-20 11:37:29 | INFO    | Position closed | QQQ long | exit=618.28 | P&L=$-0.43 | reason=TP
+2026-05-20 11:37:29 | DEBUG   | QQQ | State 0→1 | break DN -1.31 SD
+2026-05-20 11:37:29 | INFO    | 2026-01-05 done | running P&L: $-0.13
+2026-05-20 11:37:30 | INFO    | --- 2026-01-06 (55 bars) ---
+2026-05-20 11:37:30 | DEBUG   | SPY | State 0→1 | break DN -1.39 SD
+2026-05-20 11:37:30 | DEBUG   | QQQ | State 0→1 | break DN -1.48 SD
+2026-05-20 11:37:30 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:30 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:30 | DEBUG   | SPY | State 0→1 | break UP 1.24 SD
+2026-05-20 11:37:30 | DEBUG   | QQQ | State 0→1 | break UP 1.35 SD
+2026-05-20 11:37:30 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0334 ratio=0.588
+2026-05-20 11:37:30 | INFO    | Position opened | QQQ short | 1 shares @ 622.05 | $622
+2026-05-20 11:37:30 | INFO    | QQQ | State 2→3 | stop hit at 622.56
+2026-05-20 11:37:30 | INFO    | Position closed | QQQ short | exit=622.58 | P&L=$-0.53 | reason=SL
+2026-05-20 11:37:30 | DEBUG   | QQQ | State 3 | cooldown 2 bars left
+2026-05-20 11:37:30 | DEBUG   | QQQ | State 3 | cooldown 1 bars left
+2026-05-20 11:37:30 | DEBUG   | QQQ | State 3→0 | cooldown done, price inside band
+2026-05-20 11:37:30 | DEBUG   | QQQ | State 0→1 | break UP 1.04 SD
+2026-05-20 11:37:31 | INFO    | 2026-01-06 done | running P&L: $-0.66
+2026-05-20 11:37:31 | INFO    | --- 2026-01-07 (55 bars) ---
+2026-05-20 11:37:31 | DEBUG   | SPY | State 0→1 | break UP 1.10 SD
+2026-05-20 11:37:31 | DEBUG   | QQQ | State 0→1 | break UP 1.03 SD
+2026-05-20 11:37:31 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:31 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:37:32 | DEBUG   | QQQ | State 0→1 | break UP 1.11 SD
+2026-05-20 11:37:32 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:32 | DEBUG   | SPY | State 0→1 | break DN -1.22 SD
+2026-05-20 11:37:32 | INFO    | 2026-01-07 done | running P&L: $-0.66
+2026-05-20 11:37:32 | INFO    | --- 2026-01-08 (55 bars) ---
+2026-05-20 11:37:32 | DEBUG   | QQQ | State 0→1 | break DN -1.38 SD
+2026-05-20 11:37:32 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:32 | DEBUG   | SPY | State 0→1 | break UP 1.29 SD
+2026-05-20 11:37:32 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:32 | DEBUG   | SPY | State 0→1 | break UP 1.48 SD
+2026-05-20 11:37:32 | INFO    | SPY | State 1→2 | enter_short | slope=0.0136 ratio=0.888
+2026-05-20 11:37:32 | INFO    | Position opened | SPY short | 1 shares @ 689.59 | $690
+2026-05-20 11:37:32 | INFO    | SPY | State 2→3 | stop hit at 689.92
+2026-05-20 11:37:32 | INFO    | Position closed | SPY short | exit=689.95 | P&L=$-0.37 | reason=SL
+2026-05-20 11:37:32 | DEBUG   | SPY | State 3 | cooldown 2 bars left
+2026-05-20 11:37:32 | DEBUG   | SPY | State 3 | cooldown 1 bars left
+2026-05-20 11:37:32 | DEBUG   | QQQ | State 0→1 | break UP 1.27 SD
+2026-05-20 11:37:32 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0180 ratio=0.701
+2026-05-20 11:37:32 | INFO    | Position opened | QQQ short | 1 shares @ 620.42 | $620
+2026-05-20 11:37:33 | INFO    | QQQ | State 2→0 | TP hit at 619.75
+2026-05-20 11:37:33 | INFO    | Position closed | QQQ short | exit=619.76 | P&L=$0.66 | reason=TP
+2026-05-20 11:37:33 | DEBUG   | QQQ | State 0→1 | break DN -1.15 SD
+2026-05-20 11:37:33 | DEBUG   | SPY | State 3→0 | cooldown done, price inside band
+2026-05-20 11:37:33 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:33 | DEBUG   | SPY | State 0→1 | break DN -1.32 SD
+2026-05-20 11:37:33 | DEBUG   | QQQ | State 0→1 | break DN -1.01 SD
+2026-05-20 11:37:33 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:33 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:33 | DEBUG   | SPY | State 0→1 | break DN -1.80 SD
+2026-05-20 11:37:33 | DEBUG   | QQQ | State 0→1 | break DN -1.69 SD
+2026-05-20 11:37:33 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:33 | DEBUG   | QQQ | State 0→1 | break DN -1.12 SD
+2026-05-20 11:37:33 | INFO    | 2026-01-08 done | running P&L: $-0.36
+2026-05-20 11:37:33 | INFO    | --- 2026-01-09 (55 bars) ---
+2026-05-20 11:37:33 | DEBUG   | QQQ | State 0→1 | break UP 1.01 SD
+2026-05-20 11:37:33 | DEBUG   | SPY | State 0→1 | break UP 1.39 SD
+2026-05-20 11:37:33 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:37:33 | DEBUG   | QQQ | State 0→1 | break UP 1.25 SD
+2026-05-20 11:37:34 | INFO    | SPY | State 1→2 | enter_short | slope=0.0458 ratio=0.641
+2026-05-20 11:37:34 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:37:34 | INFO    | Position opened | SPY short | 1 shares @ 693.71 | $694
+2026-05-20 11:37:34 | INFO    | SPY | State 2→0 | stall exit | progress=-53.0%
+2026-05-20 11:37:34 | INFO    | Position closed | SPY short | exit=694.24 | P&L=$-0.53 | reason=TP
+2026-05-20 11:37:34 | DEBUG   | SPY | State 0→1 | break UP 1.54 SD
+2026-05-20 11:37:34 | DEBUG   | QQQ | State 0→1 | break UP 1.44 SD
+2026-05-20 11:37:34 | INFO    | 2026-01-09 done | running P&L: $-0.89
+2026-05-20 11:37:34 | INFO    | --- 2026-01-12 (55 bars) ---
+2026-05-20 11:37:34 | DEBUG   | SPY | State 0→1 | break UP 1.51 SD
+2026-05-20 11:37:34 | DEBUG   | QQQ | State 0→1 | break UP 1.69 SD
+2026-05-20 11:37:35 | INFO    | SPY | State 1→2 | enter_short | slope=0.0403 ratio=0.832
+2026-05-20 11:37:35 | INFO    | Position opened | SPY short | 1 shares @ 694.35 | $694
+2026-05-20 11:37:35 | INFO    | SPY | State 2→0 | stall exit | progress=-55.6%
+2026-05-20 11:37:35 | INFO    | Position closed | SPY short | exit=694.58 | P&L=$-0.23 | reason=TP
+2026-05-20 11:37:35 | DEBUG   | SPY | State 0→1 | break UP 1.46 SD
+2026-05-20 11:37:35 | INFO    | 2026-01-12 done | running P&L: $-1.12
+2026-05-20 11:37:35 | INFO    | --- 2026-01-13 (55 bars) ---
+2026-05-20 11:37:36 | DEBUG   | SPY | State 0→1 | break UP 1.62 SD
+2026-05-20 11:37:36 | DEBUG   | QQQ | State 0→1 | break UP 1.82 SD
+2026-05-20 11:37:36 | INFO    | SPY | State 1→2 | enter_short | slope=0.0471 ratio=0.880
+2026-05-20 11:37:36 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:37:36 | INFO    | Position opened | SPY short | 1 shares @ 694.23 | $694
+2026-05-20 11:37:36 | INFO    | SPY | State 2→0 | TP hit at 693.69
+2026-05-20 11:37:36 | INFO    | Position closed | SPY short | exit=693.70 | P&L=$0.53 | reason=TP
+2026-05-20 11:37:36 | DEBUG   | SPY | State 0→1 | break DN -1.15 SD
+2026-05-20 11:37:36 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:36 | DEBUG   | SPY | State 0→1 | break DN -1.04 SD
+2026-05-20 11:37:36 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0134 ratio=0.885
+2026-05-20 11:37:36 | INFO    | Position opened | SPY long | 1 shares @ 693.30 | $693
+2026-05-20 11:37:36 | INFO    | SPY | State 2→0 | stall exit | progress=-302.8%
+2026-05-20 11:37:36 | INFO    | Position closed | SPY long | exit=692.47 | P&L=$-0.83 | reason=TP
+2026-05-20 11:37:36 | DEBUG   | SPY | State 0→1 | break DN -1.67 SD
+2026-05-20 11:37:36 | DEBUG   | QQQ | State 0→1 | break DN -1.54 SD
+2026-05-20 11:37:36 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:36 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:36 | INFO    | 2026-01-13 done | running P&L: $-1.42
+2026-05-20 11:37:37 | INFO    | --- 2026-01-14 (55 bars) ---
+2026-05-20 11:37:37 | DEBUG   | SPY | State 0→1 | break DN -1.43 SD
+2026-05-20 11:37:37 | DEBUG   | QQQ | State 0→1 | break DN -1.42 SD
+2026-05-20 11:37:37 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:37:37 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:37 | DEBUG   | SPY | State 0→1 | break DN -1.36 SD
+2026-05-20 11:37:37 | DEBUG   | QQQ | State 0→1 | break DN -1.41 SD
+2026-05-20 11:37:37 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0292 ratio=0.865
+2026-05-20 11:37:37 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0303 ratio=0.872
+2026-05-20 11:37:37 | INFO    | Position opened | QQQ long | 1 shares @ 616.27 | $616
+2026-05-20 11:37:37 | INFO    | QQQ | State 2→0 | stall exit | progress=-109.3%
+2026-05-20 11:37:37 | INFO    | Position closed | QQQ long | exit=615.24 | P&L=$-1.03 | reason=TP
+2026-05-20 11:37:37 | DEBUG   | QQQ | State 0→1 | break DN -1.28 SD
+2026-05-20 11:37:37 | DEBUG   | SPY | State 0→1 | break DN -1.21 SD
+2026-05-20 11:37:37 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:37 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:38 | INFO    | 2026-01-14 done | running P&L: $-2.45
+2026-05-20 11:37:38 | INFO    | --- 2026-01-15 (55 bars) ---
+2026-05-20 11:37:38 | DEBUG   | SPY | State 0→1 | break UP 1.43 SD
+2026-05-20 11:37:38 | DEBUG   | QQQ | State 0→1 | break UP 1.12 SD
+2026-05-20 11:37:38 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0254 ratio=0.698
+2026-05-20 11:37:38 | INFO    | Position opened | QQQ short | 1 shares @ 626.26 | $626
+2026-05-20 11:37:38 | INFO    | QQQ | State 2→0 | TP hit at 625.60
+2026-05-20 11:37:38 | INFO    | Position closed | QQQ short | exit=625.60 | P&L=$0.66 | reason=TP
+2026-05-20 11:37:38 | INFO    | SPY | State 1→2 | enter_short | slope=0.0172 ratio=0.869
+2026-05-20 11:37:38 | INFO    | Position opened | SPY short | 1 shares @ 694.39 | $694
+2026-05-20 11:37:38 | INFO    | SPY | State 2→0 | TP hit at 693.98
+2026-05-20 11:37:38 | INFO    | Position closed | SPY short | exit=693.98 | P&L=$0.41 | reason=TP
+2026-05-20 11:37:38 | DEBUG   | SPY | State 0→1 | break UP 1.35 SD
+2026-05-20 11:37:38 | INFO    | SPY | State 1→2 | enter_short | slope=0.0170 ratio=0.739
+2026-05-20 11:37:38 | INFO    | Position opened | SPY short | 1 shares @ 694.86 | $695
+2026-05-20 11:37:39 | INFO    | SPY | State 2→0 | TP hit at 694.20
+2026-05-20 11:37:39 | INFO    | Position closed | SPY short | exit=694.20 | P&L=$0.66 | reason=TP
+2026-05-20 11:37:39 | DEBUG   | QQQ | State 0→1 | break DN -1.29 SD
+2026-05-20 11:37:39 | DEBUG   | SPY | State 0→1 | break DN -1.65 SD
+2026-05-20 11:37:39 | INFO    | 2026-01-15 done | running P&L: $-0.72
+2026-05-20 11:37:39 | INFO    | --- 2026-01-16 (55 bars) ---
+2026-05-20 11:37:39 | DEBUG   | SPY | State 0→1 | break UP 1.51 SD
+2026-05-20 11:37:39 | DEBUG   | QQQ | State 0→1 | break UP 1.22 SD
+2026-05-20 11:37:39 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0343 ratio=0.882
+2026-05-20 11:37:39 | INFO    | Position opened | QQQ short | 1 shares @ 621.83 | $622
+2026-05-20 11:37:39 | INFO    | QQQ | State 2→0 | TP hit at 620.98
+2026-05-20 11:37:39 | INFO    | Position closed | QQQ short | exit=620.97 | P&L=$0.86 | reason=TP
+2026-05-20 11:37:39 | INFO    | SPY | State 1→2 | enter_short | slope=0.0143 ratio=0.789
+2026-05-20 11:37:39 | INFO    | Position opened | SPY short | 1 shares @ 692.31 | $692
+2026-05-20 11:37:39 | INFO    | SPY | State 2→0 | stall exit | progress=-209.0%
+2026-05-20 11:37:39 | INFO    | Position closed | SPY short | exit=693.10 | P&L=$-0.79 | reason=TP
+2026-05-20 11:37:39 | DEBUG   | SPY | State 0→1 | break UP 1.35 SD
+2026-05-20 11:37:39 | DEBUG   | QQQ | State 0→1 | break UP 1.10 SD
+2026-05-20 11:37:40 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0175 ratio=0.768
+2026-05-20 11:37:40 | INFO    | Position opened | QQQ short | 1 shares @ 621.78 | $622
+2026-05-20 11:37:40 | INFO    | QQQ | State 2→0 | stall exit | progress=-99.2%
+2026-05-20 11:37:40 | INFO    | Position closed | QQQ short | exit=622.39 | P&L=$-0.61 | reason=TP
+2026-05-20 11:37:40 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:40 | INFO    | 2026-01-16 done | running P&L: $-1.26
+2026-05-20 11:37:40 | DEBUG   | 2026-01-19: no market data, skipping
+2026-05-20 11:37:40 | INFO    | --- 2026-01-20 (55 bars) ---
+2026-05-20 11:37:40 | DEBUG   | QQQ | State 0→1 | break UP 1.33 SD
+2026-05-20 11:37:40 | DEBUG   | SPY | State 0→1 | break UP 1.13 SD
+2026-05-20 11:37:40 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:40 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:40 | DEBUG   | QQQ | State 0→1 | break UP 1.17 SD
+2026-05-20 11:37:40 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:41 | DEBUG   | SPY | State 0→1 | break DN -1.56 SD
+2026-05-20 11:37:41 | DEBUG   | QQQ | State 0→1 | break DN -1.14 SD
+2026-05-20 11:37:41 | INFO    | 2026-01-20 done | running P&L: $-1.26
+2026-05-20 11:37:41 | INFO    | --- 2026-01-21 (55 bars) ---
+2026-05-20 11:37:41 | DEBUG   | SPY | State 0→1 | break DN -1.79 SD
+2026-05-20 11:37:41 | DEBUG   | QQQ | State 0→1 | break DN -1.25 SD
+2026-05-20 11:37:42 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:42 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:42 | DEBUG   | SPY | State 0→1 | break DN -1.58 SD
+2026-05-20 11:37:42 | DEBUG   | QQQ | State 0→1 | break DN -1.62 SD
+2026-05-20 11:37:42 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:42 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:42 | DEBUG   | QQQ | State 0→1 | break DN -1.03 SD
+2026-05-20 11:37:42 | DEBUG   | SPY | State 0→1 | break DN -1.08 SD
+2026-05-20 11:37:42 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:42 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:42 | DEBUG   | SPY | State 0→1 | break UP 1.48 SD
+2026-05-20 11:37:42 | DEBUG   | QQQ | State 0→1 | break UP 1.22 SD
+2026-05-20 11:37:42 | INFO    | 2026-01-21 done | running P&L: $-1.26
+2026-05-20 11:37:42 | INFO    | --- 2026-01-22 (55 bars) ---
+2026-05-20 11:37:42 | DEBUG   | SPY | State 0→1 | break UP 1.54 SD
+2026-05-20 11:37:42 | DEBUG   | QQQ | State 0→1 | break UP 1.63 SD
+2026-05-20 11:37:43 | INFO    | SPY | State 1→2 | enter_short | slope=0.0432 ratio=0.869
+2026-05-20 11:37:43 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0327 ratio=0.746
+2026-05-20 11:37:43 | INFO    | Position opened | QQQ short | 1 shares @ 621.53 | $622
+2026-05-20 11:37:43 | INFO    | QQQ | State 2→0 | stall exit | progress=-20.0%
+2026-05-20 11:37:43 | INFO    | Position closed | QQQ short | exit=621.71 | P&L=$-0.18 | reason=TP
+2026-05-20 11:37:43 | DEBUG   | QQQ | State 0→1 | break UP 1.09 SD
+2026-05-20 11:37:43 | DEBUG   | SPY | State 0→1 | break UP 1.10 SD
+2026-05-20 11:37:43 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:37:43 | INFO    | 2026-01-22 done | running P&L: $-1.44
+2026-05-20 11:37:44 | INFO    | --- 2026-01-23 (55 bars) ---
+2026-05-20 11:37:44 | DEBUG   | QQQ | State 0→1 | break UP 1.02 SD
+2026-05-20 11:37:44 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:44 | DEBUG   | SPY | State 0→1 | break DN -1.74 SD
+2026-05-20 11:37:44 | DEBUG   | QQQ | State 0→1 | break DN -1.63 SD
+2026-05-20 11:37:44 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:44 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:44 | DEBUG   | SPY | State 0→1 | break DN -1.25 SD
+2026-05-20 11:37:44 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:44 | INFO    | 2026-01-23 done | running P&L: $-1.44
+2026-05-20 11:37:45 | INFO    | --- 2026-01-26 (55 bars) ---
+2026-05-20 11:37:45 | DEBUG   | QQQ | State 0→1 | break UP 1.51 SD
+2026-05-20 11:37:45 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:37:45 | DEBUG   | QQQ | State 0→1 | break UP 1.22 SD
+2026-05-20 11:37:45 | DEBUG   | SPY | State 0→1 | break UP 2.19 SD
+2026-05-20 11:37:45 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:37:45 | DEBUG   | QQQ | State 0→1 | break UP 1.07 SD
+2026-05-20 11:37:45 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0430 ratio=0.647
+2026-05-20 11:37:45 | INFO    | Position opened | QQQ short | 1 shares @ 627.00 | $627
+2026-05-20 11:37:45 | INFO    | QQQ | State 2→0 | TP hit at 626.30
+2026-05-20 11:37:45 | INFO    | Position closed | QQQ short | exit=626.30 | P&L=$0.70 | reason=TP
+2026-05-20 11:37:45 | INFO    | SPY | State 1→2 | enter_short | slope=0.0087 ratio=0.791
+2026-05-20 11:37:45 | INFO    | Position opened | SPY short | 1 shares @ 693.05 | $693
+2026-05-20 11:37:45 | INFO    | SPY | State 2→3 | stop hit at 693.67
+2026-05-20 11:37:45 | INFO    | Position closed | SPY short | exit=693.68 | P&L=$-0.63 | reason=SL
+2026-05-20 11:37:45 | DEBUG   | SPY | State 3 | cooldown 2 bars left
+2026-05-20 11:37:45 | DEBUG   | SPY | State 3 | cooldown 1 bars left
+2026-05-20 11:37:45 | DEBUG   | QQQ | State 0→1 | break UP 1.48 SD
+2026-05-20 11:37:45 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:45 | DEBUG   | SPY | State 3→0 | cooldown done, price inside band
+2026-05-20 11:37:45 | DEBUG   | SPY | State 0→1 | break UP 1.54 SD
+2026-05-20 11:37:45 | INFO    | 2026-01-26 done | running P&L: $-1.37
+2026-05-20 11:37:46 | INFO    | --- 2026-01-27 (55 bars) ---
+2026-05-20 11:37:46 | DEBUG   | SPY | State 0→1 | break UP 1.17 SD
+2026-05-20 11:37:46 | DEBUG   | QQQ | State 0→1 | break UP 1.15 SD
+2026-05-20 11:37:46 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0387 ratio=0.622
+2026-05-20 11:37:46 | INFO    | Position opened | QQQ short | 1 shares @ 631.43 | $631
+2026-05-20 11:37:46 | INFO    | QQQ | State 2→0 | TP hit at 630.99
+2026-05-20 11:37:46 | INFO    | Position closed | QQQ short | exit=630.98 | P&L=$0.45 | reason=TP
+2026-05-20 11:37:46 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:46 | DEBUG   | SPY | State 0→1 | break DN -1.46 SD
+2026-05-20 11:37:46 | DEBUG   | QQQ | State 0→1 | break DN -1.40 SD
+2026-05-20 11:37:46 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:46 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:46 | DEBUG   | QQQ | State 0→1 | break UP 1.01 SD
+2026-05-20 11:37:46 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0113 ratio=0.799
+2026-05-20 11:37:46 | INFO    | Position opened | QQQ short | 1 shares @ 631.21 | $631
+2026-05-20 11:37:47 | INFO    | Position closed | QQQ short | exit=631.39 | P&L=$-0.18 | reason=EOD
+2026-05-20 11:37:47 | INFO    | 2026-01-27 done | running P&L: $-1.10
+2026-05-20 11:37:47 | INFO    | --- 2026-01-28 (55 bars) ---
+2026-05-20 11:37:47 | DEBUG   | SPY | State 0→1 | break DN -2.03 SD
+2026-05-20 11:37:47 | DEBUG   | QQQ | State 0→1 | break DN -1.90 SD
+2026-05-20 11:37:47 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:47 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:47 | DEBUG   | SPY | State 0→1 | break DN -1.51 SD
+2026-05-20 11:37:47 | DEBUG   | QQQ | State 0→1 | break DN -1.55 SD
+2026-05-20 11:37:47 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:47 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:47 | DEBUG   | SPY | State 0→1 | break DN -1.25 SD
+2026-05-20 11:37:47 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:47 | DEBUG   | SPY | State 0→1 | break DN -1.12 SD
+2026-05-20 11:37:47 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0157 ratio=0.794
+2026-05-20 11:37:47 | INFO    | Position opened | SPY long | 1 shares @ 695.01 | $695
+2026-05-20 11:37:48 | INFO    | SPY | State 2→0 | stall exit | progress=-14.8%
+2026-05-20 11:37:48 | INFO    | Position closed | SPY long | exit=694.91 | P&L=$-0.10 | reason=TP
+2026-05-20 11:37:48 | DEBUG   | SPY | State 0→1 | break DN -1.93 SD
+2026-05-20 11:37:48 | DEBUG   | QQQ | State 0→1 | break DN -1.31 SD
+2026-05-20 11:37:48 | INFO    | 2026-01-28 done | running P&L: $-1.20
+2026-05-20 11:37:48 | INFO    | --- 2026-01-29 (55 bars) ---
+2026-05-20 11:37:48 | DEBUG   | SPY | State 0→1 | break UP 1.54 SD
+2026-05-20 11:37:48 | DEBUG   | QQQ | State 0→1 | break UP 1.39 SD
+2026-05-20 11:37:48 | INFO    | SPY | State 1→2 | enter_short | slope=0.0434 ratio=0.848
+2026-05-20 11:37:48 | INFO    | Position opened | SPY short | 1 shares @ 690.14 | $690
+2026-05-20 11:37:48 | INFO    | SPY | State 2→0 | stall exit | progress=-26.0%
+2026-05-20 11:37:48 | INFO    | Position closed | SPY short | exit=690.53 | P&L=$-0.39 | reason=TP
+2026-05-20 11:37:48 | DEBUG   | SPY | State 0→1 | break UP 1.22 SD
+2026-05-20 11:37:49 | INFO    | SPY | State 1→2 | enter_short | slope=0.0321 ratio=0.805
+2026-05-20 11:37:49 | INFO    | Position opened | SPY short | 1 shares @ 690.59 | $691
+2026-05-20 11:37:49 | INFO    | SPY | State 2→3 | stop hit at 691.86
+2026-05-20 11:37:49 | INFO    | Position closed | SPY short | exit=691.87 | P&L=$-1.28 | reason=SL
+2026-05-20 11:37:49 | DEBUG   | SPY | State 3 | cooldown 2 bars left
+2026-05-20 11:37:49 | DEBUG   | SPY | State 3 | cooldown 1 bars left
+2026-05-20 11:37:49 | INFO    | 2026-01-29 done | running P&L: $-2.87
+2026-05-20 11:37:49 | INFO    | --- 2026-01-30 (55 bars) ---
+2026-05-20 11:37:49 | DEBUG   | SPY | State 0→1 | break DN -1.45 SD
+2026-05-20 11:37:49 | DEBUG   | QQQ | State 0→1 | break DN -1.36 SD
+2026-05-20 11:37:49 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:49 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:49 | DEBUG   | QQQ | State 0→1 | break DN -1.04 SD
+2026-05-20 11:37:49 | DEBUG   | SPY | State 0→1 | break DN -1.61 SD
+2026-05-20 11:37:49 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:49 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:49 | DEBUG   | QQQ | State 0→1 | break DN -1.35 SD
+2026-05-20 11:37:49 | DEBUG   | SPY | State 0→1 | break DN -1.05 SD
+2026-05-20 11:37:49 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:49 | DEBUG   | SPY | State 0→1 | break DN -1.24 SD
+2026-05-20 11:37:50 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:50 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:50 | INFO    | 2026-01-30 done | running P&L: $-2.87
+2026-05-20 11:37:50 | INFO    | --- 2026-02-02 (55 bars) ---
+2026-05-20 11:37:50 | DEBUG   | SPY | State 0→1 | break UP 1.12 SD
+2026-05-20 11:37:50 | DEBUG   | QQQ | State 0→1 | break UP 1.17 SD
+2026-05-20 11:37:50 | INFO    | SPY | State 1→2 | enter_short | slope=0.0218 ratio=0.576
+2026-05-20 11:37:50 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0254 ratio=0.585
+2026-05-20 11:37:50 | INFO    | Position opened | QQQ short | 1 shares @ 626.87 | $627
+2026-05-20 11:37:50 | INFO    | QQQ | State 2→0 | TP hit at 626.27
+2026-05-20 11:37:50 | INFO    | Position closed | QQQ short | exit=626.28 | P&L=$0.59 | reason=TP
+2026-05-20 11:37:50 | DEBUG   | SPY | State 0→1 | break UP 1.60 SD
+2026-05-20 11:37:50 | DEBUG   | QQQ | State 0→1 | break UP 1.16 SD
+2026-05-20 11:37:51 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0228 ratio=0.678
+2026-05-20 11:37:51 | INFO    | Position opened | QQQ short | 1 shares @ 627.62 | $628
+2026-05-20 11:37:51 | INFO    | QQQ | State 2→3 | stop hit at 628.32
+2026-05-20 11:37:51 | INFO    | Position closed | QQQ short | exit=628.32 | P&L=$-0.70 | reason=SL
+2026-05-20 11:37:51 | DEBUG   | QQQ | State 3 | cooldown 2 bars left
+2026-05-20 11:37:51 | DEBUG   | QQQ | State 3 | cooldown 1 bars left
+2026-05-20 11:37:51 | INFO    | 2026-02-02 done | running P&L: $-2.98
+2026-05-20 11:37:51 | INFO    | --- 2026-02-03 (55 bars) ---
+2026-05-20 11:37:51 | DEBUG   | SPY | State 0→1 | break DN -1.71 SD
+2026-05-20 11:37:51 | DEBUG   | QQQ | State 0→1 | break DN -1.27 SD
+2026-05-20 11:37:52 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:52 | DEBUG   | SPY | State 0→1 | break DN -1.00 SD
+2026-05-20 11:37:52 | INFO    | 2026-02-03 done | running P&L: $-2.98
+2026-05-20 11:37:52 | INFO    | --- 2026-02-04 (55 bars) ---
+2026-05-20 11:37:52 | DEBUG   | SPY | State 0→1 | break DN -1.42 SD
+2026-05-20 11:37:52 | DEBUG   | QQQ | State 0→1 | break DN -1.85 SD
+2026-05-20 11:37:52 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:37:52 | DEBUG   | SPY | State 0→1 | break DN -1.47 SD
+2026-05-20 11:37:53 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:53 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:53 | DEBUG   | SPY | State 0→1 | break DN -1.13 SD
+2026-05-20 11:37:53 | DEBUG   | QQQ | State 0→1 | break DN -1.23 SD
+2026-05-20 11:37:53 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:53 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:53 | INFO    | 2026-02-04 done | running P&L: $-2.98
+2026-05-20 11:37:53 | INFO    | --- 2026-02-05 (55 bars) ---
+2026-05-20 11:37:53 | DEBUG   | SPY | State 0→1 | break UP 2.28 SD
+2026-05-20 11:37:53 | DEBUG   | QQQ | State 0→1 | break UP 2.68 SD
+2026-05-20 11:37:54 | INFO    | SPY | State 1→2 | enter_short | slope=0.0271 ratio=0.728
+2026-05-20 11:37:54 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0360 ratio=0.767
+2026-05-20 11:37:54 | INFO    | Position opened | QQQ short | 1 shares @ 600.10 | $600
+2026-05-20 11:37:54 | INFO    | QQQ | State 2→0 | TP hit at 598.37
+2026-05-20 11:37:54 | INFO    | Position closed | QQQ short | exit=598.30 | P&L=$1.80 | reason=TP
+2026-05-20 11:37:54 | DEBUG   | SPY | State 0→1 | break UP 1.15 SD
+2026-05-20 11:37:54 | DEBUG   | QQQ | State 0→1 | break UP 1.18 SD
+2026-05-20 11:37:54 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:54 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:54 | INFO    | 2026-02-05 done | running P&L: $-1.18
+2026-05-20 11:37:54 | INFO    | --- 2026-02-06 (55 bars) ---
+2026-05-20 11:37:54 | DEBUG   | SPY | State 0→1 | break UP 1.75 SD
+2026-05-20 11:37:54 | DEBUG   | QQQ | State 0→1 | break UP 1.96 SD
+2026-05-20 11:37:55 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0478 ratio=0.697
+2026-05-20 11:37:55 | INFO    | Position opened | QQQ short | 1 shares @ 607.84 | $608
+2026-05-20 11:37:55 | INFO    | Position closed | QQQ short | exit=608.32 | P&L=$-0.48 | reason=EOD
+2026-05-20 11:37:55 | INFO    | 2026-02-06 done | running P&L: $-1.66
+2026-05-20 11:37:56 | INFO    | --- 2026-02-09 (55 bars) ---
+2026-05-20 11:37:56 | DEBUG   | SPY | State 0→1 | break UP 1.20 SD
+2026-05-20 11:37:56 | DEBUG   | QQQ | State 0→1 | break UP 1.65 SD
+2026-05-20 11:37:56 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:37:56 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:37:56 | DEBUG   | QQQ | State 0→1 | break UP 1.06 SD
+2026-05-20 11:37:56 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:56 | DEBUG   | QQQ | State 0→1 | break UP 1.05 SD
+2026-05-20 11:37:56 | DEBUG   | SPY | State 0→1 | break UP 1.05 SD
+2026-05-20 11:37:56 | INFO    | 2026-02-09 done | running P&L: $-1.66
+2026-05-20 11:37:57 | INFO    | --- 2026-02-10 (55 bars) ---
+2026-05-20 11:37:57 | DEBUG   | SPY | State 0→1 | break DN -1.79 SD
+2026-05-20 11:37:57 | DEBUG   | QQQ | State 0→1 | break DN -2.23 SD
+2026-05-20 11:37:57 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:57 | DEBUG   | SPY | State 0→1 | break DN -1.15 SD
+2026-05-20 11:37:57 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:57 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0357 ratio=0.823
+2026-05-20 11:37:57 | INFO    | Position opened | QQQ long | 1 shares @ 615.03 | $615
+2026-05-20 11:37:57 | INFO    | QQQ | State 2→0 | TP hit at 615.46
+2026-05-20 11:37:57 | INFO    | Position closed | QQQ long | exit=615.46 | P&L=$0.43 | reason=TP
+2026-05-20 11:37:57 | DEBUG   | SPY | State 0→1 | break DN -1.03 SD
+2026-05-20 11:37:57 | DEBUG   | QQQ | State 0→1 | break DN -1.17 SD
+2026-05-20 11:37:57 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0382 ratio=0.898
+2026-05-20 11:37:57 | INFO    | Position opened | SPY long | 1 shares @ 693.87 | $694
+2026-05-20 11:37:57 | INFO    | Position closed | SPY long | exit=693.73 | P&L=$-0.14 | reason=EOD
+2026-05-20 11:37:57 | INFO    | 2026-02-10 done | running P&L: $-1.38
+2026-05-20 11:37:58 | INFO    | --- 2026-02-11 (55 bars) ---
+2026-05-20 11:37:58 | DEBUG   | SPY | State 0→1 | break UP 1.07 SD
+2026-05-20 11:37:58 | INFO    | SPY | State 1→2 | enter_short | slope=0.0281 ratio=0.781
+2026-05-20 11:37:58 | INFO    | Position opened | SPY short | 1 shares @ 692.66 | $693
+2026-05-20 11:37:58 | INFO    | SPY | State 2→0 | TP hit at 691.49
+2026-05-20 11:37:58 | INFO    | Position closed | SPY short | exit=691.49 | P&L=$1.17 | reason=TP
+2026-05-20 11:37:58 | DEBUG   | SPY | State 0→1 | break UP 1.27 SD
+2026-05-20 11:37:58 | DEBUG   | QQQ | State 0→1 | break UP 1.19 SD
+2026-05-20 11:37:58 | INFO    | SPY | State 1→2 | enter_short | slope=0.0226 ratio=0.866
+2026-05-20 11:37:58 | INFO    | Position opened | SPY short | 1 shares @ 692.77 | $693
+2026-05-20 11:37:58 | INFO    | SPY | State 2→0 | TP hit at 691.65
+2026-05-20 11:37:58 | INFO    | Position closed | SPY short | exit=691.64 | P&L=$1.13 | reason=TP
+2026-05-20 11:37:58 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:58 | DEBUG   | QQQ | State 0→1 | break UP 1.20 SD
+2026-05-20 11:37:58 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0138 ratio=0.858
+2026-05-20 11:37:58 | INFO    | Position opened | QQQ short | 1 shares @ 612.61 | $613
+2026-05-20 11:37:58 | INFO    | QQQ | State 2→3 | stop hit at 613.62
+2026-05-20 11:37:58 | INFO    | Position closed | QQQ short | exit=613.63 | P&L=$-1.02 | reason=SL
+2026-05-20 11:37:58 | DEBUG   | QQQ | State 3 | cooldown 2 bars left
+2026-05-20 11:37:58 | DEBUG   | QQQ | State 3 | cooldown 1 bars left
+2026-05-20 11:37:59 | DEBUG   | SPY | State 0→1 | break UP 1.18 SD
+2026-05-20 11:37:59 | INFO    | 2026-02-11 done | running P&L: $-0.10
+2026-05-20 11:37:59 | INFO    | --- 2026-02-12 (55 bars) ---
+2026-05-20 11:37:59 | DEBUG   | SPY | State 0→1 | break DN -1.15 SD
+2026-05-20 11:37:59 | DEBUG   | QQQ | State 0→1 | break DN -1.36 SD
+2026-05-20 11:37:59 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:59 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:59 | DEBUG   | SPY | State 0→1 | break DN -1.03 SD
+2026-05-20 11:37:59 | DEBUG   | QQQ | State 0→1 | break DN -1.04 SD
+2026-05-20 11:37:59 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:37:59 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:37:59 | DEBUG   | SPY | State 0→1 | break DN -1.10 SD
+2026-05-20 11:37:59 | DEBUG   | QQQ | State 0→1 | break DN -1.11 SD
+2026-05-20 11:37:59 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:59 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:37:59 | DEBUG   | SPY | State 0→1 | break DN -1.01 SD
+2026-05-20 11:37:59 | DEBUG   | QQQ | State 0→1 | break DN -1.11 SD
+2026-05-20 11:37:59 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:59 | DEBUG   | QQQ | State 0→1 | break DN -1.14 SD
+2026-05-20 11:37:59 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0446 ratio=0.891
+2026-05-20 11:37:59 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:37:59 | INFO    | Position opened | SPY long | 1 shares @ 683.57 | $684
+2026-05-20 11:38:00 | INFO    | Position closed | SPY long | exit=684.83 | P&L=$1.26 | reason=EOD
+2026-05-20 11:38:00 | INFO    | 2026-02-12 done | running P&L: $1.16
+2026-05-20 11:38:00 | INFO    | --- 2026-02-13 (55 bars) ---
+2026-05-20 11:38:00 | DEBUG   | SPY | State 0→1 | break UP 1.50 SD
+2026-05-20 11:38:00 | DEBUG   | QQQ | State 0→1 | break UP 1.02 SD
+2026-05-20 11:38:00 | INFO    | SPY | State 1→2 | enter_short | slope=0.0431 ratio=0.806
+2026-05-20 11:38:00 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0480 ratio=0.768
+2026-05-20 11:38:00 | INFO    | Position opened | SPY short | 1 shares @ 684.46 | $684
+2026-05-20 11:38:01 | INFO    | SPY | State 2→0 | stall exit | progress=-167.4%
+2026-05-20 11:38:01 | INFO    | Position closed | SPY short | exit=685.79 | P&L=$-1.33 | reason=TP
+2026-05-20 11:38:01 | DEBUG   | SPY | State 0→1 | break UP 1.31 SD
+2026-05-20 11:38:01 | DEBUG   | QQQ | State 0→1 | break UP 1.51 SD
+2026-05-20 11:38:01 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:01 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:01 | DEBUG   | QQQ | State 0→1 | break UP 1.02 SD
+2026-05-20 11:38:01 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0252 ratio=0.838
+2026-05-20 11:38:01 | INFO    | Position opened | QQQ short | 1 shares @ 605.32 | $605
+2026-05-20 11:38:01 | INFO    | Position closed | QQQ short | exit=605.14 | P&L=$0.18 | reason=EOD
+2026-05-20 11:38:01 | INFO    | 2026-02-13 done | running P&L: $0.01
+2026-05-20 11:38:01 | DEBUG   | 2026-02-16: no market data, skipping
+2026-05-20 11:38:01 | INFO    | --- 2026-02-17 (55 bars) ---
+2026-05-20 11:38:01 | DEBUG   | SPY | State 0→1 | break UP 1.12 SD
+2026-05-20 11:38:01 | DEBUG   | QQQ | State 0→1 | break UP 1.15 SD
+2026-05-20 11:38:01 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:38:01 | DEBUG   | SPY | State 0→1 | break UP 1.27 SD
+2026-05-20 11:38:01 | INFO    | SPY | State 1→2 | enter_short | slope=0.0439 ratio=0.693
+2026-05-20 11:38:01 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0476 ratio=0.690
+2026-05-20 11:38:01 | INFO    | Position opened | SPY short | 1 shares @ 681.69 | $682
+2026-05-20 11:38:02 | INFO    | SPY | State 2→0 | stall exit | progress=3.9%
+2026-05-20 11:38:02 | INFO    | Position closed | SPY short | exit=681.63 | P&L=$0.06 | reason=TP
+2026-05-20 11:38:02 | DEBUG   | QQQ | State 0→1 | break UP 1.22 SD
+2026-05-20 11:38:02 | DEBUG   | SPY | State 0→1 | break UP 1.14 SD
+2026-05-20 11:38:02 | INFO    | 2026-02-17 done | running P&L: $0.07
+2026-05-20 11:38:02 | INFO    | --- 2026-02-18 (55 bars) ---
+2026-05-20 11:38:02 | DEBUG   | SPY | State 0→1 | break UP 1.31 SD
+2026-05-20 11:38:02 | DEBUG   | QQQ | State 0→1 | break UP 1.39 SD
+2026-05-20 11:38:02 | INFO    | SPY | State 1→2 | enter_short | slope=0.0178 ratio=0.555
+2026-05-20 11:38:02 | INFO    | Position opened | SPY short | 1 shares @ 688.31 | $688
+2026-05-20 11:38:02 | INFO    | SPY | State 2→0 | TP hit at 687.74
+2026-05-20 11:38:02 | INFO    | Position closed | SPY short | exit=687.74 | P&L=$0.57 | reason=TP
+2026-05-20 11:38:03 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0270 ratio=0.660
+2026-05-20 11:38:03 | INFO    | Position opened | QQQ short | 1 shares @ 608.18 | $608
+2026-05-20 11:38:03 | INFO    | QQQ | State 2→0 | stall exit | progress=-658.5%
+2026-05-20 11:38:03 | INFO    | Position closed | QQQ short | exit=608.86 | P&L=$-0.68 | reason=TP
+2026-05-20 11:38:03 | DEBUG   | SPY | State 0→1 | break UP 1.61 SD
+2026-05-20 11:38:03 | DEBUG   | QQQ | State 0→1 | break UP 1.20 SD
+2026-05-20 11:38:03 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0129 ratio=0.749
+2026-05-20 11:38:03 | INFO    | Position opened | QQQ short | 1 shares @ 609.04 | $609
+2026-05-20 11:38:03 | INFO    | QQQ | State 2→0 | TP hit at 608.22
+2026-05-20 11:38:03 | INFO    | Position closed | QQQ short | exit=608.23 | P&L=$0.81 | reason=TP
+2026-05-20 11:38:03 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:03 | DEBUG   | SPY | State 0→1 | break DN -1.99 SD
+2026-05-20 11:38:03 | DEBUG   | QQQ | State 0→1 | break DN -1.18 SD
+2026-05-20 11:38:03 | INFO    | 2026-02-18 done | running P&L: $0.78
+2026-05-20 11:38:03 | INFO    | --- 2026-02-19 (55 bars) ---
+2026-05-20 11:38:04 | DEBUG   | SPY | State 0→1 | break DN -3.03 SD
+2026-05-20 11:38:04 | DEBUG   | QQQ | State 0→1 | break DN -3.33 SD
+2026-05-20 11:38:04 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0356 ratio=0.821
+2026-05-20 11:38:04 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0310 ratio=0.771
+2026-05-20 11:38:04 | INFO    | Position opened | QQQ long | 1 shares @ 603.70 | $604
+2026-05-20 11:38:04 | INFO    | QQQ | State 2→0 | TP hit at 604.12
+2026-05-20 11:38:04 | INFO    | Position closed | QQQ long | exit=604.07 | P&L=$0.37 | reason=TP
+2026-05-20 11:38:04 | DEBUG   | SPY | State 0→1 | break DN -1.00 SD
+2026-05-20 11:38:04 | DEBUG   | QQQ | State 0→1 | break DN -1.09 SD
+2026-05-20 11:38:04 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0367 ratio=0.886
+2026-05-20 11:38:04 | INFO    | Position opened | QQQ long | 1 shares @ 602.73 | $603
+2026-05-20 11:38:04 | INFO    | QQQ | State 2→3 | stop hit at 601.32
+2026-05-20 11:38:04 | INFO    | Position closed | QQQ long | exit=601.30 | P&L=$-1.43 | reason=SL
+2026-05-20 11:38:04 | DEBUG   | QQQ | State 3 | cooldown 2 bars left
+2026-05-20 11:38:04 | DEBUG   | QQQ | State 3 | cooldown 1 bars left
+2026-05-20 11:38:04 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0294 ratio=0.825
+2026-05-20 11:38:04 | DEBUG   | QQQ | State 3→0 | cooldown done, price inside band
+2026-05-20 11:38:04 | INFO    | Position opened | SPY long | 1 shares @ 683.33 | $683
+2026-05-20 11:38:04 | INFO    | SPY | State 2→0 | TP hit at 683.99
+2026-05-20 11:38:04 | INFO    | Position closed | SPY long | exit=683.99 | P&L=$0.66 | reason=TP
+2026-05-20 11:38:04 | DEBUG   | QQQ | State 0→1 | break DN -1.02 SD
+2026-05-20 11:38:04 | INFO    | 2026-02-19 done | running P&L: $0.38
+2026-05-20 11:38:05 | INFO    | --- 2026-02-20 (55 bars) ---
+2026-05-20 11:38:05 | DEBUG   | SPY | State 0→1 | break UP 1.23 SD
+2026-05-20 11:38:05 | DEBUG   | QQQ | State 0→1 | break UP 1.18 SD
+2026-05-20 11:38:05 | INFO    | SPY | State 1→2 | enter_short | slope=0.0213 ratio=0.508
+2026-05-20 11:38:05 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0287 ratio=0.530
+2026-05-20 11:38:05 | INFO    | Position opened | SPY short | 1 shares @ 687.89 | $688
+2026-05-20 11:38:05 | INFO    | SPY | State 2→0 | TP hit at 687.10
+2026-05-20 11:38:05 | INFO    | Position closed | SPY short | exit=687.11 | P&L=$0.78 | reason=TP
+2026-05-20 11:38:05 | DEBUG   | SPY | State 0→1 | break DN -1.38 SD
+2026-05-20 11:38:05 | DEBUG   | QQQ | State 0→1 | break DN -1.58 SD
+2026-05-20 11:38:05 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0349 ratio=0.746
+2026-05-20 11:38:05 | INFO    | Position opened | QQQ long | 1 shares @ 605.91 | $606
+2026-05-20 11:38:05 | INFO    | QQQ | State 2→0 | TP hit at 607.64
+2026-05-20 11:38:05 | INFO    | Position closed | QQQ long | exit=607.64 | P&L=$1.73 | reason=TP
+2026-05-20 11:38:05 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:05 | DEBUG   | SPY | State 0→1 | break UP 1.65 SD
+2026-05-20 11:38:05 | DEBUG   | QQQ | State 0→1 | break UP 1.14 SD
+2026-05-20 11:38:05 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0199 ratio=0.650
+2026-05-20 11:38:05 | INFO    | Position opened | QQQ short | 1 shares @ 608.49 | $608
+2026-05-20 11:38:05 | INFO    | Position closed | QQQ short | exit=608.46 | P&L=$0.03 | reason=EOD
+2026-05-20 11:38:05 | INFO    | 2026-02-20 done | running P&L: $2.92
+2026-05-20 11:38:06 | INFO    | --- 2026-02-23 (55 bars) ---
+2026-05-20 11:38:06 | DEBUG   | SPY | State 0→1 | break DN -1.16 SD
+2026-05-20 11:38:06 | DEBUG   | QQQ | State 0→1 | break DN -1.44 SD
+2026-05-20 11:38:06 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:06 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:06 | DEBUG   | SPY | State 0→1 | break DN -1.12 SD
+2026-05-20 11:38:06 | INFO    | 2026-02-23 done | running P&L: $2.92
+2026-05-20 11:38:07 | INFO    | --- 2026-02-24 (55 bars) ---
+2026-05-20 11:38:07 | DEBUG   | QQQ | State 0→1 | break UP 1.04 SD
+2026-05-20 11:38:07 | DEBUG   | SPY | State 0→1 | break UP 1.01 SD
+2026-05-20 11:38:07 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0472 ratio=0.620
+2026-05-20 11:38:07 | INFO    | Position opened | QQQ short | 1 shares @ 608.09 | $608
+2026-05-20 11:38:07 | INFO    | QQQ | State 2→0 | stall exit | progress=-5.1%
+2026-05-20 11:38:07 | INFO    | Position closed | QQQ short | exit=608.14 | P&L=$-0.05 | reason=TP
+2026-05-20 11:38:07 | INFO    | SPY | State 1→2 | enter_short | slope=0.0456 ratio=0.676
+2026-05-20 11:38:07 | INFO    | Position opened | SPY short | 1 shares @ 687.10 | $687
+2026-05-20 11:38:07 | INFO    | SPY | State 2→0 | stall exit | progress=-58.6%
+2026-05-20 11:38:07 | INFO    | Position closed | SPY short | exit=687.74 | P&L=$-0.64 | reason=TP
+2026-05-20 11:38:07 | DEBUG   | SPY | State 0→1 | break UP 1.05 SD
+2026-05-20 11:38:07 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:38:08 | INFO    | 2026-02-24 done | running P&L: $2.23
+2026-05-20 11:38:08 | INFO    | --- 2026-02-25 (55 bars) ---
+2026-05-20 11:38:08 | DEBUG   | SPY | State 0→1 | break UP 1.94 SD
+2026-05-20 11:38:08 | DEBUG   | QQQ | State 0→1 | break UP 1.14 SD
+2026-05-20 11:38:08 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0142 ratio=0.662
+2026-05-20 11:38:08 | INFO    | Position opened | QQQ short | 1 shares @ 614.87 | $615
+2026-05-20 11:38:08 | INFO    | QQQ | State 2→3 | stop hit at 615.41
+2026-05-20 11:38:08 | INFO    | Position closed | QQQ short | exit=615.41 | P&L=$-0.54 | reason=SL
+2026-05-20 11:38:08 | DEBUG   | QQQ | State 3 | cooldown 2 bars left
+2026-05-20 11:38:08 | DEBUG   | QQQ | State 3 | cooldown 1 bars left
+2026-05-20 11:38:08 | DEBUG   | QQQ | State 3→0 | cooldown done, price inside band
+2026-05-20 11:38:08 | DEBUG   | QQQ | State 0→1 | break UP 1.36 SD
+2026-05-20 11:38:09 | INFO    | 2026-02-25 done | running P&L: $1.69
+2026-05-20 11:38:09 | INFO    | --- 2026-02-26 (55 bars) ---
+2026-05-20 11:38:09 | DEBUG   | SPY | State 0→1 | break DN -1.03 SD
+2026-05-20 11:38:09 | DEBUG   | QQQ | State 0→1 | break DN -1.23 SD
+2026-05-20 11:38:09 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0225 ratio=0.896
+2026-05-20 11:38:09 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0168 ratio=0.845
+2026-05-20 11:38:09 | INFO    | Position opened | QQQ long | 1 shares @ 606.11 | $606
+2026-05-20 11:38:09 | INFO    | QQQ | State 2→0 | stall exit | progress=-42.5%
+2026-05-20 11:38:09 | INFO    | Position closed | QQQ long | exit=605.64 | P&L=$-0.47 | reason=TP
+2026-05-20 11:38:09 | DEBUG   | QQQ | State 0→1 | break DN -1.12 SD
+2026-05-20 11:38:10 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:10 | DEBUG   | SPY | State 0→1 | break UP 1.07 SD
+2026-05-20 11:38:10 | DEBUG   | QQQ | State 0→1 | break UP 1.17 SD
+2026-05-20 11:38:10 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:10 | INFO    | 2026-02-26 done | running P&L: $1.22
+2026-05-20 11:38:10 | INFO    | --- 2026-02-27 (55 bars) ---
+2026-05-20 11:38:10 | DEBUG   | SPY | State 0→1 | break UP 2.14 SD
+2026-05-20 11:38:10 | DEBUG   | QQQ | State 0→1 | break UP 1.84 SD
+2026-05-20 11:38:10 | INFO    | SPY | State 1→2 | enter_short | slope=0.0352 ratio=0.745
+2026-05-20 11:38:10 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0164 ratio=0.710
+2026-05-20 11:38:10 | INFO    | Position opened | SPY short | 1 shares @ 685.49 | $685
+2026-05-20 11:38:10 | INFO    | SPY | State 2→0 | TP hit at 684.73
+2026-05-20 11:38:10 | INFO    | Position closed | SPY short | exit=684.74 | P&L=$0.75 | reason=TP
+2026-05-20 11:38:10 | DEBUG   | QQQ | State 0→1 | break DN -1.28 SD
+2026-05-20 11:38:10 | DEBUG   | SPY | State 0→1 | break UP 1.13 SD
+2026-05-20 11:38:10 | INFO    | QQQ | State 1→2 | enter_long | slope=0.0012 ratio=0.775
+2026-05-20 11:38:10 | INFO    | Position opened | QQQ long | 1 shares @ 607.14 | $607
+2026-05-20 11:38:10 | INFO    | QQQ | State 2→0 | TP hit at 606.71
+2026-05-20 11:38:10 | INFO    | Position closed | QQQ long | exit=606.71 | P&L=$-0.43 | reason=TP
+2026-05-20 11:38:10 | DEBUG   | QQQ | State 0→1 | break UP 1.60 SD
+2026-05-20 11:38:10 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:10 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:10 | DEBUG   | SPY | State 0→1 | break DN -1.15 SD
+2026-05-20 11:38:10 | DEBUG   | QQQ | State 0→1 | break DN -1.11 SD
+2026-05-20 11:38:10 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0016 ratio=0.837
+2026-05-20 11:38:10 | INFO    | Position opened | QQQ long | 1 shares @ 606.32 | $606
+2026-05-20 11:38:10 | INFO    | QQQ | State 2→0 | TP hit at 607.03
+2026-05-20 11:38:10 | INFO    | Position closed | QQQ long | exit=607.03 | P&L=$0.71 | reason=TP
+2026-05-20 11:38:10 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:10 | DEBUG   | SPY | State 0→1 | break DN -1.40 SD
+2026-05-20 11:38:10 | DEBUG   | QQQ | State 0→1 | break DN -1.36 SD
+2026-05-20 11:38:10 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0204 ratio=0.707
+2026-05-20 11:38:10 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0083 ratio=0.654
+2026-05-20 11:38:10 | INFO    | Position opened | SPY long | 1 shares @ 684.37 | $684
+2026-05-20 11:38:11 | INFO    | SPY | State 2→3 | stop hit at 683.60
+2026-05-20 11:38:11 | INFO    | Position closed | SPY long | exit=683.59 | P&L=$-0.78 | reason=SL
+2026-05-20 11:38:11 | DEBUG   | SPY | State 3 | cooldown 2 bars left
+2026-05-20 11:38:11 | DEBUG   | QQQ | State 0→1 | break DN -2.67 SD
+2026-05-20 11:38:11 | DEBUG   | SPY | State 3 | cooldown 1 bars left
+2026-05-20 11:38:11 | DEBUG   | SPY | State 3→0 | cooldown done, price inside band
+2026-05-20 11:38:11 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:11 | DEBUG   | QQQ | State 0→1 | break DN -1.54 SD
+2026-05-20 11:38:11 | DEBUG   | SPY | State 0→1 | break DN -1.27 SD
+2026-05-20 11:38:11 | INFO    | 2026-02-27 done | running P&L: $1.47
+2026-05-20 11:38:11 | INFO    | --- 2026-03-02 (55 bars) ---
+2026-05-20 11:38:11 | DEBUG   | SPY | State 0→1 | break UP 1.55 SD
+2026-05-20 11:38:11 | DEBUG   | QQQ | State 0→1 | break UP 2.03 SD
+2026-05-20 11:38:12 | INFO    | SPY | State 1→2 | enter_short | slope=0.0235 ratio=0.693
+2026-05-20 11:38:12 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0348 ratio=0.728
+2026-05-20 11:38:12 | INFO    | Position opened | QQQ short | 1 shares @ 607.75 | $608
+2026-05-20 11:38:12 | INFO    | QQQ | State 2→0 | stall exit | progress=-40.7%
+2026-05-20 11:38:12 | INFO    | Position closed | QQQ short | exit=608.20 | P&L=$-0.45 | reason=TP
+2026-05-20 11:38:12 | DEBUG   | SPY | State 0→1 | break UP 1.47 SD
+2026-05-20 11:38:12 | DEBUG   | QQQ | State 0→1 | break UP 1.36 SD
+2026-05-20 11:38:12 | INFO    | 2026-03-02 done | running P&L: $1.02
+2026-05-20 11:38:12 | INFO    | --- 2026-03-03 (55 bars) ---
+2026-05-20 11:38:12 | DEBUG   | SPY | State 0→1 | break UP 1.85 SD
+2026-05-20 11:38:12 | DEBUG   | QQQ | State 0→1 | break UP 1.69 SD
+2026-05-20 11:38:13 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:13 | DEBUG   | QQQ | State 0→1 | break UP 1.47 SD
+2026-05-20 11:38:13 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:13 | DEBUG   | QQQ | State 0→1 | break UP 1.30 SD
+2026-05-20 11:38:13 | INFO    | 2026-03-03 done | running P&L: $1.02
+2026-05-20 11:38:13 | INFO    | --- 2026-03-04 (55 bars) ---
+2026-05-20 11:38:13 | DEBUG   | SPY | State 0→1 | break UP 1.19 SD
+2026-05-20 11:38:13 | DEBUG   | QQQ | State 0→1 | break UP 1.50 SD
+2026-05-20 11:38:14 | INFO    | SPY | State 1→2 | enter_short | slope=0.0314 ratio=0.692
+2026-05-20 11:38:14 | INFO    | Position opened | SPY short | 1 shares @ 685.79 | $686
+2026-05-20 11:38:14 | INFO    | SPY | State 2→0 | timeout after 24 bars
+2026-05-20 11:38:14 | INFO    | Position closed | SPY short | exit=686.55 | P&L=$-0.75 | reason=TP
+2026-05-20 11:38:14 | DEBUG   | SPY | State 0→1 | break UP 1.40 SD
+2026-05-20 11:38:14 | INFO    | 2026-03-04 done | running P&L: $0.26
+2026-05-20 11:38:14 | INFO    | --- 2026-03-05 (55 bars) ---
+2026-05-20 11:38:15 | DEBUG   | QQQ | State 0→1 | break UP 1.01 SD
+2026-05-20 11:38:15 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:15 | DEBUG   | SPY | State 0→1 | break DN -1.28 SD
+2026-05-20 11:38:15 | DEBUG   | QQQ | State 0→1 | break DN -1.35 SD
+2026-05-20 11:38:15 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:15 | DEBUG   | SPY | State 0→1 | break DN -1.35 SD
+2026-05-20 11:38:15 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0423 ratio=0.797
+2026-05-20 11:38:15 | INFO    | Position opened | QQQ long | 1 shares @ 604.21 | $604
+2026-05-20 11:38:15 | INFO    | Position closed | QQQ long | exit=603.13 | P&L=$-1.08 | reason=EOD
+2026-05-20 11:38:15 | INFO    | 2026-03-05 done | running P&L: $-0.82
+2026-05-20 11:38:16 | INFO    | --- 2026-03-06 (55 bars) ---
+2026-05-20 11:38:16 | DEBUG   | QQQ | State 0→1 | break UP 1.04 SD
+2026-05-20 11:38:16 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0155 ratio=0.784
+2026-05-20 11:38:16 | INFO    | Position opened | QQQ short | 1 shares @ 604.28 | $604
+2026-05-20 11:38:16 | INFO    | QQQ | State 2→3 | stop hit at 605.43
+2026-05-20 11:38:16 | INFO    | Position closed | QQQ short | exit=605.42 | P&L=$-1.14 | reason=SL
+2026-05-20 11:38:16 | DEBUG   | QQQ | State 3 | cooldown 2 bars left
+2026-05-20 11:38:16 | DEBUG   | QQQ | State 3 | cooldown 1 bars left
+2026-05-20 11:38:16 | DEBUG   | QQQ | State 3→0 | cooldown done, price inside band
+2026-05-20 11:38:16 | DEBUG   | SPY | State 0→1 | break DN -1.09 SD
+2026-05-20 11:38:16 | DEBUG   | QQQ | State 0→1 | break DN -1.01 SD
+2026-05-20 11:38:16 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0151 ratio=0.828
+2026-05-20 11:38:16 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0115 ratio=0.827
+2026-05-20 11:38:16 | INFO    | Position opened | SPY long | 1 shares @ 673.32 | $673
+2026-05-20 11:38:16 | INFO    | SPY | State 2→0 | TP hit at 674.18
+2026-05-20 11:38:16 | INFO    | Position closed | SPY long | exit=674.21 | P&L=$0.89 | reason=TP
+2026-05-20 11:38:16 | DEBUG   | SPY | State 0→1 | break UP 1.80 SD
+2026-05-20 11:38:16 | DEBUG   | QQQ | State 0→1 | break UP 1.54 SD
+2026-05-20 11:38:16 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:16 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:16 | DEBUG   | SPY | State 0→1 | break UP 1.04 SD
+2026-05-20 11:38:16 | INFO    | SPY | State 1→2 | enter_short | slope=0.0051 ratio=0.841
+2026-05-20 11:38:16 | INFO    | Position opened | SPY short | 1 shares @ 675.03 | $675
+2026-05-20 11:38:16 | INFO    | Position closed | SPY short | exit=675.05 | P&L=$-0.02 | reason=EOD
+2026-05-20 11:38:16 | INFO    | 2026-03-06 done | running P&L: $-1.09
+2026-05-20 11:38:17 | INFO    | --- 2026-03-09 (55 bars) ---
+2026-05-20 11:38:17 | DEBUG   | SPY | State 0→1 | break UP 1.17 SD
+2026-05-20 11:38:17 | DEBUG   | QQQ | State 0→1 | break UP 1.35 SD
+2026-05-20 11:38:17 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:38:17 | DEBUG   | SPY | State 0→1 | break UP 1.18 SD
+2026-05-20 11:38:17 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:38:17 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:38:17 | INFO    | 2026-03-09 done | running P&L: $-1.09
+2026-05-20 11:38:18 | INFO    | --- 2026-03-10 (55 bars) ---
+2026-05-20 11:38:18 | DEBUG   | SPY | State 0→1 | break UP 1.04 SD
+2026-05-20 11:38:18 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:38:18 | DEBUG   | SPY | State 0→1 | break UP 1.05 SD
+2026-05-20 11:38:18 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:38:18 | DEBUG   | SPY | State 0→1 | break UP 1.31 SD
+2026-05-20 11:38:18 | DEBUG   | QQQ | State 0→1 | break UP 1.31 SD
+2026-05-20 11:38:18 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:38:18 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:38:18 | DEBUG   | SPY | State 0→1 | break DN -1.04 SD
+2026-05-20 11:38:18 | DEBUG   | QQQ | State 0→1 | break DN -1.14 SD
+2026-05-20 11:38:18 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:18 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:19 | INFO    | 2026-03-10 done | running P&L: $-1.09
+2026-05-20 11:38:19 | INFO    | --- 2026-03-11 (55 bars) ---
+2026-05-20 11:38:19 | DEBUG   | SPY | State 0→1 | break DN -1.61 SD
+2026-05-20 11:38:19 | DEBUG   | QQQ | State 0→1 | break DN -1.52 SD
+2026-05-20 11:38:19 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:38:19 | DEBUG   | QQQ | State 0→1 | break DN -1.22 SD
+2026-05-20 11:38:19 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:38:19 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0419 ratio=0.706
+2026-05-20 11:38:19 | INFO    | Position opened | QQQ long | 1 shares @ 606.93 | $607
+2026-05-20 11:38:19 | INFO    | QQQ | State 2→0 | TP hit at 608.28
+2026-05-20 11:38:19 | INFO    | Position closed | QQQ long | exit=608.26 | P&L=$1.33 | reason=TP
+2026-05-20 11:38:19 | DEBUG   | SPY | State 0→1 | break DN -1.15 SD
+2026-05-20 11:38:19 | DEBUG   | QQQ | State 0→1 | break DN -1.20 SD
+2026-05-20 11:38:19 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:19 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:20 | DEBUG   | SPY | State 0→1 | break DN -1.04 SD
+2026-05-20 11:38:20 | DEBUG   | QQQ | State 0→1 | break DN -1.16 SD
+2026-05-20 11:38:20 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0232 ratio=0.878
+2026-05-20 11:38:20 | INFO    | Position opened | SPY long | 1 shares @ 674.83 | $675
+2026-05-20 11:38:20 | INFO    | Position closed | SPY long | exit=675.53 | P&L=$0.70 | reason=EOD
+2026-05-20 11:38:20 | INFO    | 2026-03-11 done | running P&L: $0.94
+2026-05-20 11:38:20 | INFO    | --- 2026-03-12 (55 bars) ---
+2026-05-20 11:38:20 | DEBUG   | SPY | State 0→1 | break UP 1.27 SD
+2026-05-20 11:38:20 | DEBUG   | QQQ | State 0→1 | break UP 1.17 SD
+2026-05-20 11:38:20 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:20 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:20 | DEBUG   | SPY | State 0→1 | break UP 1.27 SD
+2026-05-20 11:38:20 | DEBUG   | QQQ | State 0→1 | break UP 1.07 SD
+2026-05-20 11:38:20 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:20 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:20 | DEBUG   | SPY | State 0→1 | break UP 1.24 SD
+2026-05-20 11:38:20 | DEBUG   | QQQ | State 0→1 | break UP 1.43 SD
+2026-05-20 11:38:20 | INFO    | SPY | State 1→2 | enter_short | slope=0.0176 ratio=0.839
+2026-05-20 11:38:20 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0152 ratio=0.822
+2026-05-20 11:38:20 | INFO    | Position opened | QQQ short | 1 shares @ 600.60 | $601
+2026-05-20 11:38:20 | INFO    | QQQ | State 2→0 | TP hit at 599.52
+2026-05-20 11:38:20 | INFO    | Position closed | QQQ short | exit=599.54 | P&L=$1.06 | reason=TP
+2026-05-20 11:38:20 | DEBUG   | QQQ | State 0→1 | break UP 1.16 SD
+2026-05-20 11:38:20 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0045 ratio=0.891
+2026-05-20 11:38:20 | INFO    | Position opened | QQQ short | 1 shares @ 600.20 | $600
+2026-05-20 11:38:20 | INFO    | QQQ | State 2→0 | TP hit at 599.37
+2026-05-20 11:38:20 | INFO    | Position closed | QQQ short | exit=599.37 | P&L=$0.83 | reason=TP
+2026-05-20 11:38:21 | DEBUG   | SPY | State 0→1 | break DN -1.16 SD
+2026-05-20 11:38:21 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0115 ratio=0.816
+2026-05-20 11:38:21 | INFO    | Position opened | SPY long | 1 shares @ 668.54 | $669
+2026-05-20 11:38:21 | INFO    | Position closed | SPY long | exit=667.85 | P&L=$-0.69 | reason=EOD
+2026-05-20 11:38:21 | INFO    | 2026-03-12 done | running P&L: $2.14
+2026-05-20 11:38:21 | INFO    | --- 2026-03-13 (55 bars) ---
+2026-05-20 11:38:21 | DEBUG   | SPY | State 0→1 | break DN -1.14 SD
+2026-05-20 11:38:21 | DEBUG   | QQQ | State 0→1 | break DN -1.25 SD
+2026-05-20 11:38:21 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:38:21 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:38:21 | DEBUG   | SPY | State 0→1 | break DN -1.16 SD
+2026-05-20 11:38:21 | DEBUG   | QQQ | State 0→1 | break DN -1.14 SD
+2026-05-20 11:38:21 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0457 ratio=0.853
+2026-05-20 11:38:21 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0443 ratio=0.842
+2026-05-20 11:38:21 | INFO    | Position opened | SPY long | 1 shares @ 664.31 | $664
+2026-05-20 11:38:21 | INFO    | SPY | State 2→0 | stall exit | progress=-63.2%
+2026-05-20 11:38:21 | INFO    | Position closed | SPY long | exit=663.32 | P&L=$-0.99 | reason=TP
+2026-05-20 11:38:21 | DEBUG   | SPY | State 0→1 | break DN -1.17 SD
+2026-05-20 11:38:22 | DEBUG   | QQQ | State 0→1 | break DN -1.19 SD
+2026-05-20 11:38:22 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0401 ratio=0.878
+2026-05-20 11:38:22 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:38:22 | INFO    | Position opened | SPY long | 1 shares @ 663.93 | $664
+2026-05-20 11:38:22 | INFO    | SPY | State 2→0 | stall exit | progress=12.1%
+2026-05-20 11:38:22 | INFO    | Position closed | SPY long | exit=664.14 | P&L=$0.21 | reason=TP
+2026-05-20 11:38:22 | DEBUG   | SPY | State 0→1 | break DN -1.55 SD
+2026-05-20 11:38:22 | DEBUG   | QQQ | State 0→1 | break DN -1.46 SD
+2026-05-20 11:38:22 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:38:22 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:38:22 | DEBUG   | SPY | State 0→1 | break DN -1.13 SD
+2026-05-20 11:38:22 | DEBUG   | QQQ | State 0→1 | break DN -1.12 SD
+2026-05-20 11:38:22 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0322 ratio=0.808
+2026-05-20 11:38:22 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0422 ratio=0.820
+2026-05-20 11:38:22 | INFO    | Position opened | SPY long | 1 shares @ 663.33 | $663
+2026-05-20 11:38:22 | INFO    | Position closed | SPY long | exit=663.97 | P&L=$0.64 | reason=EOD
+2026-05-20 11:38:22 | INFO    | 2026-03-13 done | running P&L: $2.00
+2026-05-20 11:38:22 | INFO    | --- 2026-03-16 (55 bars) ---
+2026-05-20 11:38:22 | DEBUG   | QQQ | State 0→1 | break UP 1.04 SD
+2026-05-20 11:38:22 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0223 ratio=0.723
+2026-05-20 11:38:22 | INFO    | Position opened | QQQ short | 1 shares @ 601.59 | $602
+2026-05-20 11:38:22 | INFO    | QQQ | State 2→0 | TP hit at 600.46
+2026-05-20 11:38:22 | INFO    | Position closed | QQQ short | exit=600.46 | P&L=$1.13 | reason=TP
+2026-05-20 11:38:22 | DEBUG   | SPY | State 0→1 | break DN -1.60 SD
+2026-05-20 11:38:22 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:22 | DEBUG   | SPY | State 0→1 | break DN -1.07 SD
+2026-05-20 11:38:22 | DEBUG   | QQQ | State 0→1 | break DN -1.99 SD
+2026-05-20 11:38:22 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:38:22 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:23 | INFO    | 2026-03-16 done | running P&L: $3.13
+2026-05-20 11:38:23 | INFO    | --- 2026-03-17 (55 bars) ---
+2026-05-20 11:38:23 | DEBUG   | SPY | State 0→1 | break DN -2.40 SD
+2026-05-20 11:38:23 | DEBUG   | QQQ | State 0→1 | break DN -2.63 SD
+2026-05-20 11:38:23 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:38:23 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:38:24 | DEBUG   | SPY | State 0→1 | break DN -1.15 SD
+2026-05-20 11:38:24 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:24 | DEBUG   | SPY | State 0→1 | break DN -1.06 SD
+2026-05-20 11:38:24 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:24 | DEBUG   | SPY | State 0→1 | break DN -1.12 SD
+2026-05-20 11:38:24 | INFO    | 2026-03-17 done | running P&L: $3.13
+2026-05-20 11:38:24 | INFO    | --- 2026-03-18 (55 bars) ---
+2026-05-20 11:38:25 | DEBUG   | SPY | State 0→1 | break DN -1.06 SD
+2026-05-20 11:38:25 | DEBUG   | QQQ | State 0→1 | break DN -1.08 SD
+2026-05-20 11:38:25 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:25 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:25 | DEBUG   | QQQ | State 0→1 | break DN -1.05 SD
+2026-05-20 11:38:25 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0160 ratio=0.737
+2026-05-20 11:38:25 | INFO    | Position opened | QQQ long | 1 shares @ 599.69 | $600
+2026-05-20 11:38:25 | INFO    | QQQ | State 2→3 | stop hit at 599.21
+2026-05-20 11:38:25 | INFO    | Position closed | QQQ long | exit=599.20 | P&L=$-0.49 | reason=SL
+2026-05-20 11:38:25 | DEBUG   | SPY | State 0→1 | break DN -1.54 SD
+2026-05-20 11:38:25 | DEBUG   | QQQ | State 3 | cooldown 2 bars left
+2026-05-20 11:38:25 | DEBUG   | QQQ | State 3 | cooldown 1 bars left
+2026-05-20 11:38:25 | DEBUG   | QQQ | State 3→0 | cooldown done, price inside band
+2026-05-20 11:38:25 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0322 ratio=0.827
+2026-05-20 11:38:25 | INFO    | Position opened | SPY long | 1 shares @ 666.38 | $666
+2026-05-20 11:38:25 | INFO    | SPY | State 2→0 | TP hit at 667.08
+2026-05-20 11:38:25 | INFO    | Position closed | SPY long | exit=667.06 | P&L=$0.68 | reason=TP
+2026-05-20 11:38:25 | DEBUG   | SPY | State 0→1 | break DN -1.59 SD
+2026-05-20 11:38:25 | DEBUG   | QQQ | State 0→1 | break DN -1.03 SD
+2026-05-20 11:38:25 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:25 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:25 | INFO    | 2026-03-18 done | running P&L: $3.32
+2026-05-20 11:38:25 | INFO    | --- 2026-03-19 (55 bars) ---
+2026-05-20 11:38:25 | DEBUG   | SPY | State 0→1 | break DN -1.91 SD
+2026-05-20 11:38:25 | DEBUG   | QQQ | State 0→1 | break DN -2.49 SD
+2026-05-20 11:38:26 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:26 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0433 ratio=0.894
+2026-05-20 11:38:26 | INFO    | Position opened | QQQ long | 1 shares @ 590.67 | $591
+2026-05-20 11:38:26 | INFO    | QQQ | State 2→0 | TP hit at 591.09
+2026-05-20 11:38:26 | INFO    | Position closed | QQQ long | exit=591.09 | P&L=$0.42 | reason=TP
+2026-05-20 11:38:26 | DEBUG   | SPY | State 0→1 | break DN -1.25 SD
+2026-05-20 11:38:26 | DEBUG   | QQQ | State 0→1 | break DN -1.67 SD
+2026-05-20 11:38:26 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:26 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:26 | DEBUG   | SPY | State 0→1 | break DN -1.21 SD
+2026-05-20 11:38:26 | DEBUG   | QQQ | State 0→1 | break DN -1.24 SD
+2026-05-20 11:38:26 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0118 ratio=0.813
+2026-05-20 11:38:26 | INFO    | Position opened | QQQ long | 1 shares @ 589.59 | $590
+2026-05-20 11:38:26 | INFO    | QQQ | State 2→0 | TP hit at 590.66
+2026-05-20 11:38:26 | INFO    | Position closed | QQQ long | exit=590.66 | P&L=$1.07 | reason=TP
+2026-05-20 11:38:26 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0103 ratio=0.881
+2026-05-20 11:38:26 | INFO    | Position opened | SPY long | 1 shares @ 657.23 | $657
+2026-05-20 11:38:26 | INFO    | SPY | State 2→0 | TP hit at 658.35
+2026-05-20 11:38:26 | INFO    | Position closed | SPY long | exit=658.36 | P&L=$1.13 | reason=TP
+2026-05-20 11:38:26 | DEBUG   | QQQ | State 0→1 | break UP 1.12 SD
+2026-05-20 11:38:26 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:26 | INFO    | 2026-03-19 done | running P&L: $5.94
+2026-05-20 11:38:26 | INFO    | --- 2026-03-20 (55 bars) ---
+2026-05-20 11:38:27 | DEBUG   | QQQ | State 0→1 | break UP 1.18 SD
+2026-05-20 11:38:27 | DEBUG   | SPY | State 0→1 | break UP 1.58 SD
+2026-05-20 11:38:27 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0227 ratio=0.751
+2026-05-20 11:38:27 | INFO    | Position opened | QQQ short | 1 shares @ 586.75 | $587
+2026-05-20 11:38:27 | INFO    | QQQ | State 2→0 | TP hit at 586.07
+2026-05-20 11:38:27 | INFO    | Position closed | QQQ short | exit=586.07 | P&L=$0.68 | reason=TP
+2026-05-20 11:38:27 | INFO    | SPY | State 1→2 | enter_short | slope=0.0196 ratio=0.842
+2026-05-20 11:38:27 | INFO    | Position opened | SPY short | 1 shares @ 652.47 | $652
+2026-05-20 11:38:27 | INFO    | SPY | State 2→0 | TP hit at 652.42
+2026-05-20 11:38:27 | INFO    | Position closed | SPY short | exit=652.41 | P&L=$0.06 | reason=TP
+2026-05-20 11:38:27 | DEBUG   | QQQ | State 0→1 | break DN -1.10 SD
+2026-05-20 11:38:27 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0079 ratio=0.860
+2026-05-20 11:38:27 | INFO    | Position opened | QQQ long | 1 shares @ 585.94 | $586
+2026-05-20 11:38:27 | INFO    | QQQ | State 2→3 | stop hit at 585.21
+2026-05-20 11:38:27 | INFO    | Position closed | QQQ long | exit=585.23 | P&L=$-0.71 | reason=SL
+2026-05-20 11:38:27 | DEBUG   | QQQ | State 3 | cooldown 2 bars left
+2026-05-20 11:38:27 | DEBUG   | QQQ | State 3 | cooldown 1 bars left
+2026-05-20 11:38:27 | DEBUG   | SPY | State 0→1 | break DN -1.82 SD
+2026-05-20 11:38:27 | INFO    | 2026-03-20 done | running P&L: $5.97
+2026-05-20 11:38:28 | INFO    | --- 2026-03-23 (55 bars) ---
+2026-05-20 11:38:28 | DEBUG   | SPY | State 0→1 | break DN -1.88 SD
+2026-05-20 11:38:28 | DEBUG   | QQQ | State 0→1 | break DN -2.36 SD
+2026-05-20 11:38:28 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:38:28 | DEBUG   | QQQ | State 0→1 | break DN -1.11 SD
+2026-05-20 11:38:28 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:38:28 | DEBUG   | QQQ | State 0→1 | break DN -1.25 SD
+2026-05-20 11:38:28 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:28 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:28 | INFO    | 2026-03-23 done | running P&L: $5.97
+2026-05-20 11:38:29 | INFO    | --- 2026-03-24 (55 bars) ---
+2026-05-20 11:38:29 | DEBUG   | SPY | State 0→1 | break UP 1.54 SD
+2026-05-20 11:38:29 | DEBUG   | QQQ | State 0→1 | break UP 1.52 SD
+2026-05-20 11:38:29 | INFO    | SPY | State 1→2 | enter_short | slope=0.0432 ratio=0.816
+2026-05-20 11:38:29 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0384 ratio=0.806
+2026-05-20 11:38:29 | INFO    | Position opened | SPY short | 1 shares @ 655.05 | $655
+2026-05-20 11:38:29 | INFO    | SPY | State 2→0 | stall exit | progress=-115.9%
+2026-05-20 11:38:29 | INFO    | Position closed | SPY short | exit=655.97 | P&L=$-0.92 | reason=TP
+2026-05-20 11:38:29 | DEBUG   | QQQ | State 0→1 | break DN -1.21 SD
+2026-05-20 11:38:29 | DEBUG   | SPY | State 0→1 | break DN -1.07 SD
+2026-05-20 11:38:29 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0270 ratio=0.818
+2026-05-20 11:38:29 | INFO    | Position opened | SPY long | 1 shares @ 653.10 | $653
+2026-05-20 11:38:29 | INFO    | SPY | State 2→0 | stall exit | progress=9.6%
+2026-05-20 11:38:29 | INFO    | Position closed | SPY long | exit=653.16 | P&L=$0.06 | reason=TP
+2026-05-20 11:38:29 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:29 | INFO    | 2026-03-24 done | running P&L: $5.11
+2026-05-20 11:38:30 | INFO    | --- 2026-03-25 (55 bars) ---
+2026-05-20 11:38:30 | DEBUG   | QQQ | State 0→1 | break DN -1.05 SD
+2026-05-20 11:38:30 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0257 ratio=0.728
+2026-05-20 11:38:30 | INFO    | Position opened | QQQ long | 1 shares @ 587.84 | $588
+2026-05-20 11:38:30 | INFO    | QQQ | State 2→0 | TP hit at 588.81
+2026-05-20 11:38:30 | INFO    | Position closed | QQQ long | exit=588.83 | P&L=$0.99 | reason=TP
+2026-05-20 11:38:30 | DEBUG   | SPY | State 0→1 | break UP 1.37 SD
+2026-05-20 11:38:30 | DEBUG   | QQQ | State 0→1 | break UP 1.11 SD
+2026-05-20 11:38:30 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:30 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:31 | INFO    | 2026-03-25 done | running P&L: $6.10
+2026-05-20 11:38:31 | INFO    | --- 2026-03-26 (55 bars) ---
+2026-05-20 11:38:31 | DEBUG   | SPY | State 0→1 | break DN -1.65 SD
+2026-05-20 11:38:31 | DEBUG   | QQQ | State 0→1 | break DN -1.59 SD
+2026-05-20 11:38:31 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0442 ratio=0.886
+2026-05-20 11:38:31 | INFO    | Position opened | QQQ long | 1 shares @ 581.20 | $581
+2026-05-20 11:38:31 | INFO    | QQQ | State 2→0 | stall exit | progress=-105.8%
+2026-05-20 11:38:31 | INFO    | Position closed | QQQ long | exit=580.42 | P&L=$-0.78 | reason=TP
+2026-05-20 11:38:31 | DEBUG   | QQQ | State 0→1 | break DN -1.56 SD
+2026-05-20 11:38:32 | INFO    | 2026-03-26 done | running P&L: $5.32
+2026-05-20 11:38:32 | INFO    | --- 2026-03-27 (55 bars) ---
+2026-05-20 11:38:32 | DEBUG   | SPY | State 0→1 | break UP 2.91 SD
+2026-05-20 11:38:32 | DEBUG   | QQQ | State 0→1 | break UP 3.10 SD
+2026-05-20 11:38:32 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:38:32 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:38:32 | DEBUG   | SPY | State 0→1 | break UP 1.50 SD
+2026-05-20 11:38:32 | DEBUG   | QQQ | State 0→1 | break UP 1.38 SD
+2026-05-20 11:38:32 | INFO    | SPY | State 1→2 | enter_short | slope=0.0280 ratio=0.818
+2026-05-20 11:38:32 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0372 ratio=0.696
+2026-05-20 11:38:32 | INFO    | Position opened | SPY short | 1 shares @ 640.30 | $640
+2026-05-20 11:38:32 | INFO    | SPY | State 2→0 | TP hit at 639.98
+2026-05-20 11:38:32 | INFO    | Position closed | SPY short | exit=639.98 | P&L=$0.32 | reason=TP
+2026-05-20 11:38:32 | DEBUG   | SPY | State 0→1 | break DN -1.28 SD
+2026-05-20 11:38:32 | INFO    | SPY | State 1→2 | enter_long | slope=0.0009 ratio=0.772
+2026-05-20 11:38:32 | INFO    | Position opened | SPY long | 1 shares @ 639.52 | $640
+2026-05-20 11:38:32 | INFO    | SPY | State 2→3 | stop hit at 638.89
+2026-05-20 11:38:32 | INFO    | Position closed | SPY long | exit=638.88 | P&L=$-0.64 | reason=SL
+2026-05-20 11:38:32 | DEBUG   | SPY | State 3 | cooldown 2 bars left
+2026-05-20 11:38:32 | DEBUG   | QQQ | State 0→1 | break DN -1.31 SD
+2026-05-20 11:38:32 | DEBUG   | SPY | State 3 | cooldown 1 bars left
+2026-05-20 11:38:32 | DEBUG   | SPY | State 3→0 | cooldown done, price inside band
+2026-05-20 11:38:32 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:32 | DEBUG   | SPY | State 0→1 | break DN -1.17 SD
+2026-05-20 11:38:32 | DEBUG   | QQQ | State 0→1 | break DN -1.08 SD
+2026-05-20 11:38:32 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:33 | DEBUG   | QQQ | State 0→1 | break DN -1.44 SD
+2026-05-20 11:38:33 | INFO    | 2026-03-27 done | running P&L: $5.00
+2026-05-20 11:38:33 | INFO    | --- 2026-03-30 (55 bars) ---
+2026-05-20 11:38:33 | DEBUG   | SPY | State 0→1 | break UP 1.71 SD
+2026-05-20 11:38:33 | DEBUG   | QQQ | State 0→1 | break UP 1.72 SD
+2026-05-20 11:38:33 | INFO    | SPY | State 1→2 | enter_short | slope=0.0379 ratio=0.752
+2026-05-20 11:38:33 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0438 ratio=0.809
+2026-05-20 11:38:33 | INFO    | Position opened | QQQ short | 1 shares @ 564.05 | $564
+2026-05-20 11:38:33 | INFO    | QQQ | State 2→0 | TP hit at 562.91
+2026-05-20 11:38:33 | INFO    | Position closed | QQQ short | exit=562.93 | P&L=$1.12 | reason=TP
+2026-05-20 11:38:33 | DEBUG   | QQQ | State 0→1 | break DN -1.15 SD
+2026-05-20 11:38:33 | DEBUG   | SPY | State 0→1 | break DN -1.61 SD
+2026-05-20 11:38:33 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0172 ratio=0.757
+2026-05-20 11:38:33 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0314 ratio=0.793
+2026-05-20 11:38:33 | INFO    | Position opened | SPY long | 1 shares @ 635.85 | $636
+2026-05-20 11:38:34 | INFO    | SPY | State 2→3 | stop hit at 635.20
+2026-05-20 11:38:34 | INFO    | Position closed | SPY long | exit=635.20 | P&L=$-0.65 | reason=SL
+2026-05-20 11:38:34 | DEBUG   | SPY | State 3 | cooldown 2 bars left
+2026-05-20 11:38:34 | DEBUG   | QQQ | State 0→1 | break DN -1.38 SD
+2026-05-20 11:38:34 | DEBUG   | SPY | State 3 | cooldown 1 bars left
+2026-05-20 11:38:34 | INFO    | 2026-03-30 done | running P&L: $5.47
+2026-05-20 11:38:34 | INFO    | --- 2026-03-31 (55 bars) ---
+2026-05-20 11:38:34 | DEBUG   | QQQ | State 0→1 | break DN -1.22 SD
+2026-05-20 11:38:34 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:34 | DEBUG   | SPY | State 0→1 | break UP 1.51 SD
+2026-05-20 11:38:34 | DEBUG   | QQQ | State 0→1 | break UP 1.27 SD
+2026-05-20 11:38:35 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0135 ratio=0.845
+2026-05-20 11:38:35 | INFO    | Position opened | QQQ short | 1 shares @ 568.34 | $568
+2026-05-20 11:38:35 | INFO    | QQQ | State 2→3 | stop hit at 571.20
+2026-05-20 11:38:35 | INFO    | Position closed | QQQ short | exit=571.19 | P&L=$-2.85 | reason=SL
+2026-05-20 11:38:35 | DEBUG   | QQQ | State 3 | cooldown 2 bars left
+2026-05-20 11:38:35 | DEBUG   | QQQ | State 3 | cooldown 1 bars left
+2026-05-20 11:38:35 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:38:35 | DEBUG   | QQQ | State 3→0 | cooldown done, price inside band
+2026-05-20 11:38:35 | DEBUG   | SPY | State 0→1 | break UP 1.06 SD
+2026-05-20 11:38:35 | DEBUG   | QQQ | State 0→1 | break UP 1.05 SD
+2026-05-20 11:38:35 | INFO    | 2026-03-31 done | running P&L: $2.62
+2026-05-20 11:38:35 | INFO    | --- 2026-04-01 (55 bars) ---
+2026-05-20 11:38:35 | DEBUG   | SPY | State 0→1 | break UP 1.07 SD
+2026-05-20 11:38:35 | DEBUG   | QQQ | State 0→1 | break UP 1.01 SD
+2026-05-20 11:38:36 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:38:36 | DEBUG   | SPY | State 0→1 | break UP 1.12 SD
+2026-05-20 11:38:36 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:38:36 | DEBUG   | QQQ | State 0→1 | break UP 1.05 SD
+2026-05-20 11:38:36 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:38:36 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:36 | DEBUG   | SPY | State 0→1 | break DN -1.26 SD
+2026-05-20 11:38:36 | DEBUG   | QQQ | State 0→1 | break DN -1.20 SD
+2026-05-20 11:38:36 | INFO    | 2026-04-01 done | running P&L: $2.62
+2026-05-20 11:38:36 | INFO    | --- 2026-04-02 (55 bars) ---
+2026-05-20 11:38:37 | INFO    | 2026-04-02 done | running P&L: $2.62
+2026-05-20 11:38:37 | DEBUG   | 2026-04-03: no market data, skipping
+2026-05-20 11:38:38 | INFO    | --- 2026-04-06 (55 bars) ---
+2026-05-20 11:38:38 | DEBUG   | SPY | State 0→1 | break DN -1.31 SD
+2026-05-20 11:38:38 | DEBUG   | QQQ | State 0→1 | break DN -1.79 SD
+2026-05-20 11:38:38 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0129 ratio=0.448
+2026-05-20 11:38:38 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0193 ratio=0.455
+2026-05-20 11:38:38 | INFO    | Position opened | QQQ long | 1 shares @ 586.81 | $587
+2026-05-20 11:38:38 | INFO    | QQQ | State 2→0 | TP hit at 587.61
+2026-05-20 11:38:38 | INFO    | Position closed | QQQ long | exit=587.59 | P&L=$0.78 | reason=TP
+2026-05-20 11:38:38 | DEBUG   | QQQ | State 0→1 | break DN -1.14 SD
+2026-05-20 11:38:38 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0038 ratio=0.505
+2026-05-20 11:38:38 | INFO    | Position opened | QQQ long | 1 shares @ 587.09 | $587
+2026-05-20 11:38:38 | INFO    | QQQ | State 2→0 | TP hit at 587.58
+2026-05-20 11:38:38 | INFO    | Position closed | QQQ long | exit=587.59 | P&L=$0.50 | reason=TP
+2026-05-20 11:38:38 | DEBUG   | SPY | State 0→1 | break UP 1.21 SD
+2026-05-20 11:38:38 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:38 | DEBUG   | QQQ | State 0→1 | break DN -1.43 SD
+2026-05-20 11:38:38 | DEBUG   | SPY | State 0→1 | break DN -2.73 SD
+2026-05-20 11:38:38 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:38 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:38 | DEBUG   | SPY | State 0→1 | break DN -1.06 SD
+2026-05-20 11:38:38 | DEBUG   | QQQ | State 0→1 | break DN -1.13 SD
+2026-05-20 11:38:39 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0163 ratio=0.734
+2026-05-20 11:38:39 | INFO    | Position opened | QQQ long | 1 shares @ 586.38 | $586
+2026-05-20 11:38:39 | INFO    | QQQ | State 2→0 | TP hit at 587.78
+2026-05-20 11:38:39 | INFO    | Position closed | QQQ long | exit=587.77 | P&L=$1.39 | reason=TP
+2026-05-20 11:38:39 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:39 | DEBUG   | QQQ | State 0→1 | break UP 1.34 SD
+2026-05-20 11:38:39 | DEBUG   | SPY | State 0→1 | break UP 1.41 SD
+2026-05-20 11:38:39 | INFO    | 2026-04-06 done | running P&L: $5.29
+2026-05-20 11:38:39 | INFO    | --- 2026-04-07 (55 bars) ---
+2026-05-20 11:38:39 | DEBUG   | QQQ | State 0→1 | break UP 1.33 SD
+2026-05-20 11:38:39 | DEBUG   | SPY | State 0→1 | break UP 2.00 SD
+2026-05-20 11:38:40 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0290 ratio=0.824
+2026-05-20 11:38:40 | INFO    | Position opened | QQQ short | 1 shares @ 584.48 | $584
+2026-05-20 11:38:40 | INFO    | Position closed | QQQ short | exit=584.52 | P&L=$-0.04 | reason=EOD
+2026-05-20 11:38:40 | INFO    | 2026-04-07 done | running P&L: $5.25
+2026-05-20 11:38:40 | INFO    | --- 2026-04-08 (55 bars) ---
+2026-05-20 11:38:40 | DEBUG   | SPY | State 0→1 | break UP 1.26 SD
+2026-05-20 11:38:40 | DEBUG   | QQQ | State 0→1 | break UP 1.27 SD
+2026-05-20 11:38:40 | INFO    | SPY | State 1→2 | enter_short | slope=0.0451 ratio=0.817
+2026-05-20 11:38:40 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0367 ratio=0.780
+2026-05-20 11:38:40 | INFO    | Position opened | QQQ short | 1 shares @ 605.79 | $606
+2026-05-20 11:38:40 | INFO    | QQQ | State 2→3 | stop hit at 606.58
+2026-05-20 11:38:40 | INFO    | Position closed | QQQ short | exit=606.56 | P&L=$-0.77 | reason=SL
+2026-05-20 11:38:40 | DEBUG   | SPY | State 0→1 | break UP 1.69 SD
+2026-05-20 11:38:40 | DEBUG   | QQQ | State 3 | cooldown 2 bars left
+2026-05-20 11:38:40 | DEBUG   | QQQ | State 3 | cooldown 1 bars left
+2026-05-20 11:38:40 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:40 | DEBUG   | QQQ | State 3→0 | cooldown done, price inside band
+2026-05-20 11:38:41 | DEBUG   | SPY | State 0→1 | break UP 1.20 SD
+2026-05-20 11:38:41 | DEBUG   | QQQ | State 0→1 | break UP 1.33 SD
+2026-05-20 11:38:41 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:38:41 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:41 | INFO    | 2026-04-08 done | running P&L: $4.48
+2026-05-20 11:38:41 | INFO    | --- 2026-04-09 (55 bars) ---
+2026-05-20 11:38:41 | DEBUG   | SPY | State 0→1 | break UP 2.38 SD
+2026-05-20 11:38:41 | DEBUG   | QQQ | State 0→1 | break UP 1.97 SD
+2026-05-20 11:38:41 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:38:41 | DEBUG   | QQQ | State 0→1 | break UP 1.12 SD
+2026-05-20 11:38:42 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:38:42 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:42 | INFO    | 2026-04-09 done | running P&L: $4.48
+2026-05-20 11:38:42 | INFO    | --- 2026-04-10 (55 bars) ---
+2026-05-20 11:38:42 | DEBUG   | SPY | State 0→1 | break DN -1.79 SD
+2026-05-20 11:38:42 | DEBUG   | QQQ | State 0→1 | break DN -1.39 SD
+2026-05-20 11:38:42 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:38:42 | DEBUG   | QQQ | State 0→1 | break DN -1.25 SD
+2026-05-20 11:38:43 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0363 ratio=0.727
+2026-05-20 11:38:43 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0269 ratio=0.809
+2026-05-20 11:38:43 | INFO    | Position opened | SPY long | 1 shares @ 679.51 | $680
+2026-05-20 11:38:43 | INFO    | SPY | State 2→0 | stall exit | progress=-2.0%
+2026-05-20 11:38:43 | INFO    | Position closed | SPY long | exit=679.47 | P&L=$-0.04 | reason=TP
+2026-05-20 11:38:43 | INFO    | 2026-04-10 done | running P&L: $4.44
+2026-05-20 11:38:43 | INFO    | --- 2026-04-13 (55 bars) ---
+2026-05-20 11:38:43 | DEBUG   | QQQ | State 0→1 | break UP 1.53 SD
+2026-05-20 11:38:43 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:43 | DEBUG   | SPY | State 0→1 | break DN -1.14 SD
+2026-05-20 11:38:43 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:43 | DEBUG   | SPY | State 0→1 | break UP 1.63 SD
+2026-05-20 11:38:43 | DEBUG   | QQQ | State 0→1 | break UP 1.05 SD
+2026-05-20 11:38:44 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0295 ratio=0.581
+2026-05-20 11:38:44 | INFO    | Position opened | QQQ short | 1 shares @ 613.95 | $614
+2026-05-20 11:38:44 | INFO    | Position closed | QQQ short | exit=614.17 | P&L=$-0.22 | reason=EOD
+2026-05-20 11:38:44 | INFO    | 2026-04-13 done | running P&L: $4.22
+2026-05-20 11:38:44 | INFO    | --- 2026-04-14 (55 bars) ---
+2026-05-20 11:38:44 | DEBUG   | SPY | State 0→1 | break UP 2.05 SD
+2026-05-20 11:38:44 | DEBUG   | QQQ | State 0→1 | break UP 1.83 SD
+2026-05-20 11:38:45 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:38:45 | DEBUG   | SPY | State 0→1 | break UP 1.04 SD
+2026-05-20 11:38:45 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:38:45 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:38:45 | INFO    | 2026-04-14 done | running P&L: $4.22
+2026-05-20 11:38:45 | INFO    | --- 2026-04-15 (55 bars) ---
+2026-05-20 11:38:45 | DEBUG   | QQQ | State 0→1 | break UP 1.06 SD
+2026-05-20 11:38:45 | DEBUG   | SPY | State 0→1 | break UP 1.30 SD
+2026-05-20 11:38:45 | INFO    | SPY | State 1→2 | enter_short | slope=0.0379 ratio=0.705
+2026-05-20 11:38:45 | INFO    | Position opened | SPY short | 1 shares @ 697.23 | $697
+2026-05-20 11:38:46 | INFO    | SPY | State 2→0 | stall exit | progress=-136.5%
+2026-05-20 11:38:46 | INFO    | Position closed | SPY short | exit=697.76 | P&L=$-0.53 | reason=TP
+2026-05-20 11:38:46 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:38:46 | DEBUG   | SPY | State 0→1 | break DN -1.17 SD
+2026-05-20 11:38:46 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:46 | DEBUG   | SPY | State 0→1 | break UP 1.03 SD
+2026-05-20 11:38:46 | DEBUG   | QQQ | State 0→1 | break UP 1.12 SD
+2026-05-20 11:38:46 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0134 ratio=0.842
+2026-05-20 11:38:46 | INFO    | Position opened | QQQ short | 1 shares @ 633.31 | $633
+2026-05-20 11:38:46 | INFO    | QQQ | State 2→0 | stall exit | progress=-63.0%
+2026-05-20 11:38:46 | INFO    | Position closed | QQQ short | exit=633.82 | P&L=$-0.51 | reason=TP
+2026-05-20 11:38:46 | DEBUG   | QQQ | State 0→1 | break UP 1.76 SD
+2026-05-20 11:38:46 | INFO    | 2026-04-15 done | running P&L: $3.18
+2026-05-20 11:38:46 | INFO    | --- 2026-04-16 (55 bars) ---
+2026-05-20 11:38:46 | DEBUG   | SPY | State 0→1 | break UP 1.10 SD
+2026-05-20 11:38:46 | DEBUG   | QQQ | State 0→1 | break UP 1.42 SD
+2026-05-20 11:38:46 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:38:46 | DEBUG   | SPY | State 0→1 | break UP 1.40 SD
+2026-05-20 11:38:47 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:38:47 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:38:47 | DEBUG   | QQQ | State 0→1 | break DN -1.16 SD
+2026-05-20 11:38:47 | INFO    | 2026-04-16 done | running P&L: $3.18
+2026-05-20 11:38:47 | INFO    | --- 2026-04-17 (55 bars) ---
+2026-05-20 11:38:47 | DEBUG   | SPY | State 0→1 | break UP 1.47 SD
+2026-05-20 11:38:47 | DEBUG   | QQQ | State 0→1 | break UP 1.81 SD
+2026-05-20 11:38:48 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:48 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:38:48 | DEBUG   | SPY | State 0→1 | break UP 1.07 SD
+2026-05-20 11:38:48 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:38:48 | DEBUG   | SPY | State 0→1 | break UP 1.09 SD
+2026-05-20 11:38:48 | DEBUG   | QQQ | State 0→1 | break UP 1.01 SD
+2026-05-20 11:38:48 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:48 | DEBUG   | QQQ | State 0→1 | break UP 1.06 SD
+2026-05-20 11:38:48 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:48 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:48 | DEBUG   | SPY | State 0→1 | break DN -1.15 SD
+2026-05-20 11:38:48 | DEBUG   | QQQ | State 0→1 | break DN -1.56 SD
+2026-05-20 11:38:48 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:48 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:48 | DEBUG   | SPY | State 0→1 | break DN -1.08 SD
+2026-05-20 11:38:48 | DEBUG   | QQQ | State 0→1 | break DN -1.05 SD
+2026-05-20 11:38:48 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0112 ratio=0.834
+2026-05-20 11:38:48 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0118 ratio=0.899
+2026-05-20 11:38:48 | INFO    | Position opened | SPY long | 1 shares @ 709.63 | $710
+2026-05-20 11:38:48 | INFO    | Position closed | SPY long | exit=710.30 | P&L=$0.67 | reason=EOD
+2026-05-20 11:38:48 | INFO    | 2026-04-17 done | running P&L: $3.85
+2026-05-20 11:38:48 | INFO    | --- 2026-04-20 (55 bars) ---
+2026-05-20 11:38:49 | DEBUG   | QQQ | State 0→1 | break UP 1.22 SD
+2026-05-20 11:38:49 | INFO    | 2026-04-20 done | running P&L: $3.85
+2026-05-20 11:38:50 | INFO    | --- 2026-04-21 (55 bars) ---
+2026-05-20 11:38:50 | DEBUG   | SPY | State 0→1 | break DN -1.15 SD
+2026-05-20 11:38:50 | DEBUG   | QQQ | State 0→1 | break DN -1.02 SD
+2026-05-20 11:38:50 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:38:50 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:50 | DEBUG   | SPY | State 0→1 | break DN -1.19 SD
+2026-05-20 11:38:50 | DEBUG   | QQQ | State 0→1 | break DN -1.12 SD
+2026-05-20 11:38:50 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0386 ratio=0.885
+2026-05-20 11:38:50 | INFO    | Position opened | QQQ long | 1 shares @ 646.58 | $647
+2026-05-20 11:38:50 | INFO    | QQQ | State 2→0 | stall exit | progress=-63.4%
+2026-05-20 11:38:50 | INFO    | Position closed | QQQ long | exit=645.85 | P&L=$-0.73 | reason=TP
+2026-05-20 11:38:50 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0371 ratio=0.799
+2026-05-20 11:38:50 | INFO    | Position opened | SPY long | 1 shares @ 706.92 | $707
+2026-05-20 11:38:50 | INFO    | SPY | State 2→3 | stop hit at 705.58
+2026-05-20 11:38:50 | INFO    | Position closed | SPY long | exit=705.58 | P&L=$-1.34 | reason=SL
+2026-05-20 11:38:50 | DEBUG   | SPY | State 3 | cooldown 2 bars left
+2026-05-20 11:38:50 | DEBUG   | QQQ | State 0→1 | break DN -1.37 SD
+2026-05-20 11:38:50 | DEBUG   | SPY | State 3 | cooldown 1 bars left
+2026-05-20 11:38:50 | DEBUG   | SPY | State 3→0 | cooldown done, price inside band
+2026-05-20 11:38:50 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:38:51 | DEBUG   | SPY | State 0→1 | break DN -1.04 SD
+2026-05-20 11:38:51 | INFO    | 2026-04-21 done | running P&L: $1.78
+2026-05-20 11:38:51 | INFO    | --- 2026-04-22 (55 bars) ---
+2026-05-20 11:38:51 | DEBUG   | QQQ | State 0→1 | break UP 1.11 SD
+2026-05-20 11:38:51 | DEBUG   | SPY | State 0→1 | break DN -2.41 SD
+2026-05-20 11:38:51 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0307 ratio=0.860
+2026-05-20 11:38:51 | INFO    | Position opened | QQQ short | 1 shares @ 652.28 | $652
+2026-05-20 11:38:51 | INFO    | QQQ | State 2→0 | stall exit | progress=-272.7%
+2026-05-20 11:38:51 | INFO    | Position closed | QQQ short | exit=652.99 | P&L=$-0.71 | reason=TP
+2026-05-20 11:38:51 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:51 | DEBUG   | QQQ | State 0→1 | break UP 1.09 SD
+2026-05-20 11:38:51 | DEBUG   | SPY | State 0→1 | break UP 1.11 SD
+2026-05-20 11:38:51 | INFO    | SPY | State 1→2 | enter_short | slope=0.0080 ratio=0.857
+2026-05-20 11:38:51 | INFO    | Position opened | SPY short | 1 shares @ 710.19 | $710
+2026-05-20 11:38:52 | INFO    | SPY | State 2→0 | TP hit at 709.65
+2026-05-20 11:38:52 | INFO    | Position closed | SPY short | exit=709.64 | P&L=$0.55 | reason=TP
+2026-05-20 11:38:52 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:52 | DEBUG   | SPY | State 0→1 | break DN -1.08 SD
+2026-05-20 11:38:52 | INFO    | 2026-04-22 done | running P&L: $1.62
+2026-05-20 11:38:52 | INFO    | --- 2026-04-23 (55 bars) ---
+2026-05-20 11:38:52 | DEBUG   | SPY | State 0→1 | break UP 1.52 SD
+2026-05-20 11:38:52 | DEBUG   | QQQ | State 0→1 | break UP 1.70 SD
+2026-05-20 11:38:52 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:38:52 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:38:52 | DEBUG   | SPY | State 0→1 | break DN -2.23 SD
+2026-05-20 11:38:52 | DEBUG   | QQQ | State 0→1 | break DN -1.22 SD
+2026-05-20 11:38:53 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:38:53 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:38:53 | INFO    | 2026-04-23 done | running P&L: $1.62
+2026-05-20 11:38:53 | INFO    | --- 2026-04-24 (55 bars) ---
+2026-05-20 11:38:53 | DEBUG   | SPY | State 0→1 | break UP 1.57 SD
+2026-05-20 11:38:53 | DEBUG   | QQQ | State 0→1 | break UP 1.49 SD
+2026-05-20 11:38:53 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:38:53 | DEBUG   | SPY | State 0→1 | break UP 1.08 SD
+2026-05-20 11:38:53 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:38:54 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0356 ratio=0.730
+2026-05-20 11:38:54 | INFO    | Position opened | QQQ short | 1 shares @ 662.60 | $663
+2026-05-20 11:38:54 | INFO    | QQQ | State 2→0 | stall exit | progress=-88.8%
+2026-05-20 11:38:54 | INFO    | Position closed | QQQ short | exit=663.80 | P&L=$-1.20 | reason=TP
+2026-05-20 11:38:54 | DEBUG   | QQQ | State 0→1 | break UP 1.31 SD
+2026-05-20 11:38:54 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0487 ratio=0.882
+2026-05-20 11:38:54 | INFO    | Position opened | QQQ short | 1 shares @ 662.99 | $663
+2026-05-20 11:38:54 | INFO    | Position closed | QQQ short | exit=663.24 | P&L=$-0.25 | reason=EOD
+2026-05-20 11:38:54 | INFO    | 2026-04-24 done | running P&L: $0.17
+2026-05-20 11:38:54 | INFO    | --- 2026-04-27 (55 bars) ---
+2026-05-20 11:38:54 | DEBUG   | SPY | State 0→1 | break DN -1.12 SD
+2026-05-20 11:38:54 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:38:54 | DEBUG   | SPY | State 0→1 | break UP 1.20 SD
+2026-05-20 11:38:54 | DEBUG   | QQQ | State 0→1 | break UP 1.44 SD
+2026-05-20 11:38:54 | INFO    | SPY | State 1→2 | enter_short | slope=0.0336 ratio=0.727
+2026-05-20 11:38:54 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0102 ratio=0.727
+2026-05-20 11:38:54 | INFO    | Position opened | QQQ short | 1 shares @ 662.51 | $663
+2026-05-20 11:38:54 | INFO    | QQQ | State 2→3 | stop hit at 662.97
+2026-05-20 11:38:54 | INFO    | Position closed | QQQ short | exit=662.97 | P&L=$-0.46 | reason=SL
+2026-05-20 11:38:54 | DEBUG   | SPY | State 0→1 | break UP 1.68 SD
+2026-05-20 11:38:54 | DEBUG   | QQQ | State 3 | cooldown 2 bars left
+2026-05-20 11:38:54 | DEBUG   | QQQ | State 3 | cooldown 1 bars left
+2026-05-20 11:38:54 | INFO    | SPY | State 1→2 | enter_short | slope=0.0469 ratio=0.627
+2026-05-20 11:38:54 | INFO    | Position opened | SPY short | 1 shares @ 714.02 | $714
+2026-05-20 11:38:55 | INFO    | SPY | State 2→3 | stop hit at 714.34
+2026-05-20 11:38:55 | INFO    | Position closed | SPY short | exit=714.34 | P&L=$-0.32 | reason=SL
+2026-05-20 11:38:55 | DEBUG   | SPY | State 3 | cooldown 2 bars left
+2026-05-20 11:38:55 | DEBUG   | SPY | State 3 | cooldown 1 bars left
+2026-05-20 11:38:55 | INFO    | 2026-04-27 done | running P&L: $-0.60
+2026-05-20 11:38:55 | INFO    | --- 2026-04-28 (55 bars) ---
+2026-05-20 11:38:55 | DEBUG   | SPY | State 0→1 | break DN -1.32 SD
+2026-05-20 11:38:55 | DEBUG   | QQQ | State 0→1 | break DN -1.40 SD
+2026-05-20 11:38:55 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0331 ratio=0.862
+2026-05-20 11:38:55 | INFO    | Position opened | SPY long | 1 shares @ 709.89 | $710
+2026-05-20 11:38:55 | INFO    | SPY | State 2→0 | TP hit at 710.50
+2026-05-20 11:38:55 | INFO    | Position closed | SPY long | exit=710.49 | P&L=$0.60 | reason=TP
+2026-05-20 11:38:55 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0204 ratio=0.610
+2026-05-20 11:38:55 | INFO    | Position opened | QQQ long | 1 shares @ 655.27 | $655
+2026-05-20 11:38:56 | INFO    | QQQ | State 2→0 | TP hit at 655.71
+2026-05-20 11:38:56 | INFO    | Position closed | QQQ long | exit=655.74 | P&L=$0.47 | reason=TP
+2026-05-20 11:38:56 | DEBUG   | SPY | State 0→1 | break DN -1.13 SD
+2026-05-20 11:38:56 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:56 | DEBUG   | SPY | State 0→1 | break DN -1.08 SD
+2026-05-20 11:38:56 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0232 ratio=0.813
+2026-05-20 11:38:56 | INFO    | Position opened | SPY long | 1 shares @ 709.91 | $710
+2026-05-20 11:38:56 | INFO    | SPY | State 2→0 | TP hit at 710.46
+2026-05-20 11:38:56 | INFO    | Position closed | SPY long | exit=710.46 | P&L=$0.55 | reason=TP
+2026-05-20 11:38:56 | DEBUG   | SPY | State 0→1 | break UP 1.03 SD
+2026-05-20 11:38:56 | DEBUG   | QQQ | State 0→1 | break UP 1.02 SD
+2026-05-20 11:38:56 | INFO    | SPY | State 1→2 | enter_short | slope=0.0334 ratio=0.767
+2026-05-20 11:38:56 | INFO    | QQQ | State 1→2 | enter_short | slope=0.0190 ratio=0.738
+2026-05-20 11:38:56 | INFO    | Position opened | SPY short | 1 shares @ 710.89 | $711
+2026-05-20 11:38:56 | INFO    | SPY | State 2→3 | stop hit at 711.40
+2026-05-20 11:38:56 | INFO    | Position closed | SPY short | exit=711.41 | P&L=$-0.52 | reason=SL
+2026-05-20 11:38:56 | DEBUG   | SPY | State 3 | cooldown 2 bars left
+2026-05-20 11:38:56 | DEBUG   | QQQ | State 0→1 | break UP 1.48 SD
+2026-05-20 11:38:56 | DEBUG   | SPY | State 3 | cooldown 1 bars left
+2026-05-20 11:38:56 | INFO    | 2026-04-28 done | running P&L: $0.50
+2026-05-20 11:38:56 | INFO    | --- 2026-04-29 (55 bars) ---
+2026-05-20 11:38:56 | DEBUG   | SPY | State 0→1 | break DN -1.07 SD
+2026-05-20 11:38:56 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:56 | DEBUG   | SPY | State 0→1 | break DN -2.34 SD
+2026-05-20 11:38:56 | DEBUG   | QQQ | State 0→1 | break DN -1.28 SD
+2026-05-20 11:38:56 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:56 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:38:56 | DEBUG   | SPY | State 0→1 | break DN -1.40 SD
+2026-05-20 11:38:57 | DEBUG   | QQQ | State 0→1 | break DN -1.49 SD
+2026-05-20 11:38:57 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:57 | DEBUG   | SPY | State 0→1 | break DN -1.57 SD
+2026-05-20 11:38:57 | INFO    | SPY | State 1→2 | enter_long | slope=-0.0303 ratio=0.897
+2026-05-20 11:38:57 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0161 ratio=0.832
+2026-05-20 11:38:57 | INFO    | Position opened | SPY long | 1 shares @ 709.73 | $710
+2026-05-20 11:38:57 | INFO    | SPY | State 2→0 | TP hit at 710.46
+2026-05-20 11:38:57 | INFO    | Position closed | SPY long | exit=710.46 | P&L=$0.73 | reason=TP
+2026-05-20 11:38:57 | DEBUG   | SPY | State 0→1 | break DN -1.32 SD
+2026-05-20 11:38:57 | DEBUG   | QQQ | State 0→1 | break DN -1.11 SD
+2026-05-20 11:38:57 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:57 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:38:57 | DEBUG   | SPY | State 0→1 | break DN -1.33 SD
+2026-05-20 11:38:57 | INFO    | 2026-04-29 done | running P&L: $1.23
+2026-05-20 11:38:57 | INFO    | --- 2026-04-30 (55 bars) ---
+2026-05-20 11:38:57 | DEBUG   | SPY | State 0→1 | break UP 1.48 SD
+2026-05-20 11:38:57 | DEBUG   | QQQ | State 0→1 | break UP 1.66 SD
+2026-05-20 11:38:57 | DEBUG   | SPY | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:38:57 | DEBUG   | SPY | State 0→1 | break UP 1.10 SD
+2026-05-20 11:38:58 | INFO    | SPY | State 1→2 | enter_short | slope=0.0454 ratio=0.859
+2026-05-20 11:38:58 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:38:58 | INFO    | Position opened | SPY short | 1 shares @ 714.36 | $714
+2026-05-20 11:38:58 | INFO    | SPY | State 2→3 | stop hit at 715.56
+2026-05-20 11:38:58 | INFO    | Position closed | SPY short | exit=715.55 | P&L=$-1.19 | reason=SL
+2026-05-20 11:38:58 | DEBUG   | SPY | State 3 | cooldown 2 bars left
+2026-05-20 11:38:58 | DEBUG   | QQQ | State 0→1 | break UP 1.39 SD
+2026-05-20 11:38:58 | DEBUG   | SPY | State 3 | cooldown 1 bars left
+2026-05-20 11:38:58 | INFO    | 2026-04-30 done | running P&L: $0.04
+2026-05-20 11:38:58 | INFO    | ====================================================
+2026-05-20 11:38:58 | INFO    |   BACKTEST RESULTS
+2026-05-20 11:38:58 | INFO    | ====================================================
+2026-05-20 11:38:58 | INFO    |   Total trades    : 206
+2026-05-20 11:38:58 | INFO    |   Win rate        : 47.1%  (97W / 109L)
+2026-05-20 11:38:58 | INFO    |   Total P&L       : $0.04
+2026-05-20 11:38:58 | INFO    |   Avg winner      : $0.71
+2026-05-20 11:38:58 | INFO    |   Avg loser       : $-0.63
+2026-05-20 11:38:58 | INFO    |   R:R ratio       : 1.12
+2026-05-20 11:38:58 | INFO    |   Profit factor   : 1.00
+2026-05-20 11:38:58 | INFO    |   Max drawdown    : $12.67
+2026-05-20 11:38:58 | INFO    |   Exits — TP:137  SL:45  EOD:24
+2026-05-20 11:38:58 | INFO    | ====================================================
+2026-05-20 11:38:58 | INFO    | Trade log saved → /Users/rishi/Documents/vscode-projects/PNLV_algo/results/trades_2025-10-02_2026-04-30.csv

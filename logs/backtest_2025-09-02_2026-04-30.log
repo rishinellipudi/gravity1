@@ -1,0 +1,1686 @@
+2026-05-20 11:43:54 | INFO    | Backtest: 2025-09-02 → 2026-04-30 | symbols=['QQQ'] | size=$1000
+2026-05-20 11:44:00 | INFO    | --- 2025-09-02 (55 bars) ---
+2026-05-20 11:44:00 | DEBUG   | QQQ | State 0→1 | break DN -2.05 SD
+2026-05-20 11:44:01 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:01 | DEBUG   | QQQ | State 0→1 | break DN -1.09 SD
+2026-05-20 11:44:01 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0413 ratio=0.798
+2026-05-20 11:44:01 | INFO    | Position opened | QQQ long | 1 shares @ 561.09 | $561
+2026-05-20 11:44:01 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:01 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:44:01 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:44:01 | DEBUG   | QQQ | State 2 | bars_in_position=4
+2026-05-20 11:44:01 | DEBUG   | QQQ | State 2 | bars_in_position=5
+2026-05-20 11:44:01 | DEBUG   | QQQ | State 2 | bars_in_position=6
+2026-05-20 11:44:01 | DEBUG   | QQQ | State 2 | bars_in_position=7
+2026-05-20 11:44:01 | DEBUG   | QQQ | State 2 | bars_in_position=8
+2026-05-20 11:44:01 | INFO    | QQQ | State 2→0 | TP hit at 562.43
+2026-05-20 11:44:01 | INFO    | Position closed | QQQ long | exit=562.43 | P&L=$1.34 | reason=TP
+2026-05-20 11:44:01 | DEBUG   | QQQ | State 0→1 | break UP 1.08 SD
+2026-05-20 11:44:01 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:01 | INFO    | 2025-09-02 done | running P&L: $1.34
+2026-05-20 11:44:01 | INFO    | --- 2025-09-03 (55 bars) ---
+2026-05-20 11:44:01 | DEBUG   | QQQ | State 0→1 | break DN -1.22 SD
+2026-05-20 11:44:01 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0277 ratio=0.696
+2026-05-20 11:44:01 | INFO    | Position opened | QQQ long | 1 shares @ 569.64 | $570
+2026-05-20 11:44:01 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:01 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:44:01 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:44:01 | DEBUG   | QQQ | State 2 | bars_in_position=4
+2026-05-20 11:44:01 | DEBUG   | QQQ | State 2 | bars_in_position=5
+2026-05-20 11:44:01 | DEBUG   | QQQ | State 2 | bars_in_position=6
+2026-05-20 11:44:01 | INFO    | QQQ | State 2→0 | stall exit | progress=-42.5%
+2026-05-20 11:44:01 | INFO    | Position closed | QQQ long | exit=569.51 | P&L=$-0.13 | reason=TP
+2026-05-20 11:44:01 | DEBUG   | QQQ | State 0→1 | break DN -1.10 SD
+2026-05-20 11:44:01 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0286 ratio=0.803
+2026-05-20 11:44:01 | INFO    | Position opened | QQQ long | 1 shares @ 569.35 | $569
+2026-05-20 11:44:01 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:01 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:44:01 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:44:01 | INFO    | QQQ | State 2→0 | TP hit at 569.91
+2026-05-20 11:44:01 | INFO    | Position closed | QQQ long | exit=569.90 | P&L=$0.55 | reason=TP
+2026-05-20 11:44:01 | DEBUG   | QQQ | State 0→1 | break DN -1.06 SD
+2026-05-20 11:44:01 | INFO    | 2025-09-03 done | running P&L: $1.76
+2026-05-20 11:44:02 | INFO    | --- 2025-09-04 (55 bars) ---
+2026-05-20 11:44:02 | DEBUG   | QQQ | State 0→1 | break UP 1.16 SD
+2026-05-20 11:44:02 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:02 | DEBUG   | QQQ | State 0→1 | break UP 1.25 SD
+2026-05-20 11:44:02 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:02 | DEBUG   | QQQ | State 0→1 | break UP 1.43 SD
+2026-05-20 11:44:02 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:02 | DEBUG   | QQQ | State 0→1 | break UP 1.56 SD
+2026-05-20 11:44:02 | INFO    | 2025-09-04 done | running P&L: $1.76
+2026-05-20 11:44:02 | INFO    | --- 2025-09-05 (55 bars) ---
+2026-05-20 11:44:03 | INFO    | 2025-09-05 done | running P&L: $1.76
+2026-05-20 11:44:03 | INFO    | --- 2025-09-08 (55 bars) ---
+2026-05-20 11:44:03 | DEBUG   | QQQ | State 0→1 | break UP 1.07 SD
+2026-05-20 11:44:03 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:03 | DEBUG   | QQQ | State 0→1 | break DN -1.39 SD
+2026-05-20 11:44:03 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:03 | INFO    | 2025-09-08 done | running P&L: $1.76
+2026-05-20 11:44:03 | INFO    | --- 2025-09-09 (55 bars) ---
+2026-05-20 11:44:03 | DEBUG   | QQQ | State 0→1 | break UP 1.31 SD
+2026-05-20 11:44:03 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:03 | DEBUG   | QQQ | State 0→1 | break UP 1.15 SD
+2026-05-20 11:44:03 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:03 | DEBUG   | QQQ | State 0→1 | break UP 1.08 SD
+2026-05-20 11:44:04 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:04 | DEBUG   | QQQ | State 0→1 | break UP 1.18 SD
+2026-05-20 11:44:04 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:04 | INFO    | 2025-09-09 done | running P&L: $1.76
+2026-05-20 11:44:04 | INFO    | --- 2025-09-10 (55 bars) ---
+2026-05-20 11:44:04 | DEBUG   | QQQ | State 0→1 | break DN -2.09 SD
+2026-05-20 11:44:04 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0476 ratio=0.831
+2026-05-20 11:44:04 | INFO    | Position opened | QQQ long | 1 shares @ 582.47 | $582
+2026-05-20 11:44:04 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:04 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:44:04 | INFO    | QQQ | State 2→0 | TP hit at 582.75
+2026-05-20 11:44:04 | INFO    | Position closed | QQQ long | exit=582.75 | P&L=$0.28 | reason=TP
+2026-05-20 11:44:04 | DEBUG   | QQQ | State 0→1 | break DN -1.94 SD
+2026-05-20 11:44:04 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0380 ratio=0.824
+2026-05-20 11:44:04 | INFO    | Position opened | QQQ long | 1 shares @ 582.05 | $582
+2026-05-20 11:44:04 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:04 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:44:04 | INFO    | QQQ | State 2→3 | stop hit at 581.60
+2026-05-20 11:44:04 | INFO    | Position closed | QQQ long | exit=581.60 | P&L=$-0.45 | reason=SL
+2026-05-20 11:44:04 | DEBUG   | QQQ | State 3 | cooldown 2 bars left
+2026-05-20 11:44:04 | DEBUG   | QQQ | State 3 | cooldown 1 bars left
+2026-05-20 11:44:04 | INFO    | 2025-09-10 done | running P&L: $1.59
+2026-05-20 11:44:04 | INFO    | --- 2025-09-11 (55 bars) ---
+2026-05-20 11:44:04 | DEBUG   | QQQ | State 0→1 | break UP 1.62 SD
+2026-05-20 11:44:04 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:04 | DEBUG   | QQQ | State 0→1 | break UP 1.11 SD
+2026-05-20 11:44:05 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:05 | DEBUG   | QQQ | State 0→1 | break UP 1.63 SD
+2026-05-20 11:44:05 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:05 | DEBUG   | QQQ | State 0→1 | break UP 1.11 SD
+2026-05-20 11:44:05 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:05 | INFO    | 2025-09-11 done | running P&L: $1.59
+2026-05-20 11:44:05 | INFO    | --- 2025-09-12 (55 bars) ---
+2026-05-20 11:44:05 | DEBUG   | QQQ | State 0→1 | break UP 1.01 SD
+2026-05-20 11:44:05 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:05 | DEBUG   | QQQ | State 0→1 | break UP 1.10 SD
+2026-05-20 11:44:05 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:05 | DEBUG   | QQQ | State 0→1 | break UP 1.23 SD
+2026-05-20 11:44:05 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:05 | DEBUG   | QQQ | State 0→1 | break UP 1.28 SD
+2026-05-20 11:44:05 | INFO    | 2025-09-12 done | running P&L: $1.59
+2026-05-20 11:44:06 | INFO    | --- 2025-09-15 (55 bars) ---
+2026-05-20 11:44:06 | DEBUG   | QQQ | State 0→1 | break UP 2.15 SD
+2026-05-20 11:44:06 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:06 | DEBUG   | QQQ | State 0→1 | break UP 1.97 SD
+2026-05-20 11:44:06 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:06 | DEBUG   | QQQ | State 0→1 | break UP 1.14 SD
+2026-05-20 11:44:06 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:06 | INFO    | 2025-09-15 done | running P&L: $1.59
+2026-05-20 11:44:06 | INFO    | --- 2025-09-16 (55 bars) ---
+2026-05-20 11:44:06 | DEBUG   | QQQ | State 0→1 | break DN -2.39 SD
+2026-05-20 11:44:06 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:06 | DEBUG   | QQQ | State 0→1 | break DN -2.09 SD
+2026-05-20 11:44:06 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0342 ratio=0.887
+2026-05-20 11:44:06 | INFO    | Position opened | QQQ long | 1 shares @ 590.96 | $591
+2026-05-20 11:44:06 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:06 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:44:06 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:44:06 | DEBUG   | QQQ | State 2 | bars_in_position=4
+2026-05-20 11:44:06 | DEBUG   | QQQ | State 2 | bars_in_position=5
+2026-05-20 11:44:06 | DEBUG   | QQQ | State 2 | bars_in_position=6
+2026-05-20 11:44:06 | DEBUG   | QQQ | State 2 | bars_in_position=7
+2026-05-20 11:44:06 | DEBUG   | QQQ | State 2 | bars_in_position=8
+2026-05-20 11:44:06 | DEBUG   | QQQ | State 2 | bars_in_position=9
+2026-05-20 11:44:06 | DEBUG   | QQQ | State 2 | bars_in_position=10
+2026-05-20 11:44:06 | INFO    | QQQ | State 2→0 | TP hit at 591.28
+2026-05-20 11:44:06 | INFO    | Position closed | QQQ long | exit=591.27 | P&L=$0.32 | reason=TP
+2026-05-20 11:44:06 | DEBUG   | QQQ | State 0→1 | break UP 1.21 SD
+2026-05-20 11:44:06 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:07 | INFO    | 2025-09-16 done | running P&L: $1.91
+2026-05-20 11:44:07 | INFO    | --- 2025-09-17 (55 bars) ---
+2026-05-20 11:44:07 | DEBUG   | QQQ | State 0→1 | break DN -1.25 SD
+2026-05-20 11:44:07 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0426 ratio=0.663
+2026-05-20 11:44:07 | INFO    | Position opened | QQQ long | 1 shares @ 588.44 | $588
+2026-05-20 11:44:07 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:07 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:44:07 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:44:07 | INFO    | QQQ | State 2→3 | stop hit at 587.68
+2026-05-20 11:44:07 | INFO    | Position closed | QQQ long | exit=587.69 | P&L=$-0.75 | reason=SL
+2026-05-20 11:44:07 | DEBUG   | QQQ | State 3 | cooldown 2 bars left
+2026-05-20 11:44:07 | DEBUG   | QQQ | State 3 | cooldown 1 bars left
+2026-05-20 11:44:07 | DEBUG   | QQQ | State 3→0 | cooldown done, price inside band
+2026-05-20 11:44:07 | DEBUG   | QQQ | State 0→1 | break UP 1.10 SD
+2026-05-20 11:44:07 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:07 | DEBUG   | QQQ | State 0→1 | break DN -2.92 SD
+2026-05-20 11:44:07 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:07 | INFO    | 2025-09-17 done | running P&L: $1.16
+2026-05-20 11:44:07 | INFO    | --- 2025-09-18 (55 bars) ---
+2026-05-20 11:44:07 | DEBUG   | QQQ | State 0→1 | break DN -1.08 SD
+2026-05-20 11:44:07 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:07 | DEBUG   | QQQ | State 0→1 | break DN -1.54 SD
+2026-05-20 11:44:07 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:07 | DEBUG   | QQQ | State 0→1 | break UP 1.10 SD
+2026-05-20 11:44:07 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:07 | DEBUG   | QQQ | State 0→1 | break UP 1.07 SD
+2026-05-20 11:44:08 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:08 | DEBUG   | QQQ | State 0→1 | break DN -1.42 SD
+2026-05-20 11:44:08 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:08 | DEBUG   | QQQ | State 0→1 | break DN -1.39 SD
+2026-05-20 11:44:08 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:08 | DEBUG   | QQQ | State 0→1 | break DN -1.18 SD
+2026-05-20 11:44:08 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:08 | DEBUG   | QQQ | State 0→1 | break DN -1.16 SD
+2026-05-20 11:44:08 | INFO    | 2025-09-18 done | running P&L: $1.16
+2026-05-20 11:44:08 | INFO    | --- 2025-09-19 (55 bars) ---
+2026-05-20 11:44:08 | DEBUG   | QQQ | State 0→1 | break DN -1.30 SD
+2026-05-20 11:44:08 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:08 | DEBUG   | QQQ | State 0→1 | break UP 1.72 SD
+2026-05-20 11:44:08 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:08 | DEBUG   | QQQ | State 0→1 | break UP 1.06 SD
+2026-05-20 11:44:08 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:08 | INFO    | 2025-09-19 done | running P&L: $1.16
+2026-05-20 11:44:08 | INFO    | --- 2025-09-22 (55 bars) ---
+2026-05-20 11:44:08 | DEBUG   | QQQ | State 0→1 | break UP 1.88 SD
+2026-05-20 11:44:09 | INFO    | 2025-09-22 done | running P&L: $1.16
+2026-05-20 11:44:09 | INFO    | --- 2025-09-23 (55 bars) ---
+2026-05-20 11:44:09 | DEBUG   | QQQ | State 0→1 | break DN -1.24 SD
+2026-05-20 11:44:09 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:09 | DEBUG   | QQQ | State 0→1 | break DN -1.61 SD
+2026-05-20 11:44:09 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:09 | DEBUG   | QQQ | State 0→1 | break DN -1.86 SD
+2026-05-20 11:44:09 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:09 | DEBUG   | QQQ | State 0→1 | break DN -1.81 SD
+2026-05-20 11:44:09 | INFO    | 2025-09-23 done | running P&L: $1.16
+2026-05-20 11:44:09 | INFO    | --- 2025-09-24 (55 bars) ---
+2026-05-20 11:44:10 | DEBUG   | QQQ | State 0→1 | break DN -2.66 SD
+2026-05-20 11:44:10 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:10 | INFO    | 2025-09-24 done | running P&L: $1.16
+2026-05-20 11:44:10 | INFO    | --- 2025-09-25 (55 bars) ---
+2026-05-20 11:44:10 | DEBUG   | QQQ | State 0→1 | break UP 1.09 SD
+2026-05-20 11:44:10 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:10 | DEBUG   | QQQ | State 0→1 | break UP 1.01 SD
+2026-05-20 11:44:10 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:10 | DEBUG   | QQQ | State 0→1 | break DN -1.21 SD
+2026-05-20 11:44:10 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:10 | DEBUG   | QQQ | State 0→1 | break DN -1.00 SD
+2026-05-20 11:44:10 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:10 | INFO    | 2025-09-25 done | running P&L: $1.16
+2026-05-20 11:44:11 | INFO    | --- 2025-09-26 (55 bars) ---
+2026-05-20 11:44:11 | DEBUG   | QQQ | State 0→1 | break UP 2.15 SD
+2026-05-20 11:44:11 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:11 | DEBUG   | QQQ | State 0→1 | break UP 1.27 SD
+2026-05-20 11:44:11 | INFO    | 2025-09-26 done | running P&L: $1.16
+2026-05-20 11:44:11 | INFO    | --- 2025-09-29 (55 bars) ---
+2026-05-20 11:44:11 | DEBUG   | QQQ | State 0→1 | break DN -2.08 SD
+2026-05-20 11:44:11 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:11 | DEBUG   | QQQ | State 0→1 | break DN -1.07 SD
+2026-05-20 11:44:11 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0407 ratio=0.886
+2026-05-20 11:44:11 | INFO    | Position opened | QQQ long | 1 shares @ 599.04 | $599
+2026-05-20 11:44:12 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:12 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:44:12 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:44:12 | DEBUG   | QQQ | State 2 | bars_in_position=4
+2026-05-20 11:44:12 | DEBUG   | QQQ | State 2 | bars_in_position=5
+2026-05-20 11:44:12 | DEBUG   | QQQ | State 2 | bars_in_position=6
+2026-05-20 11:44:12 | DEBUG   | QQQ | State 2 | bars_in_position=7
+2026-05-20 11:44:12 | INFO    | Position closed | QQQ long | exit=599.21 | P&L=$0.17 | reason=EOD
+2026-05-20 11:44:12 | INFO    | 2025-09-29 done | running P&L: $1.33
+2026-05-20 11:44:12 | INFO    | --- 2025-09-30 (55 bars) ---
+2026-05-20 11:44:12 | DEBUG   | QQQ | State 0→1 | break DN -1.13 SD
+2026-05-20 11:44:12 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0260 ratio=0.857
+2026-05-20 11:44:12 | INFO    | Position opened | QQQ long | 1 shares @ 597.22 | $597
+2026-05-20 11:44:12 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:12 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:44:12 | INFO    | QQQ | State 2→0 | TP hit at 597.99
+2026-05-20 11:44:12 | INFO    | Position closed | QQQ long | exit=597.97 | P&L=$0.75 | reason=TP
+2026-05-20 11:44:12 | DEBUG   | QQQ | State 0→1 | break DN -1.22 SD
+2026-05-20 11:44:12 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:12 | DEBUG   | QQQ | State 0→1 | break UP 1.28 SD
+2026-05-20 11:44:12 | INFO    | 2025-09-30 done | running P&L: $2.08
+2026-05-20 11:44:12 | INFO    | --- 2025-10-01 (55 bars) ---
+2026-05-20 11:44:12 | DEBUG   | QQQ | State 0→1 | break UP 1.02 SD
+2026-05-20 11:44:13 | INFO    | 2025-10-01 done | running P&L: $2.08
+2026-05-20 11:44:13 | INFO    | --- 2025-10-02 (55 bars) ---
+2026-05-20 11:44:13 | DEBUG   | QQQ | State 0→1 | break DN -1.20 SD
+2026-05-20 11:44:13 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0215 ratio=0.826
+2026-05-20 11:44:13 | INFO    | Position opened | QQQ long | 1 shares @ 603.72 | $604
+2026-05-20 11:44:13 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:13 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:44:13 | INFO    | QQQ | State 2→0 | TP hit at 604.61
+2026-05-20 11:44:13 | INFO    | Position closed | QQQ long | exit=604.61 | P&L=$0.89 | reason=TP
+2026-05-20 11:44:13 | DEBUG   | QQQ | State 0→1 | break UP 1.24 SD
+2026-05-20 11:44:13 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:13 | DEBUG   | QQQ | State 0→1 | break UP 1.23 SD
+2026-05-20 11:44:13 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:13 | DEBUG   | QQQ | State 0→1 | break UP 1.23 SD
+2026-05-20 11:44:13 | INFO    | 2025-10-02 done | running P&L: $2.98
+2026-05-20 11:44:13 | INFO    | --- 2025-10-03 (55 bars) ---
+2026-05-20 11:44:13 | DEBUG   | QQQ | State 0→1 | break UP 1.32 SD
+2026-05-20 11:44:13 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:13 | DEBUG   | QQQ | State 0→1 | break UP 1.09 SD
+2026-05-20 11:44:14 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:14 | DEBUG   | QQQ | State 0→1 | break DN -2.32 SD
+2026-05-20 11:44:14 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:14 | DEBUG   | QQQ | State 0→1 | break DN -1.98 SD
+2026-05-20 11:44:14 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:14 | INFO    | 2025-10-03 done | running P&L: $2.98
+2026-05-20 11:44:14 | INFO    | --- 2025-10-06 (55 bars) ---
+2026-05-20 11:44:14 | DEBUG   | QQQ | State 0→1 | break UP 1.60 SD
+2026-05-20 11:44:14 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:14 | DEBUG   | QQQ | State 0→1 | break UP 1.20 SD
+2026-05-20 11:44:14 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:14 | DEBUG   | QQQ | State 0→1 | break UP 1.16 SD
+2026-05-20 11:44:14 | INFO    | 2025-10-06 done | running P&L: $2.98
+2026-05-20 11:44:14 | INFO    | --- 2025-10-07 (55 bars) ---
+2026-05-20 11:44:15 | DEBUG   | QQQ | State 0→1 | break DN -1.53 SD
+2026-05-20 11:44:15 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:15 | DEBUG   | QQQ | State 0→1 | break DN -1.05 SD
+2026-05-20 11:44:15 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:15 | DEBUG   | QQQ | State 0→1 | break DN -1.15 SD
+2026-05-20 11:44:15 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0367 ratio=0.859
+2026-05-20 11:44:15 | INFO    | Position opened | QQQ long | 1 shares @ 603.91 | $604
+2026-05-20 11:44:15 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:15 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:44:15 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:44:15 | DEBUG   | QQQ | State 2 | bars_in_position=4
+2026-05-20 11:44:15 | INFO    | Position closed | QQQ long | exit=604.29 | P&L=$0.38 | reason=EOD
+2026-05-20 11:44:15 | INFO    | 2025-10-07 done | running P&L: $3.36
+2026-05-20 11:44:15 | INFO    | --- 2025-10-08 (55 bars) ---
+2026-05-20 11:44:15 | DEBUG   | QQQ | State 0→1 | break UP 2.08 SD
+2026-05-20 11:44:15 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:15 | DEBUG   | QQQ | State 0→1 | break UP 1.22 SD
+2026-05-20 11:44:15 | INFO    | 2025-10-08 done | running P&L: $3.36
+2026-05-20 11:44:16 | INFO    | --- 2025-10-09 (55 bars) ---
+2026-05-20 11:44:16 | DEBUG   | QQQ | State 0→1 | break DN -1.71 SD
+2026-05-20 11:44:16 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:16 | DEBUG   | QQQ | State 0→1 | break DN -1.24 SD
+2026-05-20 11:44:16 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:16 | DEBUG   | QQQ | State 0→1 | break UP 1.07 SD
+2026-05-20 11:44:16 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:16 | DEBUG   | QQQ | State 0→1 | break DN -2.00 SD
+2026-05-20 11:44:16 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:16 | DEBUG   | QQQ | State 0→1 | break DN -1.88 SD
+2026-05-20 11:44:16 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:16 | DEBUG   | QQQ | State 0→1 | break DN -1.03 SD
+2026-05-20 11:44:16 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0237 ratio=0.885
+2026-05-20 11:44:16 | INFO    | Position opened | QQQ long | 1 shares @ 608.80 | $609
+2026-05-20 11:44:16 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:16 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:44:16 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:44:16 | DEBUG   | QQQ | State 2 | bars_in_position=4
+2026-05-20 11:44:16 | DEBUG   | QQQ | State 2 | bars_in_position=5
+2026-05-20 11:44:16 | DEBUG   | QQQ | State 2 | bars_in_position=6
+2026-05-20 11:44:16 | INFO    | QQQ | State 2→0 | stall exit | progress=-16.5%
+2026-05-20 11:44:16 | INFO    | Position closed | QQQ long | exit=608.73 | P&L=$-0.07 | reason=TP
+2026-05-20 11:44:16 | INFO    | 2025-10-09 done | running P&L: $3.29
+2026-05-20 11:44:16 | INFO    | --- 2025-10-10 (55 bars) ---
+2026-05-20 11:44:16 | DEBUG   | QQQ | State 0→1 | break DN -1.57 SD
+2026-05-20 11:44:16 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:16 | DEBUG   | QQQ | State 0→1 | break DN -1.06 SD
+2026-05-20 11:44:16 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:16 | DEBUG   | QQQ | State 0→1 | break DN -1.12 SD
+2026-05-20 11:44:16 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0462 ratio=0.741
+2026-05-20 11:44:17 | INFO    | Position opened | QQQ long | 1 shares @ 596.22 | $596
+2026-05-20 11:44:17 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:17 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:44:17 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:44:17 | DEBUG   | QQQ | State 2 | bars_in_position=4
+2026-05-20 11:44:17 | DEBUG   | QQQ | State 2 | bars_in_position=5
+2026-05-20 11:44:17 | DEBUG   | QQQ | State 2 | bars_in_position=6
+2026-05-20 11:44:17 | INFO    | QQQ | State 2→0 | stall exit | progress=-6.3%
+2026-05-20 11:44:17 | INFO    | Position closed | QQQ long | exit=595.88 | P&L=$-0.34 | reason=TP
+2026-05-20 11:44:17 | INFO    | 2025-10-10 done | running P&L: $2.95
+2026-05-20 11:44:17 | INFO    | --- 2025-10-13 (55 bars) ---
+2026-05-20 11:44:17 | DEBUG   | QQQ | State 0→1 | break UP 1.08 SD
+2026-05-20 11:44:17 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:17 | DEBUG   | QQQ | State 0→1 | break UP 1.45 SD
+2026-05-20 11:44:17 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:17 | DEBUG   | QQQ | State 0→1 | break UP 1.14 SD
+2026-05-20 11:44:17 | INFO    | 2025-10-13 done | running P&L: $2.95
+2026-05-20 11:44:17 | INFO    | --- 2025-10-14 (55 bars) ---
+2026-05-20 11:44:17 | DEBUG   | QQQ | State 0→1 | break UP 1.74 SD
+2026-05-20 11:44:17 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:17 | DEBUG   | QQQ | State 0→1 | break UP 1.36 SD
+2026-05-20 11:44:18 | INFO    | 2025-10-14 done | running P&L: $2.95
+2026-05-20 11:44:18 | INFO    | --- 2025-10-15 (55 bars) ---
+2026-05-20 11:44:18 | DEBUG   | QQQ | State 0→1 | break DN -2.51 SD
+2026-05-20 11:44:18 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:18 | DEBUG   | QQQ | State 0→1 | break DN -1.05 SD
+2026-05-20 11:44:18 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:18 | DEBUG   | QQQ | State 0→1 | break DN -1.30 SD
+2026-05-20 11:44:18 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:18 | INFO    | 2025-10-15 done | running P&L: $2.95
+2026-05-20 11:44:18 | INFO    | --- 2025-10-16 (55 bars) ---
+2026-05-20 11:44:18 | DEBUG   | QQQ | State 0→1 | break DN -1.12 SD
+2026-05-20 11:44:19 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:19 | DEBUG   | QQQ | State 0→1 | break DN -1.08 SD
+2026-05-20 11:44:19 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:19 | DEBUG   | QQQ | State 0→1 | break DN -1.19 SD
+2026-05-20 11:44:19 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0206 ratio=0.766
+2026-05-20 11:44:19 | INFO    | Position opened | QQQ long | 1 shares @ 600.78 | $601
+2026-05-20 11:44:19 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:19 | INFO    | QQQ | State 2→3 | stop hit at 599.12
+2026-05-20 11:44:19 | INFO    | Position closed | QQQ long | exit=599.14 | P&L=$-1.64 | reason=SL
+2026-05-20 11:44:19 | DEBUG   | QQQ | State 3 | cooldown 2 bars left
+2026-05-20 11:44:19 | DEBUG   | QQQ | State 3 | cooldown 1 bars left
+2026-05-20 11:44:19 | INFO    | 2025-10-16 done | running P&L: $1.31
+2026-05-20 11:44:19 | INFO    | --- 2025-10-17 (55 bars) ---
+2026-05-20 11:44:19 | DEBUG   | QQQ | State 0→1 | break DN -1.69 SD
+2026-05-20 11:44:19 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:19 | DEBUG   | QQQ | State 0→1 | break UP 1.57 SD
+2026-05-20 11:44:19 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:19 | DEBUG   | QQQ | State 0→1 | break UP 1.39 SD
+2026-05-20 11:44:19 | INFO    | 2025-10-17 done | running P&L: $1.31
+2026-05-20 11:44:19 | INFO    | --- 2025-10-20 (55 bars) ---
+2026-05-20 11:44:19 | DEBUG   | QQQ | State 0→1 | break UP 1.18 SD
+2026-05-20 11:44:19 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:20 | DEBUG   | QQQ | State 0→1 | break UP 1.50 SD
+2026-05-20 11:44:20 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:20 | DEBUG   | QQQ | State 0→1 | break UP 1.39 SD
+2026-05-20 11:44:20 | INFO    | 2025-10-20 done | running P&L: $1.31
+2026-05-20 11:44:20 | INFO    | --- 2025-10-21 (55 bars) ---
+2026-05-20 11:44:20 | DEBUG   | QQQ | State 0→1 | break UP 1.33 SD
+2026-05-20 11:44:20 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:20 | DEBUG   | QQQ | State 0→1 | break UP 1.93 SD
+2026-05-20 11:44:20 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:20 | DEBUG   | QQQ | State 0→1 | break UP 1.01 SD
+2026-05-20 11:44:20 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:20 | INFO    | 2025-10-21 done | running P&L: $1.31
+2026-05-20 11:44:21 | INFO    | --- 2025-10-22 (55 bars) ---
+2026-05-20 11:44:21 | DEBUG   | QQQ | State 0→1 | break DN -1.70 SD
+2026-05-20 11:44:21 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:21 | DEBUG   | QQQ | State 0→1 | break DN -1.53 SD
+2026-05-20 11:44:21 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:21 | DEBUG   | QQQ | State 0→1 | break DN -1.05 SD
+2026-05-20 11:44:21 | INFO    | 2025-10-22 done | running P&L: $1.31
+2026-05-20 11:44:21 | INFO    | --- 2025-10-23 (55 bars) ---
+2026-05-20 11:44:21 | DEBUG   | QQQ | State 0→1 | break UP 1.44 SD
+2026-05-20 11:44:21 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:21 | DEBUG   | QQQ | State 0→1 | break DN -1.18 SD
+2026-05-20 11:44:21 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:21 | DEBUG   | QQQ | State 0→1 | break UP 1.79 SD
+2026-05-20 11:44:21 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:21 | DEBUG   | QQQ | State 0→1 | break UP 1.39 SD
+2026-05-20 11:44:21 | INFO    | 2025-10-23 done | running P&L: $1.31
+2026-05-20 11:44:22 | INFO    | --- 2025-10-24 (55 bars) ---
+2026-05-20 11:44:22 | DEBUG   | QQQ | State 0→1 | break UP 1.08 SD
+2026-05-20 11:44:22 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:22 | DEBUG   | QQQ | State 0→1 | break UP 1.10 SD
+2026-05-20 11:44:22 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:22 | DEBUG   | QQQ | State 0→1 | break UP 1.45 SD
+2026-05-20 11:44:22 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:22 | DEBUG   | QQQ | State 0→1 | break UP 1.10 SD
+2026-05-20 11:44:22 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:22 | INFO    | 2025-10-24 done | running P&L: $1.31
+2026-05-20 11:44:22 | INFO    | --- 2025-10-27 (55 bars) ---
+2026-05-20 11:44:22 | DEBUG   | QQQ | State 0→1 | break UP 1.79 SD
+2026-05-20 11:44:22 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:22 | DEBUG   | QQQ | State 0→1 | break UP 1.01 SD
+2026-05-20 11:44:22 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:22 | DEBUG   | QQQ | State 0→1 | break UP 1.09 SD
+2026-05-20 11:44:23 | INFO    | 2025-10-27 done | running P&L: $1.31
+2026-05-20 11:44:23 | INFO    | --- 2025-10-28 (55 bars) ---
+2026-05-20 11:44:23 | DEBUG   | QQQ | State 0→1 | break DN -1.29 SD
+2026-05-20 11:44:23 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:23 | DEBUG   | QQQ | State 0→1 | break UP 1.35 SD
+2026-05-20 11:44:23 | INFO    | 2025-10-28 done | running P&L: $1.31
+2026-05-20 11:44:23 | INFO    | --- 2025-10-29 (55 bars) ---
+2026-05-20 11:44:23 | DEBUG   | QQQ | State 0→1 | break DN -2.39 SD
+2026-05-20 11:44:23 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:24 | DEBUG   | QQQ | State 0→1 | break DN -1.32 SD
+2026-05-20 11:44:24 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0191 ratio=0.798
+2026-05-20 11:44:24 | INFO    | Position opened | QQQ long | 1 shares @ 634.93 | $635
+2026-05-20 11:44:24 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:24 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:44:24 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:44:24 | DEBUG   | QQQ | State 2 | bars_in_position=4
+2026-05-20 11:44:24 | DEBUG   | QQQ | State 2 | bars_in_position=5
+2026-05-20 11:44:24 | DEBUG   | QQQ | State 2 | bars_in_position=6
+2026-05-20 11:44:24 | INFO    | QQQ | State 2→0 | stall exit | progress=11.5%
+2026-05-20 11:44:24 | INFO    | Position closed | QQQ long | exit=634.99 | P&L=$0.06 | reason=TP
+2026-05-20 11:44:24 | DEBUG   | QQQ | State 0→1 | break DN -1.49 SD
+2026-05-20 11:44:24 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:24 | INFO    | 2025-10-29 done | running P&L: $1.36
+2026-05-20 11:44:24 | INFO    | --- 2025-10-30 (55 bars) ---
+2026-05-20 11:44:24 | DEBUG   | QQQ | State 0→1 | break DN -1.74 SD
+2026-05-20 11:44:24 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0406 ratio=0.771
+2026-05-20 11:44:24 | INFO    | Position opened | QQQ long | 1 shares @ 629.91 | $630
+2026-05-20 11:44:24 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:24 | INFO    | QQQ | State 2→0 | TP hit at 630.78
+2026-05-20 11:44:24 | INFO    | Position closed | QQQ long | exit=630.80 | P&L=$0.89 | reason=TP
+2026-05-20 11:44:24 | DEBUG   | QQQ | State 0→1 | break UP 1.07 SD
+2026-05-20 11:44:24 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:24 | DEBUG   | QQQ | State 0→1 | break DN -1.17 SD
+2026-05-20 11:44:24 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0075 ratio=0.765
+2026-05-20 11:44:24 | INFO    | Position opened | QQQ long | 1 shares @ 629.66 | $630
+2026-05-20 11:44:24 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:24 | INFO    | QQQ | State 2→0 | TP hit at 630.42
+2026-05-20 11:44:24 | INFO    | Position closed | QQQ long | exit=630.45 | P&L=$0.79 | reason=TP
+2026-05-20 11:44:24 | DEBUG   | QQQ | State 0→1 | break DN -1.29 SD
+2026-05-20 11:44:24 | INFO    | 2025-10-30 done | running P&L: $3.04
+2026-05-20 11:44:24 | INFO    | --- 2025-10-31 (55 bars) ---
+2026-05-20 11:44:24 | DEBUG   | QQQ | State 0→1 | break DN -1.62 SD
+2026-05-20 11:44:25 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:25 | DEBUG   | QQQ | State 0→1 | break DN -1.12 SD
+2026-05-20 11:44:25 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0474 ratio=0.893
+2026-05-20 11:44:25 | INFO    | Position opened | QQQ long | 1 shares @ 628.86 | $629
+2026-05-20 11:44:25 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:25 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:44:25 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:44:25 | DEBUG   | QQQ | State 2 | bars_in_position=4
+2026-05-20 11:44:25 | DEBUG   | QQQ | State 2 | bars_in_position=5
+2026-05-20 11:44:25 | INFO    | Position closed | QQQ long | exit=629.40 | P&L=$0.54 | reason=EOD
+2026-05-20 11:44:25 | INFO    | 2025-10-31 done | running P&L: $3.58
+2026-05-20 11:44:25 | INFO    | --- 2025-11-03 (55 bars) ---
+2026-05-20 11:44:25 | DEBUG   | QQQ | State 0→1 | break UP 1.32 SD
+2026-05-20 11:44:25 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:25 | DEBUG   | QQQ | State 0→1 | break UP 1.38 SD
+2026-05-20 11:44:25 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:25 | DEBUG   | QQQ | State 0→1 | break UP 1.62 SD
+2026-05-20 11:44:25 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:25 | INFO    | 2025-11-03 done | running P&L: $3.58
+2026-05-20 11:44:25 | INFO    | --- 2025-11-04 (55 bars) ---
+2026-05-20 11:44:26 | DEBUG   | QQQ | State 0→1 | break DN -1.44 SD
+2026-05-20 11:44:26 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:26 | DEBUG   | QQQ | State 0→1 | break DN -1.23 SD
+2026-05-20 11:44:26 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:26 | DEBUG   | QQQ | State 0→1 | break DN -1.16 SD
+2026-05-20 11:44:26 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0328 ratio=0.876
+2026-05-20 11:44:26 | INFO    | Position opened | QQQ long | 1 shares @ 621.45 | $621
+2026-05-20 11:44:26 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:26 | INFO    | Position closed | QQQ long | exit=620.98 | P&L=$-0.47 | reason=EOD
+2026-05-20 11:44:26 | INFO    | 2025-11-04 done | running P&L: $3.11
+2026-05-20 11:44:26 | INFO    | --- 2025-11-05 (55 bars) ---
+2026-05-20 11:44:26 | DEBUG   | QQQ | State 0→1 | break UP 2.31 SD
+2026-05-20 11:44:26 | INFO    | 2025-11-05 done | running P&L: $3.11
+2026-05-20 11:44:27 | INFO    | --- 2025-11-06 (55 bars) ---
+2026-05-20 11:44:27 | DEBUG   | QQQ | State 0→1 | break DN -1.27 SD
+2026-05-20 11:44:27 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:27 | DEBUG   | QQQ | State 0→1 | break DN -1.16 SD
+2026-05-20 11:44:27 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0379 ratio=0.842
+2026-05-20 11:44:27 | INFO    | Position opened | QQQ long | 1 shares @ 612.55 | $613
+2026-05-20 11:44:27 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:27 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:44:27 | INFO    | QQQ | State 2→0 | TP hit at 613.93
+2026-05-20 11:44:27 | INFO    | Position closed | QQQ long | exit=613.94 | P&L=$1.39 | reason=TP
+2026-05-20 11:44:27 | DEBUG   | QQQ | State 0→1 | break DN -1.23 SD
+2026-05-20 11:44:27 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0193 ratio=0.782
+2026-05-20 11:44:27 | INFO    | Position opened | QQQ long | 1 shares @ 611.70 | $612
+2026-05-20 11:44:27 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:27 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:44:27 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:44:27 | INFO    | QQQ | State 2→0 | TP hit at 613.69
+2026-05-20 11:44:27 | INFO    | Position closed | QQQ long | exit=613.69 | P&L=$1.99 | reason=TP
+2026-05-20 11:44:27 | DEBUG   | QQQ | State 0→1 | break UP 1.20 SD
+2026-05-20 11:44:27 | INFO    | 2025-11-06 done | running P&L: $6.49
+2026-05-20 11:44:27 | INFO    | --- 2025-11-07 (55 bars) ---
+2026-05-20 11:44:27 | DEBUG   | QQQ | State 0→1 | break DN -1.03 SD
+2026-05-20 11:44:27 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:27 | DEBUG   | QQQ | State 0→1 | break UP 1.24 SD
+2026-05-20 11:44:28 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:28 | DEBUG   | QQQ | State 0→1 | break UP 1.01 SD
+2026-05-20 11:44:28 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:28 | DEBUG   | QQQ | State 0→1 | break UP 1.31 SD
+2026-05-20 11:44:28 | INFO    | 2025-11-07 done | running P&L: $6.49
+2026-05-20 11:44:28 | INFO    | --- 2025-11-10 (55 bars) ---
+2026-05-20 11:44:28 | DEBUG   | QQQ | State 0→1 | break DN -1.31 SD
+2026-05-20 11:44:28 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:28 | DEBUG   | QQQ | State 0→1 | break UP 1.13 SD
+2026-05-20 11:44:28 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:28 | DEBUG   | QQQ | State 0→1 | break UP 1.29 SD
+2026-05-20 11:44:28 | INFO    | 2025-11-10 done | running P&L: $6.49
+2026-05-20 11:44:28 | INFO    | --- 2025-11-11 (55 bars) ---
+2026-05-20 11:44:28 | DEBUG   | QQQ | State 0→1 | break DN -1.04 SD
+2026-05-20 11:44:28 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0162 ratio=0.895
+2026-05-20 11:44:28 | INFO    | Position opened | QQQ long | 1 shares @ 618.93 | $619
+2026-05-20 11:44:28 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:28 | INFO    | QQQ | State 2→0 | TP hit at 619.43
+2026-05-20 11:44:28 | INFO    | Position closed | QQQ long | exit=619.47 | P&L=$0.54 | reason=TP
+2026-05-20 11:44:28 | DEBUG   | QQQ | State 0→1 | break UP 1.45 SD
+2026-05-20 11:44:28 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:28 | DEBUG   | QQQ | State 0→1 | break UP 1.38 SD
+2026-05-20 11:44:29 | INFO    | 2025-11-11 done | running P&L: $7.03
+2026-05-20 11:44:29 | INFO    | --- 2025-11-12 (55 bars) ---
+2026-05-20 11:44:29 | DEBUG   | QQQ | State 0→1 | break DN -2.07 SD
+2026-05-20 11:44:29 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0327 ratio=0.868
+2026-05-20 11:44:29 | INFO    | Position opened | QQQ long | 1 shares @ 619.02 | $619
+2026-05-20 11:44:29 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:29 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:44:29 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:44:29 | DEBUG   | QQQ | State 2 | bars_in_position=4
+2026-05-20 11:44:29 | DEBUG   | QQQ | State 2 | bars_in_position=5
+2026-05-20 11:44:29 | DEBUG   | QQQ | State 2 | bars_in_position=6
+2026-05-20 11:44:29 | INFO    | QQQ | State 2→0 | TP hit at 619.74
+2026-05-20 11:44:29 | INFO    | Position closed | QQQ long | exit=619.75 | P&L=$0.73 | reason=TP
+2026-05-20 11:44:29 | DEBUG   | QQQ | State 0→1 | break UP 1.27 SD
+2026-05-20 11:44:29 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:29 | DEBUG   | QQQ | State 0→1 | break UP 1.22 SD
+2026-05-20 11:44:29 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:29 | DEBUG   | QQQ | State 0→1 | break UP 1.27 SD
+2026-05-20 11:44:29 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:29 | DEBUG   | QQQ | State 0→1 | break UP 1.03 SD
+2026-05-20 11:44:29 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:29 | DEBUG   | QQQ | State 0→1 | break UP 1.10 SD
+2026-05-20 11:44:29 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:29 | INFO    | 2025-11-12 done | running P&L: $7.76
+2026-05-20 11:44:29 | INFO    | --- 2025-11-13 (55 bars) ---
+2026-05-20 11:44:29 | DEBUG   | QQQ | State 0→1 | break DN -1.38 SD
+2026-05-20 11:44:29 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:29 | DEBUG   | QQQ | State 0→1 | break DN -1.16 SD
+2026-05-20 11:44:29 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:29 | DEBUG   | QQQ | State 0→1 | break DN -1.14 SD
+2026-05-20 11:44:29 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:30 | DEBUG   | QQQ | State 0→1 | break DN -1.06 SD
+2026-05-20 11:44:30 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:30 | INFO    | 2025-11-13 done | running P&L: $7.76
+2026-05-20 11:44:30 | INFO    | --- 2025-11-14 (55 bars) ---
+2026-05-20 11:44:30 | DEBUG   | QQQ | State 0→1 | break UP 1.53 SD
+2026-05-20 11:44:30 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:30 | INFO    | 2025-11-14 done | running P&L: $7.76
+2026-05-20 11:44:30 | INFO    | --- 2025-11-17 (55 bars) ---
+2026-05-20 11:44:30 | DEBUG   | QQQ | State 0→1 | break UP 1.20 SD
+2026-05-20 11:44:31 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:31 | DEBUG   | QQQ | State 0→1 | break DN -1.41 SD
+2026-05-20 11:44:31 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:31 | DEBUG   | QQQ | State 0→1 | break DN -1.63 SD
+2026-05-20 11:44:31 | INFO    | 2025-11-17 done | running P&L: $7.76
+2026-05-20 11:44:31 | INFO    | --- 2025-11-18 (55 bars) ---
+2026-05-20 11:44:31 | DEBUG   | QQQ | State 0→1 | break UP 2.38 SD
+2026-05-20 11:44:31 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:31 | DEBUG   | QQQ | State 0→1 | break UP 1.40 SD
+2026-05-20 11:44:31 | INFO    | 2025-11-18 done | running P&L: $7.76
+2026-05-20 11:44:32 | INFO    | --- 2025-11-19 (55 bars) ---
+2026-05-20 11:44:32 | DEBUG   | QQQ | State 0→1 | break DN -1.49 SD
+2026-05-20 11:44:32 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:32 | DEBUG   | QQQ | State 0→1 | break DN -1.21 SD
+2026-05-20 11:44:32 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:32 | DEBUG   | QQQ | State 0→1 | break DN -1.08 SD
+2026-05-20 11:44:32 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:32 | DEBUG   | QQQ | State 0→1 | break DN -1.16 SD
+2026-05-20 11:44:32 | INFO    | 2025-11-19 done | running P&L: $7.76
+2026-05-20 11:44:32 | INFO    | --- 2025-11-20 (55 bars) ---
+2026-05-20 11:44:32 | DEBUG   | QQQ | State 0→1 | break DN -1.68 SD
+2026-05-20 11:44:32 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:32 | DEBUG   | QQQ | State 0→1 | break DN -1.13 SD
+2026-05-20 11:44:32 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:32 | INFO    | 2025-11-20 done | running P&L: $7.76
+2026-05-20 11:44:33 | INFO    | --- 2025-11-21 (55 bars) ---
+2026-05-20 11:44:33 | DEBUG   | QQQ | State 0→1 | break UP 1.44 SD
+2026-05-20 11:44:33 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:33 | DEBUG   | QQQ | State 0→1 | break UP 1.09 SD
+2026-05-20 11:44:33 | INFO    | 2025-11-21 done | running P&L: $7.76
+2026-05-20 11:44:33 | INFO    | --- 2025-11-24 (55 bars) ---
+2026-05-20 11:44:33 | DEBUG   | QQQ | State 0→1 | break UP 1.45 SD
+2026-05-20 11:44:33 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:33 | DEBUG   | QQQ | State 0→1 | break UP 1.32 SD
+2026-05-20 11:44:34 | INFO    | 2025-11-24 done | running P&L: $7.76
+2026-05-20 11:44:34 | INFO    | --- 2025-11-25 (55 bars) ---
+2026-05-20 11:44:34 | DEBUG   | QQQ | State 0→1 | break UP 1.99 SD
+2026-05-20 11:44:34 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:34 | INFO    | 2025-11-25 done | running P&L: $7.76
+2026-05-20 11:44:34 | INFO    | --- 2025-11-26 (55 bars) ---
+2026-05-20 11:44:34 | DEBUG   | QQQ | State 0→1 | break UP 1.72 SD
+2026-05-20 11:44:34 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:34 | DEBUG   | QQQ | State 0→1 | break UP 1.10 SD
+2026-05-20 11:44:34 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:34 | DEBUG   | QQQ | State 0→1 | break UP 1.03 SD
+2026-05-20 11:44:34 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:35 | INFO    | 2025-11-26 done | running P&L: $7.76
+2026-05-20 11:44:35 | DEBUG   | 2025-11-27: no market data, skipping
+2026-05-20 11:44:35 | INFO    | --- 2025-11-28 (55 bars) ---
+2026-05-20 11:44:35 | DEBUG   | QQQ | State 0→1 | break UP 1.41 SD
+2026-05-20 11:44:35 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:35 | DEBUG   | QQQ | State 0→1 | break UP 1.61 SD
+2026-05-20 11:44:35 | INFO    | 2025-11-28 done | running P&L: $7.76
+2026-05-20 11:44:35 | INFO    | --- 2025-12-01 (55 bars) ---
+2026-05-20 11:44:35 | DEBUG   | QQQ | State 0→1 | break UP 1.54 SD
+2026-05-20 11:44:36 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:36 | INFO    | 2025-12-01 done | running P&L: $7.76
+2026-05-20 11:44:36 | INFO    | --- 2025-12-02 (55 bars) ---
+2026-05-20 11:44:36 | DEBUG   | QQQ | State 0→1 | break DN -1.97 SD
+2026-05-20 11:44:36 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:36 | INFO    | 2025-12-02 done | running P&L: $7.76
+2026-05-20 11:44:36 | INFO    | --- 2025-12-03 (55 bars) ---
+2026-05-20 11:44:36 | DEBUG   | QQQ | State 0→1 | break UP 2.38 SD
+2026-05-20 11:44:37 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:37 | DEBUG   | QQQ | State 0→1 | break UP 1.14 SD
+2026-05-20 11:44:37 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:37 | DEBUG   | QQQ | State 0→1 | break UP 1.36 SD
+2026-05-20 11:44:37 | INFO    | 2025-12-03 done | running P&L: $7.76
+2026-05-20 11:44:37 | INFO    | --- 2025-12-04 (55 bars) ---
+2026-05-20 11:44:37 | DEBUG   | QQQ | State 0→1 | break UP 1.89 SD
+2026-05-20 11:44:37 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:37 | DEBUG   | QQQ | State 0→1 | break UP 1.10 SD
+2026-05-20 11:44:37 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:37 | DEBUG   | QQQ | State 0→1 | break UP 1.21 SD
+2026-05-20 11:44:37 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:37 | DEBUG   | QQQ | State 0→1 | break DN -1.69 SD
+2026-05-20 11:44:37 | INFO    | 2025-12-04 done | running P&L: $7.76
+2026-05-20 11:44:37 | INFO    | --- 2025-12-05 (55 bars) ---
+2026-05-20 11:44:38 | DEBUG   | QQQ | State 0→1 | break DN -1.65 SD
+2026-05-20 11:44:38 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:38 | DEBUG   | QQQ | State 0→1 | break DN -1.10 SD
+2026-05-20 11:44:38 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0340 ratio=0.680
+2026-05-20 11:44:38 | INFO    | Position opened | QQQ long | 1 shares @ 625.02 | $625
+2026-05-20 11:44:38 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:38 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:44:38 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:44:38 | DEBUG   | QQQ | State 2 | bars_in_position=4
+2026-05-20 11:44:38 | DEBUG   | QQQ | State 2 | bars_in_position=5
+2026-05-20 11:44:38 | DEBUG   | QQQ | State 2 | bars_in_position=6
+2026-05-20 11:44:38 | DEBUG   | QQQ | State 2 | bars_in_position=7
+2026-05-20 11:44:38 | DEBUG   | QQQ | State 2 | bars_in_position=8
+2026-05-20 11:44:38 | DEBUG   | QQQ | State 2 | bars_in_position=9
+2026-05-20 11:44:38 | DEBUG   | QQQ | State 2 | bars_in_position=10
+2026-05-20 11:44:38 | DEBUG   | QQQ | State 2 | bars_in_position=11
+2026-05-20 11:44:38 | DEBUG   | QQQ | State 2 | bars_in_position=12
+2026-05-20 11:44:38 | DEBUG   | QQQ | State 2 | bars_in_position=13
+2026-05-20 11:44:38 | DEBUG   | QQQ | State 2 | bars_in_position=14
+2026-05-20 11:44:38 | INFO    | QQQ | State 2→0 | TP hit at 626.17
+2026-05-20 11:44:38 | INFO    | Position closed | QQQ long | exit=626.18 | P&L=$1.16 | reason=TP
+2026-05-20 11:44:38 | INFO    | 2025-12-05 done | running P&L: $8.91
+2026-05-20 11:44:38 | INFO    | --- 2025-12-08 (55 bars) ---
+2026-05-20 11:44:38 | DEBUG   | QQQ | State 0→1 | break DN -1.21 SD
+2026-05-20 11:44:38 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:38 | DEBUG   | QQQ | State 0→1 | break DN -1.20 SD
+2026-05-20 11:44:38 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:38 | DEBUG   | QQQ | State 0→1 | break DN -1.34 SD
+2026-05-20 11:44:38 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0347 ratio=0.890
+2026-05-20 11:44:38 | INFO    | Position opened | QQQ long | 1 shares @ 623.49 | $623
+2026-05-20 11:44:38 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:38 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:44:38 | INFO    | QQQ | State 2→0 | TP hit at 624.49
+2026-05-20 11:44:38 | INFO    | Position closed | QQQ long | exit=624.49 | P&L=$1.00 | reason=TP
+2026-05-20 11:44:38 | DEBUG   | QQQ | State 0→1 | break DN -1.07 SD
+2026-05-20 11:44:38 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:38 | DEBUG   | QQQ | State 0→1 | break DN -1.07 SD
+2026-05-20 11:44:38 | INFO    | 2025-12-08 done | running P&L: $9.91
+2026-05-20 11:44:39 | INFO    | --- 2025-12-09 (55 bars) ---
+2026-05-20 11:44:39 | DEBUG   | QQQ | State 0→1 | break UP 1.72 SD
+2026-05-20 11:44:39 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:39 | DEBUG   | QQQ | State 0→1 | break UP 1.01 SD
+2026-05-20 11:44:39 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:39 | DEBUG   | QQQ | State 0→1 | break UP 1.02 SD
+2026-05-20 11:44:39 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:39 | DEBUG   | QQQ | State 0→1 | break UP 1.22 SD
+2026-05-20 11:44:39 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:39 | DEBUG   | QQQ | State 0→1 | break UP 1.47 SD
+2026-05-20 11:44:39 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:39 | INFO    | 2025-12-09 done | running P&L: $9.91
+2026-05-20 11:44:39 | INFO    | --- 2025-12-10 (55 bars) ---
+2026-05-20 11:44:39 | DEBUG   | QQQ | State 0→1 | break UP 1.40 SD
+2026-05-20 11:44:39 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:39 | DEBUG   | QQQ | State 0→1 | break UP 1.00 SD
+2026-05-20 11:44:39 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:39 | DEBUG   | QQQ | State 0→1 | break UP 1.74 SD
+2026-05-20 11:44:39 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:39 | DEBUG   | QQQ | State 0→1 | break UP 1.32 SD
+2026-05-20 11:44:39 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:40 | DEBUG   | QQQ | State 0→1 | break UP 1.05 SD
+2026-05-20 11:44:40 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:40 | INFO    | 2025-12-10 done | running P&L: $9.91
+2026-05-20 11:44:40 | INFO    | --- 2025-12-11 (55 bars) ---
+2026-05-20 11:44:40 | DEBUG   | QQQ | State 0→1 | break UP 1.02 SD
+2026-05-20 11:44:40 | INFO    | 2025-12-11 done | running P&L: $9.91
+2026-05-20 11:44:40 | INFO    | --- 2025-12-12 (55 bars) ---
+2026-05-20 11:44:40 | DEBUG   | QQQ | State 0→1 | break DN -1.26 SD
+2026-05-20 11:44:40 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:41 | INFO    | 2025-12-12 done | running P&L: $9.91
+2026-05-20 11:44:41 | INFO    | --- 2025-12-15 (55 bars) ---
+2026-05-20 11:44:41 | DEBUG   | QQQ | State 0→1 | break DN -1.09 SD
+2026-05-20 11:44:41 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:41 | DEBUG   | QQQ | State 0→1 | break DN -1.18 SD
+2026-05-20 11:44:41 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0158 ratio=0.828
+2026-05-20 11:44:41 | INFO    | Position opened | QQQ long | 1 shares @ 611.27 | $611
+2026-05-20 11:44:41 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:41 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:44:41 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:44:41 | INFO    | QQQ | State 2→0 | TP hit at 612.16
+2026-05-20 11:44:41 | INFO    | Position closed | QQQ long | exit=612.14 | P&L=$0.87 | reason=TP
+2026-05-20 11:44:41 | INFO    | 2025-12-15 done | running P&L: $10.78
+2026-05-20 11:44:41 | INFO    | --- 2025-12-16 (55 bars) ---
+2026-05-20 11:44:41 | DEBUG   | QQQ | State 0→1 | break UP 1.35 SD
+2026-05-20 11:44:41 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:41 | DEBUG   | QQQ | State 0→1 | break UP 1.33 SD
+2026-05-20 11:44:41 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:42 | DEBUG   | QQQ | State 0→1 | break DN -1.23 SD
+2026-05-20 11:44:42 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:42 | DEBUG   | QQQ | State 0→1 | break UP 1.02 SD
+2026-05-20 11:44:42 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:42 | INFO    | 2025-12-16 done | running P&L: $10.78
+2026-05-20 11:44:42 | INFO    | --- 2025-12-17 (55 bars) ---
+2026-05-20 11:44:42 | DEBUG   | QQQ | State 0→1 | break DN -1.31 SD
+2026-05-20 11:44:42 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:42 | DEBUG   | QQQ | State 0→1 | break DN -1.26 SD
+2026-05-20 11:44:42 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:42 | DEBUG   | QQQ | State 0→1 | break DN -1.12 SD
+2026-05-20 11:44:42 | INFO    | 2025-12-17 done | running P&L: $10.78
+2026-05-20 11:44:42 | INFO    | --- 2025-12-18 (55 bars) ---
+2026-05-20 11:44:42 | DEBUG   | QQQ | State 0→1 | break UP 1.01 SD
+2026-05-20 11:44:43 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:43 | DEBUG   | QQQ | State 0→1 | break DN -1.30 SD
+2026-05-20 11:44:43 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:43 | DEBUG   | QQQ | State 0→1 | break UP 1.08 SD
+2026-05-20 11:44:43 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:43 | INFO    | 2025-12-18 done | running P&L: $10.78
+2026-05-20 11:44:43 | INFO    | --- 2025-12-19 (55 bars) ---
+2026-05-20 11:44:43 | DEBUG   | QQQ | State 0→1 | break UP 1.35 SD
+2026-05-20 11:44:43 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:43 | DEBUG   | QQQ | State 0→1 | break UP 1.25 SD
+2026-05-20 11:44:43 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:43 | DEBUG   | QQQ | State 0→1 | break UP 1.15 SD
+2026-05-20 11:44:43 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:43 | DEBUG   | QQQ | State 0→1 | break UP 1.14 SD
+2026-05-20 11:44:43 | INFO    | 2025-12-19 done | running P&L: $10.78
+2026-05-20 11:44:43 | INFO    | --- 2025-12-22 (55 bars) ---
+2026-05-20 11:44:44 | DEBUG   | QQQ | State 0→1 | break UP 1.29 SD
+2026-05-20 11:44:44 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:44 | DEBUG   | QQQ | State 0→1 | break UP 1.29 SD
+2026-05-20 11:44:44 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:44 | INFO    | 2025-12-22 done | running P&L: $10.78
+2026-05-20 11:44:44 | INFO    | --- 2025-12-23 (55 bars) ---
+2026-05-20 11:44:44 | DEBUG   | QQQ | State 0→1 | break UP 1.16 SD
+2026-05-20 11:44:44 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:44 | DEBUG   | QQQ | State 0→1 | break UP 1.02 SD
+2026-05-20 11:44:44 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:44 | DEBUG   | QQQ | State 0→1 | break UP 1.09 SD
+2026-05-20 11:44:44 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:44 | DEBUG   | QQQ | State 0→1 | break UP 1.05 SD
+2026-05-20 11:44:44 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:44 | DEBUG   | QQQ | State 0→1 | break UP 1.07 SD
+2026-05-20 11:44:44 | INFO    | 2025-12-23 done | running P&L: $10.78
+2026-05-20 11:44:45 | INFO    | --- 2025-12-24 (55 bars) ---
+2026-05-20 11:44:45 | DEBUG   | QQQ | State 0→1 | break UP 2.41 SD
+2026-05-20 11:44:45 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:45 | DEBUG   | QQQ | State 0→1 | break UP 1.17 SD
+2026-05-20 11:44:45 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:45 | DEBUG   | QQQ | State 0→1 | break UP 1.09 SD
+2026-05-20 11:44:45 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:45 | INFO    | 2025-12-24 done | running P&L: $10.78
+2026-05-20 11:44:45 | DEBUG   | 2025-12-25: no market data, skipping
+2026-05-20 11:44:45 | INFO    | --- 2025-12-26 (55 bars) ---
+2026-05-20 11:44:45 | DEBUG   | QQQ | State 0→1 | break DN -1.46 SD
+2026-05-20 11:44:45 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0189 ratio=0.837
+2026-05-20 11:44:45 | INFO    | Position opened | QQQ long | 1 shares @ 624.24 | $624
+2026-05-20 11:44:45 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:45 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:44:45 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:44:45 | DEBUG   | QQQ | State 2 | bars_in_position=4
+2026-05-20 11:44:45 | DEBUG   | QQQ | State 2 | bars_in_position=5
+2026-05-20 11:44:45 | DEBUG   | QQQ | State 2 | bars_in_position=6
+2026-05-20 11:44:45 | INFO    | QQQ | State 2→0 | stall exit | progress=-165.2%
+2026-05-20 11:44:45 | INFO    | Position closed | QQQ long | exit=624.05 | P&L=$-0.19 | reason=TP
+2026-05-20 11:44:46 | DEBUG   | QQQ | State 0→1 | break UP 1.01 SD
+2026-05-20 11:44:46 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:46 | INFO    | 2025-12-26 done | running P&L: $10.59
+2026-05-20 11:44:46 | INFO    | --- 2025-12-29 (55 bars) ---
+2026-05-20 11:44:46 | DEBUG   | QQQ | State 0→1 | break DN -1.06 SD
+2026-05-20 11:44:46 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0325 ratio=0.682
+2026-05-20 11:44:46 | INFO    | Position opened | QQQ long | 1 shares @ 619.58 | $620
+2026-05-20 11:44:46 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:46 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:44:46 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:44:46 | INFO    | QQQ | State 2→3 | stop hit at 618.98
+2026-05-20 11:44:46 | INFO    | Position closed | QQQ long | exit=618.98 | P&L=$-0.60 | reason=SL
+2026-05-20 11:44:46 | DEBUG   | QQQ | State 3 | cooldown 2 bars left
+2026-05-20 11:44:46 | DEBUG   | QQQ | State 3 | cooldown 1 bars left
+2026-05-20 11:44:46 | DEBUG   | QQQ | State 3→0 | cooldown done, price inside band
+2026-05-20 11:44:46 | INFO    | 2025-12-29 done | running P&L: $9.99
+2026-05-20 11:44:46 | INFO    | --- 2025-12-30 (55 bars) ---
+2026-05-20 11:44:46 | DEBUG   | QQQ | State 0→1 | break UP 1.11 SD
+2026-05-20 11:44:46 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:47 | INFO    | 2025-12-30 done | running P&L: $9.99
+2026-05-20 11:44:47 | INFO    | --- 2025-12-31 (55 bars) ---
+2026-05-20 11:44:47 | DEBUG   | QQQ | State 0→1 | break UP 1.45 SD
+2026-05-20 11:44:47 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:47 | DEBUG   | QQQ | State 0→1 | break UP 1.36 SD
+2026-05-20 11:44:47 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:47 | DEBUG   | QQQ | State 0→1 | break UP 1.35 SD
+2026-05-20 11:44:48 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:48 | INFO    | 2025-12-31 done | running P&L: $9.99
+2026-05-20 11:44:48 | DEBUG   | 2026-01-01: no market data, skipping
+2026-05-20 11:44:48 | INFO    | --- 2026-01-02 (55 bars) ---
+2026-05-20 11:44:48 | DEBUG   | QQQ | State 0→1 | break DN -1.02 SD
+2026-05-20 11:44:48 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0451 ratio=0.845
+2026-05-20 11:44:48 | INFO    | Position opened | QQQ long | 1 shares @ 613.24 | $613
+2026-05-20 11:44:48 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:48 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:44:48 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:44:48 | DEBUG   | QQQ | State 2 | bars_in_position=4
+2026-05-20 11:44:48 | DEBUG   | QQQ | State 2 | bars_in_position=5
+2026-05-20 11:44:48 | DEBUG   | QQQ | State 2 | bars_in_position=6
+2026-05-20 11:44:48 | INFO    | QQQ | State 2→0 | stall exit | progress=-38.9%
+2026-05-20 11:44:48 | INFO    | Position closed | QQQ long | exit=612.69 | P&L=$-0.55 | reason=TP
+2026-05-20 11:44:48 | DEBUG   | QQQ | State 0→1 | break DN -1.10 SD
+2026-05-20 11:44:48 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0337 ratio=0.808
+2026-05-20 11:44:48 | INFO    | Position opened | QQQ long | 1 shares @ 611.98 | $612
+2026-05-20 11:44:48 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:48 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:44:48 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:44:48 | DEBUG   | QQQ | State 2 | bars_in_position=4
+2026-05-20 11:44:48 | DEBUG   | QQQ | State 2 | bars_in_position=5
+2026-05-20 11:44:48 | DEBUG   | QQQ | State 2 | bars_in_position=6
+2026-05-20 11:44:48 | INFO    | QQQ | State 2→0 | stall exit | progress=-19.4%
+2026-05-20 11:44:48 | INFO    | Position closed | QQQ long | exit=611.55 | P&L=$-0.43 | reason=TP
+2026-05-20 11:44:48 | DEBUG   | QQQ | State 0→1 | break DN -1.30 SD
+2026-05-20 11:44:48 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:48 | INFO    | 2026-01-02 done | running P&L: $9.01
+2026-05-20 11:44:48 | INFO    | --- 2026-01-05 (55 bars) ---
+2026-05-20 11:44:48 | DEBUG   | QQQ | State 0→1 | break UP 1.27 SD
+2026-05-20 11:44:48 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:48 | DEBUG   | QQQ | State 0→1 | break UP 1.86 SD
+2026-05-20 11:44:48 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:48 | DEBUG   | QQQ | State 0→1 | break DN -1.53 SD
+2026-05-20 11:44:49 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0389 ratio=0.794
+2026-05-20 11:44:49 | INFO    | Position opened | QQQ long | 1 shares @ 618.71 | $619
+2026-05-20 11:44:49 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:49 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:44:49 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:44:49 | DEBUG   | QQQ | State 2 | bars_in_position=4
+2026-05-20 11:44:49 | DEBUG   | QQQ | State 2 | bars_in_position=5
+2026-05-20 11:44:49 | DEBUG   | QQQ | State 2 | bars_in_position=6
+2026-05-20 11:44:49 | INFO    | QQQ | State 2→0 | stall exit | progress=-71.8%
+2026-05-20 11:44:49 | INFO    | Position closed | QQQ long | exit=618.28 | P&L=$-0.43 | reason=TP
+2026-05-20 11:44:49 | DEBUG   | QQQ | State 0→1 | break DN -1.31 SD
+2026-05-20 11:44:49 | INFO    | 2026-01-05 done | running P&L: $8.58
+2026-05-20 11:44:49 | INFO    | --- 2026-01-06 (55 bars) ---
+2026-05-20 11:44:49 | DEBUG   | QQQ | State 0→1 | break DN -1.48 SD
+2026-05-20 11:44:49 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:49 | DEBUG   | QQQ | State 0→1 | break UP 1.35 SD
+2026-05-20 11:44:49 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:49 | DEBUG   | QQQ | State 0→1 | break UP 1.20 SD
+2026-05-20 11:44:49 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:49 | DEBUG   | QQQ | State 0→1 | break UP 1.04 SD
+2026-05-20 11:44:49 | INFO    | 2026-01-06 done | running P&L: $8.58
+2026-05-20 11:44:49 | INFO    | --- 2026-01-07 (55 bars) ---
+2026-05-20 11:44:49 | DEBUG   | QQQ | State 0→1 | break UP 1.03 SD
+2026-05-20 11:44:49 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:49 | DEBUG   | QQQ | State 0→1 | break UP 1.11 SD
+2026-05-20 11:44:49 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:49 | INFO    | 2026-01-07 done | running P&L: $8.58
+2026-05-20 11:44:50 | INFO    | --- 2026-01-08 (55 bars) ---
+2026-05-20 11:44:50 | DEBUG   | QQQ | State 0→1 | break DN -1.38 SD
+2026-05-20 11:44:50 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:50 | DEBUG   | QQQ | State 0→1 | break UP 1.27 SD
+2026-05-20 11:44:50 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:50 | DEBUG   | QQQ | State 0→1 | break DN -1.15 SD
+2026-05-20 11:44:50 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:50 | DEBUG   | QQQ | State 0→1 | break DN -1.01 SD
+2026-05-20 11:44:50 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:50 | DEBUG   | QQQ | State 0→1 | break DN -1.69 SD
+2026-05-20 11:44:50 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:50 | DEBUG   | QQQ | State 0→1 | break DN -1.12 SD
+2026-05-20 11:44:50 | INFO    | 2026-01-08 done | running P&L: $8.58
+2026-05-20 11:44:50 | INFO    | --- 2026-01-09 (55 bars) ---
+2026-05-20 11:44:50 | DEBUG   | QQQ | State 0→1 | break UP 1.01 SD
+2026-05-20 11:44:50 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:50 | DEBUG   | QQQ | State 0→1 | break UP 1.25 SD
+2026-05-20 11:44:50 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:50 | DEBUG   | QQQ | State 0→1 | break UP 1.16 SD
+2026-05-20 11:44:50 | INFO    | 2026-01-09 done | running P&L: $8.58
+2026-05-20 11:44:50 | INFO    | --- 2026-01-12 (55 bars) ---
+2026-05-20 11:44:51 | DEBUG   | QQQ | State 0→1 | break UP 1.69 SD
+2026-05-20 11:44:51 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:51 | DEBUG   | QQQ | State 0→1 | break UP 1.41 SD
+2026-05-20 11:44:51 | INFO    | 2026-01-12 done | running P&L: $8.58
+2026-05-20 11:44:51 | INFO    | --- 2026-01-13 (55 bars) ---
+2026-05-20 11:44:51 | DEBUG   | QQQ | State 0→1 | break UP 1.82 SD
+2026-05-20 11:44:51 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:51 | DEBUG   | QQQ | State 0→1 | break UP 1.12 SD
+2026-05-20 11:44:51 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:51 | DEBUG   | QQQ | State 0→1 | break DN -1.14 SD
+2026-05-20 11:44:51 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:51 | INFO    | 2026-01-13 done | running P&L: $8.58
+2026-05-20 11:44:51 | INFO    | --- 2026-01-14 (55 bars) ---
+2026-05-20 11:44:51 | DEBUG   | QQQ | State 0→1 | break DN -1.42 SD
+2026-05-20 11:44:51 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:51 | DEBUG   | QQQ | State 0→1 | break DN -1.41 SD
+2026-05-20 11:44:51 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0303 ratio=0.872
+2026-05-20 11:44:51 | INFO    | Position opened | QQQ long | 1 shares @ 616.27 | $616
+2026-05-20 11:44:51 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:51 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:44:52 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:44:52 | DEBUG   | QQQ | State 2 | bars_in_position=4
+2026-05-20 11:44:52 | DEBUG   | QQQ | State 2 | bars_in_position=5
+2026-05-20 11:44:52 | DEBUG   | QQQ | State 2 | bars_in_position=6
+2026-05-20 11:44:52 | INFO    | QQQ | State 2→0 | stall exit | progress=-109.3%
+2026-05-20 11:44:52 | INFO    | Position closed | QQQ long | exit=615.24 | P&L=$-1.03 | reason=TP
+2026-05-20 11:44:52 | DEBUG   | QQQ | State 0→1 | break DN -1.28 SD
+2026-05-20 11:44:52 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:52 | INFO    | 2026-01-14 done | running P&L: $7.55
+2026-05-20 11:44:52 | INFO    | --- 2026-01-15 (55 bars) ---
+2026-05-20 11:44:52 | DEBUG   | QQQ | State 0→1 | break UP 1.12 SD
+2026-05-20 11:44:52 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:52 | DEBUG   | QQQ | State 0→1 | break DN -1.22 SD
+2026-05-20 11:44:52 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0085 ratio=0.866
+2026-05-20 11:44:52 | INFO    | Position opened | QQQ long | 1 shares @ 625.54 | $626
+2026-05-20 11:44:52 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:52 | INFO    | QQQ | State 2→0 | TP hit at 625.90
+2026-05-20 11:44:52 | INFO    | Position closed | QQQ long | exit=625.90 | P&L=$0.36 | reason=TP
+2026-05-20 11:44:52 | DEBUG   | QQQ | State 0→1 | break DN -1.71 SD
+2026-05-20 11:44:52 | INFO    | 2026-01-15 done | running P&L: $7.91
+2026-05-20 11:44:52 | INFO    | --- 2026-01-16 (55 bars) ---
+2026-05-20 11:44:52 | DEBUG   | QQQ | State 0→1 | break UP 1.22 SD
+2026-05-20 11:44:52 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:52 | DEBUG   | QQQ | State 0→1 | break UP 1.03 SD
+2026-05-20 11:44:52 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:52 | DEBUG   | QQQ | State 0→1 | break UP 1.10 SD
+2026-05-20 11:44:52 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:53 | DEBUG   | QQQ | State 0→1 | break UP 1.34 SD
+2026-05-20 11:44:53 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:53 | INFO    | 2026-01-16 done | running P&L: $7.91
+2026-05-20 11:44:53 | DEBUG   | 2026-01-19: no market data, skipping
+2026-05-20 11:44:53 | INFO    | --- 2026-01-20 (55 bars) ---
+2026-05-20 11:44:53 | DEBUG   | QQQ | State 0→1 | break UP 1.33 SD
+2026-05-20 11:44:53 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:53 | DEBUG   | QQQ | State 0→1 | break UP 1.17 SD
+2026-05-20 11:44:53 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:53 | DEBUG   | QQQ | State 0→1 | break DN -1.14 SD
+2026-05-20 11:44:53 | INFO    | 2026-01-20 done | running P&L: $7.91
+2026-05-20 11:44:53 | INFO    | --- 2026-01-21 (55 bars) ---
+2026-05-20 11:44:53 | DEBUG   | QQQ | State 0→1 | break DN -1.25 SD
+2026-05-20 11:44:53 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:53 | DEBUG   | QQQ | State 0→1 | break DN -1.62 SD
+2026-05-20 11:44:53 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:53 | DEBUG   | QQQ | State 0→1 | break DN -1.03 SD
+2026-05-20 11:44:53 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:54 | DEBUG   | QQQ | State 0→1 | break UP 1.22 SD
+2026-05-20 11:44:54 | INFO    | 2026-01-21 done | running P&L: $7.91
+2026-05-20 11:44:54 | INFO    | --- 2026-01-22 (55 bars) ---
+2026-05-20 11:44:54 | DEBUG   | QQQ | State 0→1 | break UP 1.63 SD
+2026-05-20 11:44:54 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:54 | DEBUG   | QQQ | State 0→1 | break UP 1.08 SD
+2026-05-20 11:44:54 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:54 | DEBUG   | QQQ | State 0→1 | break UP 1.04 SD
+2026-05-20 11:44:54 | INFO    | 2026-01-22 done | running P&L: $7.91
+2026-05-20 11:44:54 | INFO    | --- 2026-01-23 (55 bars) ---
+2026-05-20 11:44:54 | DEBUG   | QQQ | State 0→1 | break UP 1.02 SD
+2026-05-20 11:44:54 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:54 | DEBUG   | QQQ | State 0→1 | break DN -1.63 SD
+2026-05-20 11:44:54 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:54 | INFO    | 2026-01-23 done | running P&L: $7.91
+2026-05-20 11:44:54 | INFO    | --- 2026-01-26 (55 bars) ---
+2026-05-20 11:44:55 | DEBUG   | QQQ | State 0→1 | break UP 1.51 SD
+2026-05-20 11:44:55 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:55 | DEBUG   | QQQ | State 0→1 | break UP 1.22 SD
+2026-05-20 11:44:55 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:55 | DEBUG   | QQQ | State 0→1 | break UP 1.07 SD
+2026-05-20 11:44:55 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:55 | DEBUG   | QQQ | State 0→1 | break UP 1.02 SD
+2026-05-20 11:44:55 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:55 | DEBUG   | QQQ | State 0→1 | break UP 1.48 SD
+2026-05-20 11:44:55 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:55 | INFO    | 2026-01-26 done | running P&L: $7.91
+2026-05-20 11:44:55 | INFO    | --- 2026-01-27 (55 bars) ---
+2026-05-20 11:44:55 | DEBUG   | QQQ | State 0→1 | break UP 1.15 SD
+2026-05-20 11:44:55 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:55 | DEBUG   | QQQ | State 0→1 | break UP 1.03 SD
+2026-05-20 11:44:55 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:55 | DEBUG   | QQQ | State 0→1 | break DN -1.40 SD
+2026-05-20 11:44:55 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:55 | DEBUG   | QQQ | State 0→1 | break UP 1.01 SD
+2026-05-20 11:44:55 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:55 | DEBUG   | QQQ | State 0→1 | break UP 1.01 SD
+2026-05-20 11:44:55 | INFO    | 2026-01-27 done | running P&L: $7.91
+2026-05-20 11:44:55 | INFO    | --- 2026-01-28 (55 bars) ---
+2026-05-20 11:44:55 | DEBUG   | QQQ | State 0→1 | break DN -1.90 SD
+2026-05-20 11:44:55 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:55 | DEBUG   | QQQ | State 0→1 | break DN -1.55 SD
+2026-05-20 11:44:55 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:56 | DEBUG   | QQQ | State 0→1 | break DN -1.31 SD
+2026-05-20 11:44:56 | INFO    | 2026-01-28 done | running P&L: $7.91
+2026-05-20 11:44:56 | INFO    | --- 2026-01-29 (55 bars) ---
+2026-05-20 11:44:56 | DEBUG   | QQQ | State 0→1 | break UP 1.39 SD
+2026-05-20 11:44:56 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:56 | DEBUG   | QQQ | State 0→1 | break UP 1.13 SD
+2026-05-20 11:44:56 | INFO    | 2026-01-29 done | running P&L: $7.91
+2026-05-20 11:44:56 | INFO    | --- 2026-01-30 (55 bars) ---
+2026-05-20 11:44:56 | DEBUG   | QQQ | State 0→1 | break DN -1.36 SD
+2026-05-20 11:44:56 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:56 | DEBUG   | QQQ | State 0→1 | break DN -1.04 SD
+2026-05-20 11:44:56 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:44:56 | DEBUG   | QQQ | State 0→1 | break DN -1.35 SD
+2026-05-20 11:44:56 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:56 | INFO    | 2026-01-30 done | running P&L: $7.91
+2026-05-20 11:44:57 | INFO    | --- 2026-02-02 (55 bars) ---
+2026-05-20 11:44:57 | DEBUG   | QQQ | State 0→1 | break UP 1.17 SD
+2026-05-20 11:44:57 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:57 | DEBUG   | QQQ | State 0→1 | break UP 1.16 SD
+2026-05-20 11:44:57 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:57 | DEBUG   | QQQ | State 0→1 | break UP 1.35 SD
+2026-05-20 11:44:57 | INFO    | 2026-02-02 done | running P&L: $7.91
+2026-05-20 11:44:57 | INFO    | --- 2026-02-03 (55 bars) ---
+2026-05-20 11:44:57 | DEBUG   | QQQ | State 0→1 | break DN -1.27 SD
+2026-05-20 11:44:57 | INFO    | 2026-02-03 done | running P&L: $7.91
+2026-05-20 11:44:57 | INFO    | --- 2026-02-04 (55 bars) ---
+2026-05-20 11:44:57 | DEBUG   | QQQ | State 0→1 | break DN -1.85 SD
+2026-05-20 11:44:58 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:58 | DEBUG   | QQQ | State 0→1 | break DN -1.23 SD
+2026-05-20 11:44:58 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:58 | INFO    | 2026-02-04 done | running P&L: $7.91
+2026-05-20 11:44:58 | INFO    | --- 2026-02-05 (55 bars) ---
+2026-05-20 11:44:58 | DEBUG   | QQQ | State 0→1 | break UP 2.68 SD
+2026-05-20 11:44:58 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:58 | DEBUG   | QQQ | State 0→1 | break UP 1.18 SD
+2026-05-20 11:44:58 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:58 | INFO    | 2026-02-05 done | running P&L: $7.91
+2026-05-20 11:44:58 | INFO    | --- 2026-02-06 (55 bars) ---
+2026-05-20 11:44:58 | DEBUG   | QQQ | State 0→1 | break UP 1.96 SD
+2026-05-20 11:44:59 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:44:59 | DEBUG   | QQQ | State 0→1 | break UP 1.20 SD
+2026-05-20 11:44:59 | INFO    | 2026-02-06 done | running P&L: $7.91
+2026-05-20 11:44:59 | INFO    | --- 2026-02-09 (55 bars) ---
+2026-05-20 11:44:59 | DEBUG   | QQQ | State 0→1 | break UP 1.65 SD
+2026-05-20 11:44:59 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:44:59 | DEBUG   | QQQ | State 0→1 | break UP 1.06 SD
+2026-05-20 11:44:59 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:44:59 | DEBUG   | QQQ | State 0→1 | break UP 1.05 SD
+2026-05-20 11:44:59 | INFO    | 2026-02-09 done | running P&L: $7.91
+2026-05-20 11:44:59 | INFO    | --- 2026-02-10 (55 bars) ---
+2026-05-20 11:44:59 | DEBUG   | QQQ | State 0→1 | break DN -2.23 SD
+2026-05-20 11:44:59 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0357 ratio=0.823
+2026-05-20 11:44:59 | INFO    | Position opened | QQQ long | 1 shares @ 615.03 | $615
+2026-05-20 11:44:59 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:44:59 | INFO    | QQQ | State 2→0 | TP hit at 615.46
+2026-05-20 11:44:59 | INFO    | Position closed | QQQ long | exit=615.46 | P&L=$0.43 | reason=TP
+2026-05-20 11:44:59 | DEBUG   | QQQ | State 0→1 | break DN -1.17 SD
+2026-05-20 11:45:00 | INFO    | 2026-02-10 done | running P&L: $8.34
+2026-05-20 11:45:00 | INFO    | --- 2026-02-11 (55 bars) ---
+2026-05-20 11:45:00 | DEBUG   | QQQ | State 0→1 | break UP 1.19 SD
+2026-05-20 11:45:00 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:00 | DEBUG   | QQQ | State 0→1 | break UP 1.20 SD
+2026-05-20 11:45:00 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:00 | DEBUG   | QQQ | State 0→1 | break UP 1.24 SD
+2026-05-20 11:45:00 | INFO    | 2026-02-11 done | running P&L: $8.34
+2026-05-20 11:45:00 | INFO    | --- 2026-02-12 (55 bars) ---
+2026-05-20 11:45:00 | DEBUG   | QQQ | State 0→1 | break DN -1.36 SD
+2026-05-20 11:45:00 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:45:00 | DEBUG   | QQQ | State 0→1 | break DN -1.04 SD
+2026-05-20 11:45:00 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:45:00 | DEBUG   | QQQ | State 0→1 | break DN -1.11 SD
+2026-05-20 11:45:00 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:45:00 | DEBUG   | QQQ | State 0→1 | break DN -1.11 SD
+2026-05-20 11:45:00 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:00 | DEBUG   | QQQ | State 0→1 | break DN -1.14 SD
+2026-05-20 11:45:00 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:00 | INFO    | 2026-02-12 done | running P&L: $8.34
+2026-05-20 11:45:01 | INFO    | --- 2026-02-13 (55 bars) ---
+2026-05-20 11:45:01 | DEBUG   | QQQ | State 0→1 | break UP 1.02 SD
+2026-05-20 11:45:01 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:01 | DEBUG   | QQQ | State 0→1 | break UP 1.00 SD
+2026-05-20 11:45:01 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:01 | DEBUG   | QQQ | State 0→1 | break UP 1.02 SD
+2026-05-20 11:45:01 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:01 | DEBUG   | QQQ | State 0→1 | break UP 1.01 SD
+2026-05-20 11:45:01 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:01 | INFO    | 2026-02-13 done | running P&L: $8.34
+2026-05-20 11:45:01 | DEBUG   | 2026-02-16: no market data, skipping
+2026-05-20 11:45:01 | INFO    | --- 2026-02-17 (55 bars) ---
+2026-05-20 11:45:01 | DEBUG   | QQQ | State 0→1 | break UP 1.15 SD
+2026-05-20 11:45:01 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:01 | DEBUG   | QQQ | State 0→1 | break UP 1.11 SD
+2026-05-20 11:45:01 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:01 | DEBUG   | QQQ | State 0→1 | break UP 1.22 SD
+2026-05-20 11:45:01 | INFO    | 2026-02-17 done | running P&L: $8.34
+2026-05-20 11:45:02 | INFO    | --- 2026-02-18 (55 bars) ---
+2026-05-20 11:45:02 | DEBUG   | QQQ | State 0→1 | break UP 1.39 SD
+2026-05-20 11:45:02 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:02 | DEBUG   | QQQ | State 0→1 | break UP 1.25 SD
+2026-05-20 11:45:02 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:02 | DEBUG   | QQQ | State 0→1 | break UP 1.31 SD
+2026-05-20 11:45:02 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:02 | DEBUG   | QQQ | State 0→1 | break UP 1.20 SD
+2026-05-20 11:45:02 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:02 | DEBUG   | QQQ | State 0→1 | break UP 1.23 SD
+2026-05-20 11:45:02 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:02 | DEBUG   | QQQ | State 0→1 | break DN -1.18 SD
+2026-05-20 11:45:02 | INFO    | 2026-02-18 done | running P&L: $8.34
+2026-05-20 11:45:02 | INFO    | --- 2026-02-19 (55 bars) ---
+2026-05-20 11:45:02 | DEBUG   | QQQ | State 0→1 | break DN -3.33 SD
+2026-05-20 11:45:02 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0310 ratio=0.771
+2026-05-20 11:45:02 | INFO    | Position opened | QQQ long | 1 shares @ 603.70 | $604
+2026-05-20 11:45:02 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:45:02 | INFO    | QQQ | State 2→0 | TP hit at 604.12
+2026-05-20 11:45:02 | INFO    | Position closed | QQQ long | exit=604.07 | P&L=$0.37 | reason=TP
+2026-05-20 11:45:02 | DEBUG   | QQQ | State 0→1 | break DN -1.09 SD
+2026-05-20 11:45:02 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0367 ratio=0.886
+2026-05-20 11:45:02 | INFO    | Position opened | QQQ long | 1 shares @ 602.73 | $603
+2026-05-20 11:45:02 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:45:02 | INFO    | QQQ | State 2→3 | stop hit at 601.32
+2026-05-20 11:45:02 | INFO    | Position closed | QQQ long | exit=601.30 | P&L=$-1.43 | reason=SL
+2026-05-20 11:45:02 | DEBUG   | QQQ | State 3 | cooldown 2 bars left
+2026-05-20 11:45:02 | DEBUG   | QQQ | State 3 | cooldown 1 bars left
+2026-05-20 11:45:02 | DEBUG   | QQQ | State 3→0 | cooldown done, price inside band
+2026-05-20 11:45:02 | DEBUG   | QQQ | State 0→1 | break DN -1.02 SD
+2026-05-20 11:45:02 | INFO    | 2026-02-19 done | running P&L: $7.28
+2026-05-20 11:45:03 | INFO    | --- 2026-02-20 (55 bars) ---
+2026-05-20 11:45:03 | DEBUG   | QQQ | State 0→1 | break UP 1.18 SD
+2026-05-20 11:45:03 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:03 | DEBUG   | QQQ | State 0→1 | break DN -1.58 SD
+2026-05-20 11:45:03 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0349 ratio=0.746
+2026-05-20 11:45:03 | INFO    | Position opened | QQQ long | 1 shares @ 605.91 | $606
+2026-05-20 11:45:03 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:45:03 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:45:03 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:45:03 | DEBUG   | QQQ | State 2 | bars_in_position=4
+2026-05-20 11:45:03 | INFO    | QQQ | State 2→0 | TP hit at 607.64
+2026-05-20 11:45:03 | INFO    | Position closed | QQQ long | exit=607.64 | P&L=$1.73 | reason=TP
+2026-05-20 11:45:03 | DEBUG   | QQQ | State 0→1 | break UP 1.14 SD
+2026-05-20 11:45:03 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:03 | INFO    | 2026-02-20 done | running P&L: $9.01
+2026-05-20 11:45:03 | INFO    | --- 2026-02-23 (55 bars) ---
+2026-05-20 11:45:03 | DEBUG   | QQQ | State 0→1 | break DN -1.44 SD
+2026-05-20 11:45:03 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:04 | INFO    | 2026-02-23 done | running P&L: $9.01
+2026-05-20 11:45:04 | INFO    | --- 2026-02-24 (55 bars) ---
+2026-05-20 11:45:04 | DEBUG   | QQQ | State 0→1 | break UP 1.04 SD
+2026-05-20 11:45:04 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:04 | DEBUG   | QQQ | State 0→1 | break UP 1.16 SD
+2026-05-20 11:45:04 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:04 | DEBUG   | QQQ | State 0→1 | break UP 1.35 SD
+2026-05-20 11:45:04 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:04 | INFO    | 2026-02-24 done | running P&L: $9.01
+2026-05-20 11:45:04 | INFO    | --- 2026-02-25 (55 bars) ---
+2026-05-20 11:45:04 | DEBUG   | QQQ | State 0→1 | break UP 1.14 SD
+2026-05-20 11:45:04 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:04 | DEBUG   | QQQ | State 0→1 | break UP 1.43 SD
+2026-05-20 11:45:04 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:04 | DEBUG   | QQQ | State 0→1 | break UP 1.36 SD
+2026-05-20 11:45:05 | INFO    | 2026-02-25 done | running P&L: $9.01
+2026-05-20 11:45:05 | INFO    | --- 2026-02-26 (55 bars) ---
+2026-05-20 11:45:05 | DEBUG   | QQQ | State 0→1 | break DN -1.23 SD
+2026-05-20 11:45:05 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0168 ratio=0.845
+2026-05-20 11:45:05 | INFO    | Position opened | QQQ long | 1 shares @ 606.11 | $606
+2026-05-20 11:45:05 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:45:05 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:45:05 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:45:05 | DEBUG   | QQQ | State 2 | bars_in_position=4
+2026-05-20 11:45:05 | DEBUG   | QQQ | State 2 | bars_in_position=5
+2026-05-20 11:45:05 | DEBUG   | QQQ | State 2 | bars_in_position=6
+2026-05-20 11:45:05 | INFO    | QQQ | State 2→0 | stall exit | progress=-42.5%
+2026-05-20 11:45:05 | INFO    | Position closed | QQQ long | exit=605.64 | P&L=$-0.47 | reason=TP
+2026-05-20 11:45:05 | DEBUG   | QQQ | State 0→1 | break DN -1.12 SD
+2026-05-20 11:45:05 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:05 | DEBUG   | QQQ | State 0→1 | break UP 1.17 SD
+2026-05-20 11:45:05 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:05 | INFO    | 2026-02-26 done | running P&L: $8.54
+2026-05-20 11:45:05 | INFO    | --- 2026-02-27 (55 bars) ---
+2026-05-20 11:45:05 | DEBUG   | QQQ | State 0→1 | break UP 1.84 SD
+2026-05-20 11:45:05 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:05 | DEBUG   | QQQ | State 0→1 | break DN -1.33 SD
+2026-05-20 11:45:05 | INFO    | QQQ | State 1→2 | enter_long | slope=0.0012 ratio=0.775
+2026-05-20 11:45:05 | INFO    | Position opened | QQQ long | 1 shares @ 607.14 | $607
+2026-05-20 11:45:05 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:45:05 | INFO    | QQQ | State 2→0 | TP hit at 606.71
+2026-05-20 11:45:05 | INFO    | Position closed | QQQ long | exit=606.71 | P&L=$-0.43 | reason=TP
+2026-05-20 11:45:05 | DEBUG   | QQQ | State 0→1 | break UP 1.60 SD
+2026-05-20 11:45:05 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:05 | DEBUG   | QQQ | State 0→1 | break DN -1.11 SD
+2026-05-20 11:45:05 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0016 ratio=0.837
+2026-05-20 11:45:05 | INFO    | Position opened | QQQ long | 1 shares @ 606.32 | $606
+2026-05-20 11:45:05 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:45:05 | INFO    | QQQ | State 2→0 | TP hit at 607.03
+2026-05-20 11:45:05 | INFO    | Position closed | QQQ long | exit=607.03 | P&L=$0.71 | reason=TP
+2026-05-20 11:45:05 | DEBUG   | QQQ | State 0→1 | break DN -1.36 SD
+2026-05-20 11:45:05 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0083 ratio=0.654
+2026-05-20 11:45:05 | INFO    | Position opened | QQQ long | 1 shares @ 606.13 | $606
+2026-05-20 11:45:05 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:45:05 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:45:05 | INFO    | QQQ | State 2→3 | stop hit at 605.59
+2026-05-20 11:45:05 | INFO    | Position closed | QQQ long | exit=605.59 | P&L=$-0.54 | reason=SL
+2026-05-20 11:45:05 | DEBUG   | QQQ | State 3 | cooldown 2 bars left
+2026-05-20 11:45:05 | DEBUG   | QQQ | State 3 | cooldown 1 bars left
+2026-05-20 11:45:06 | DEBUG   | QQQ | State 3→0 | cooldown done, price inside band
+2026-05-20 11:45:06 | DEBUG   | QQQ | State 0→1 | break DN -1.54 SD
+2026-05-20 11:45:06 | INFO    | 2026-02-27 done | running P&L: $8.28
+2026-05-20 11:45:06 | INFO    | --- 2026-03-02 (55 bars) ---
+2026-05-20 11:45:06 | DEBUG   | QQQ | State 0→1 | break UP 2.03 SD
+2026-05-20 11:45:06 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:06 | DEBUG   | QQQ | State 0→1 | break UP 1.05 SD
+2026-05-20 11:45:06 | INFO    | 2026-03-02 done | running P&L: $8.28
+2026-05-20 11:45:06 | INFO    | --- 2026-03-03 (55 bars) ---
+2026-05-20 11:45:06 | DEBUG   | QQQ | State 0→1 | break UP 1.69 SD
+2026-05-20 11:45:06 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:06 | DEBUG   | QQQ | State 0→1 | break UP 1.47 SD
+2026-05-20 11:45:06 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:06 | DEBUG   | QQQ | State 0→1 | break UP 1.30 SD
+2026-05-20 11:45:07 | INFO    | 2026-03-03 done | running P&L: $8.28
+2026-05-20 11:45:07 | INFO    | --- 2026-03-04 (55 bars) ---
+2026-05-20 11:45:07 | DEBUG   | QQQ | State 0→1 | break UP 1.50 SD
+2026-05-20 11:45:07 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:07 | DEBUG   | QQQ | State 0→1 | break UP 1.27 SD
+2026-05-20 11:45:07 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:07 | DEBUG   | QQQ | State 0→1 | break UP 1.20 SD
+2026-05-20 11:45:07 | INFO    | 2026-03-04 done | running P&L: $8.28
+2026-05-20 11:45:07 | INFO    | --- 2026-03-05 (55 bars) ---
+2026-05-20 11:45:07 | DEBUG   | QQQ | State 0→1 | break UP 1.01 SD
+2026-05-20 11:45:07 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:07 | DEBUG   | QQQ | State 0→1 | break DN -1.35 SD
+2026-05-20 11:45:07 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0423 ratio=0.797
+2026-05-20 11:45:07 | INFO    | Position opened | QQQ long | 1 shares @ 604.21 | $604
+2026-05-20 11:45:07 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:45:07 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:45:07 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:45:07 | INFO    | Position closed | QQQ long | exit=603.13 | P&L=$-1.08 | reason=EOD
+2026-05-20 11:45:07 | INFO    | 2026-03-05 done | running P&L: $7.20
+2026-05-20 11:45:08 | INFO    | --- 2026-03-06 (55 bars) ---
+2026-05-20 11:45:08 | DEBUG   | QQQ | State 0→1 | break UP 1.04 SD
+2026-05-20 11:45:08 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:08 | DEBUG   | QQQ | State 0→1 | break UP 1.48 SD
+2026-05-20 11:45:08 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:08 | DEBUG   | QQQ | State 0→1 | break UP 1.28 SD
+2026-05-20 11:45:08 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:08 | DEBUG   | QQQ | State 0→1 | break DN -1.01 SD
+2026-05-20 11:45:08 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0115 ratio=0.827
+2026-05-20 11:45:08 | INFO    | Position opened | QQQ long | 1 shares @ 603.14 | $603
+2026-05-20 11:45:08 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:45:08 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:45:08 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:45:08 | DEBUG   | QQQ | State 2 | bars_in_position=4
+2026-05-20 11:45:08 | INFO    | QQQ | State 2→0 | TP hit at 603.56
+2026-05-20 11:45:08 | INFO    | Position closed | QQQ long | exit=603.55 | P&L=$0.41 | reason=TP
+2026-05-20 11:45:08 | DEBUG   | QQQ | State 0→1 | break UP 1.54 SD
+2026-05-20 11:45:08 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:08 | INFO    | 2026-03-06 done | running P&L: $7.61
+2026-05-20 11:45:08 | INFO    | --- 2026-03-09 (55 bars) ---
+2026-05-20 11:45:08 | DEBUG   | QQQ | State 0→1 | break UP 1.35 SD
+2026-05-20 11:45:08 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:45:08 | INFO    | 2026-03-09 done | running P&L: $7.61
+2026-05-20 11:45:09 | INFO    | --- 2026-03-10 (55 bars) ---
+2026-05-20 11:45:09 | DEBUG   | QQQ | State 0→1 | break UP 1.31 SD
+2026-05-20 11:45:09 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:45:09 | DEBUG   | QQQ | State 0→1 | break DN -1.14 SD
+2026-05-20 11:45:09 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:09 | INFO    | 2026-03-10 done | running P&L: $7.61
+2026-05-20 11:45:09 | INFO    | --- 2026-03-11 (55 bars) ---
+2026-05-20 11:45:09 | DEBUG   | QQQ | State 0→1 | break DN -1.52 SD
+2026-05-20 11:45:09 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:45:09 | DEBUG   | QQQ | State 0→1 | break DN -1.22 SD
+2026-05-20 11:45:09 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0419 ratio=0.706
+2026-05-20 11:45:09 | INFO    | Position opened | QQQ long | 1 shares @ 606.93 | $607
+2026-05-20 11:45:09 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:45:09 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:45:09 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:45:09 | DEBUG   | QQQ | State 2 | bars_in_position=4
+2026-05-20 11:45:09 | DEBUG   | QQQ | State 2 | bars_in_position=5
+2026-05-20 11:45:09 | DEBUG   | QQQ | State 2 | bars_in_position=6
+2026-05-20 11:45:09 | INFO    | QQQ | State 2→0 | TP hit at 608.28
+2026-05-20 11:45:09 | INFO    | Position closed | QQQ long | exit=608.26 | P&L=$1.33 | reason=TP
+2026-05-20 11:45:09 | DEBUG   | QQQ | State 0→1 | break DN -1.20 SD
+2026-05-20 11:45:09 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:09 | DEBUG   | QQQ | State 0→1 | break DN -1.16 SD
+2026-05-20 11:45:09 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0241 ratio=0.892
+2026-05-20 11:45:09 | INFO    | Position opened | QQQ long | 1 shares @ 606.31 | $606
+2026-05-20 11:45:09 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:45:09 | INFO    | Position closed | QQQ long | exit=607.23 | P&L=$0.92 | reason=EOD
+2026-05-20 11:45:09 | INFO    | 2026-03-11 done | running P&L: $9.86
+2026-05-20 11:45:10 | INFO    | --- 2026-03-12 (55 bars) ---
+2026-05-20 11:45:10 | DEBUG   | QQQ | State 0→1 | break UP 1.17 SD
+2026-05-20 11:45:10 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:10 | DEBUG   | QQQ | State 0→1 | break UP 1.07 SD
+2026-05-20 11:45:10 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:10 | DEBUG   | QQQ | State 0→1 | break UP 1.43 SD
+2026-05-20 11:45:10 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:10 | DEBUG   | QQQ | State 0→1 | break UP 1.16 SD
+2026-05-20 11:45:10 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:10 | INFO    | 2026-03-12 done | running P&L: $9.86
+2026-05-20 11:45:10 | INFO    | --- 2026-03-13 (55 bars) ---
+2026-05-20 11:45:10 | DEBUG   | QQQ | State 0→1 | break DN -1.25 SD
+2026-05-20 11:45:10 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:45:10 | DEBUG   | QQQ | State 0→1 | break DN -1.14 SD
+2026-05-20 11:45:10 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0443 ratio=0.842
+2026-05-20 11:45:10 | INFO    | Position opened | QQQ long | 1 shares @ 594.85 | $595
+2026-05-20 11:45:10 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:45:10 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:45:10 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:45:10 | DEBUG   | QQQ | State 2 | bars_in_position=4
+2026-05-20 11:45:10 | DEBUG   | QQQ | State 2 | bars_in_position=5
+2026-05-20 11:45:10 | DEBUG   | QQQ | State 2 | bars_in_position=6
+2026-05-20 11:45:10 | INFO    | QQQ | State 2→0 | stall exit | progress=-57.4%
+2026-05-20 11:45:10 | INFO    | Position closed | QQQ long | exit=593.69 | P&L=$-1.16 | reason=TP
+2026-05-20 11:45:10 | DEBUG   | QQQ | State 0→1 | break DN -1.19 SD
+2026-05-20 11:45:10 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:45:10 | DEBUG   | QQQ | State 0→1 | break DN -1.46 SD
+2026-05-20 11:45:10 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:45:10 | DEBUG   | QQQ | State 0→1 | break DN -1.12 SD
+2026-05-20 11:45:10 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0422 ratio=0.820
+2026-05-20 11:45:10 | INFO    | Position opened | QQQ long | 1 shares @ 594.04 | $594
+2026-05-20 11:45:10 | INFO    | Position closed | QQQ long | exit=594.58 | P&L=$0.54 | reason=EOD
+2026-05-20 11:45:10 | INFO    | 2026-03-13 done | running P&L: $9.23
+2026-05-20 11:45:11 | INFO    | --- 2026-03-16 (55 bars) ---
+2026-05-20 11:45:11 | DEBUG   | QQQ | State 0→1 | break UP 1.04 SD
+2026-05-20 11:45:11 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:11 | DEBUG   | QQQ | State 0→1 | break DN -1.99 SD
+2026-05-20 11:45:11 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:11 | INFO    | 2026-03-16 done | running P&L: $9.23
+2026-05-20 11:45:11 | INFO    | --- 2026-03-17 (55 bars) ---
+2026-05-20 11:45:11 | DEBUG   | QQQ | State 0→1 | break DN -2.63 SD
+2026-05-20 11:45:11 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:45:11 | INFO    | 2026-03-17 done | running P&L: $9.23
+2026-05-20 11:45:11 | INFO    | --- 2026-03-18 (55 bars) ---
+2026-05-20 11:45:12 | DEBUG   | QQQ | State 0→1 | break DN -1.08 SD
+2026-05-20 11:45:12 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:12 | DEBUG   | QQQ | State 0→1 | break DN -1.05 SD
+2026-05-20 11:45:12 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0160 ratio=0.737
+2026-05-20 11:45:12 | INFO    | Position opened | QQQ long | 1 shares @ 599.69 | $600
+2026-05-20 11:45:12 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:45:12 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:45:12 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:45:12 | INFO    | QQQ | State 2→3 | stop hit at 599.21
+2026-05-20 11:45:12 | INFO    | Position closed | QQQ long | exit=599.20 | P&L=$-0.49 | reason=SL
+2026-05-20 11:45:12 | DEBUG   | QQQ | State 3 | cooldown 2 bars left
+2026-05-20 11:45:12 | DEBUG   | QQQ | State 3 | cooldown 1 bars left
+2026-05-20 11:45:12 | DEBUG   | QQQ | State 3→0 | cooldown done, price inside band
+2026-05-20 11:45:12 | DEBUG   | QQQ | State 0→1 | break DN -1.03 SD
+2026-05-20 11:45:12 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:12 | INFO    | 2026-03-18 done | running P&L: $8.74
+2026-05-20 11:45:12 | INFO    | --- 2026-03-19 (55 bars) ---
+2026-05-20 11:45:12 | DEBUG   | QQQ | State 0→1 | break DN -2.49 SD
+2026-05-20 11:45:12 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0433 ratio=0.894
+2026-05-20 11:45:12 | INFO    | Position opened | QQQ long | 1 shares @ 590.67 | $591
+2026-05-20 11:45:12 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:45:12 | INFO    | QQQ | State 2→0 | TP hit at 591.09
+2026-05-20 11:45:12 | INFO    | Position closed | QQQ long | exit=591.09 | P&L=$0.42 | reason=TP
+2026-05-20 11:45:12 | DEBUG   | QQQ | State 0→1 | break DN -1.67 SD
+2026-05-20 11:45:12 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:12 | DEBUG   | QQQ | State 0→1 | break DN -1.24 SD
+2026-05-20 11:45:12 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0118 ratio=0.813
+2026-05-20 11:45:12 | INFO    | Position opened | QQQ long | 1 shares @ 589.59 | $590
+2026-05-20 11:45:12 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:45:12 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:45:12 | INFO    | QQQ | State 2→0 | TP hit at 590.66
+2026-05-20 11:45:12 | INFO    | Position closed | QQQ long | exit=590.66 | P&L=$1.07 | reason=TP
+2026-05-20 11:45:12 | DEBUG   | QQQ | State 0→1 | break UP 1.20 SD
+2026-05-20 11:45:12 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:12 | INFO    | 2026-03-19 done | running P&L: $10.23
+2026-05-20 11:45:12 | INFO    | --- 2026-03-20 (55 bars) ---
+2026-05-20 11:45:13 | DEBUG   | QQQ | State 0→1 | break UP 1.18 SD
+2026-05-20 11:45:13 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:13 | DEBUG   | QQQ | State 0→1 | break DN -1.44 SD
+2026-05-20 11:45:13 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0079 ratio=0.860
+2026-05-20 11:45:13 | INFO    | Position opened | QQQ long | 1 shares @ 585.94 | $586
+2026-05-20 11:45:13 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:45:13 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:45:13 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:45:13 | DEBUG   | QQQ | State 2 | bars_in_position=4
+2026-05-20 11:45:13 | INFO    | QQQ | State 2→3 | stop hit at 585.21
+2026-05-20 11:45:13 | INFO    | Position closed | QQQ long | exit=585.23 | P&L=$-0.71 | reason=SL
+2026-05-20 11:45:13 | DEBUG   | QQQ | State 3 | cooldown 2 bars left
+2026-05-20 11:45:13 | DEBUG   | QQQ | State 3 | cooldown 1 bars left
+2026-05-20 11:45:13 | INFO    | 2026-03-20 done | running P&L: $9.52
+2026-05-20 11:45:13 | INFO    | --- 2026-03-23 (55 bars) ---
+2026-05-20 11:45:13 | DEBUG   | QQQ | State 0→1 | break DN -2.36 SD
+2026-05-20 11:45:13 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:45:13 | DEBUG   | QQQ | State 0→1 | break DN -1.11 SD
+2026-05-20 11:45:13 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:45:13 | DEBUG   | QQQ | State 0→1 | break DN -1.25 SD
+2026-05-20 11:45:13 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:13 | INFO    | 2026-03-23 done | running P&L: $9.52
+2026-05-20 11:45:13 | INFO    | --- 2026-03-24 (55 bars) ---
+2026-05-20 11:45:13 | DEBUG   | QQQ | State 0→1 | break UP 1.52 SD
+2026-05-20 11:45:13 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:14 | DEBUG   | QQQ | State 0→1 | break UP 1.25 SD
+2026-05-20 11:45:14 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:14 | DEBUG   | QQQ | State 0→1 | break DN -1.21 SD
+2026-05-20 11:45:14 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:14 | INFO    | 2026-03-24 done | running P&L: $9.52
+2026-05-20 11:45:14 | INFO    | --- 2026-03-25 (55 bars) ---
+2026-05-20 11:45:14 | DEBUG   | QQQ | State 0→1 | break DN -1.05 SD
+2026-05-20 11:45:14 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0257 ratio=0.728
+2026-05-20 11:45:14 | INFO    | Position opened | QQQ long | 1 shares @ 587.84 | $588
+2026-05-20 11:45:14 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:45:14 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:45:14 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:45:14 | DEBUG   | QQQ | State 2 | bars_in_position=4
+2026-05-20 11:45:14 | DEBUG   | QQQ | State 2 | bars_in_position=5
+2026-05-20 11:45:14 | INFO    | QQQ | State 2→0 | TP hit at 588.81
+2026-05-20 11:45:14 | INFO    | Position closed | QQQ long | exit=588.83 | P&L=$0.99 | reason=TP
+2026-05-20 11:45:14 | DEBUG   | QQQ | State 0→1 | break UP 1.11 SD
+2026-05-20 11:45:14 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:14 | INFO    | 2026-03-25 done | running P&L: $10.51
+2026-05-20 11:45:14 | INFO    | --- 2026-03-26 (55 bars) ---
+2026-05-20 11:45:14 | DEBUG   | QQQ | State 0→1 | break DN -1.59 SD
+2026-05-20 11:45:14 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0442 ratio=0.886
+2026-05-20 11:45:14 | INFO    | Position opened | QQQ long | 1 shares @ 581.20 | $581
+2026-05-20 11:45:14 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:45:14 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:45:14 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:45:14 | DEBUG   | QQQ | State 2 | bars_in_position=4
+2026-05-20 11:45:14 | DEBUG   | QQQ | State 2 | bars_in_position=5
+2026-05-20 11:45:14 | DEBUG   | QQQ | State 2 | bars_in_position=6
+2026-05-20 11:45:14 | INFO    | QQQ | State 2→0 | stall exit | progress=-105.8%
+2026-05-20 11:45:14 | INFO    | Position closed | QQQ long | exit=580.42 | P&L=$-0.78 | reason=TP
+2026-05-20 11:45:14 | DEBUG   | QQQ | State 0→1 | break DN -1.56 SD
+2026-05-20 11:45:15 | INFO    | 2026-03-26 done | running P&L: $9.73
+2026-05-20 11:45:15 | INFO    | --- 2026-03-27 (55 bars) ---
+2026-05-20 11:45:15 | DEBUG   | QQQ | State 0→1 | break UP 3.10 SD
+2026-05-20 11:45:15 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:45:15 | DEBUG   | QQQ | State 0→1 | break UP 1.38 SD
+2026-05-20 11:45:15 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:15 | DEBUG   | QQQ | State 0→1 | break DN -1.18 SD
+2026-05-20 11:45:15 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:15 | DEBUG   | QQQ | State 0→1 | break DN -1.08 SD
+2026-05-20 11:45:15 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:15 | DEBUG   | QQQ | State 0→1 | break DN -1.44 SD
+2026-05-20 11:45:15 | INFO    | 2026-03-27 done | running P&L: $9.73
+2026-05-20 11:45:15 | INFO    | --- 2026-03-30 (55 bars) ---
+2026-05-20 11:45:15 | DEBUG   | QQQ | State 0→1 | break UP 1.72 SD
+2026-05-20 11:45:15 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:15 | DEBUG   | QQQ | State 0→1 | break DN -1.15 SD
+2026-05-20 11:45:15 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0314 ratio=0.793
+2026-05-20 11:45:15 | INFO    | Position opened | QQQ long | 1 shares @ 562.46 | $562
+2026-05-20 11:45:15 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:45:15 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:45:15 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:45:15 | DEBUG   | QQQ | State 2 | bars_in_position=4
+2026-05-20 11:45:15 | DEBUG   | QQQ | State 2 | bars_in_position=5
+2026-05-20 11:45:15 | INFO    | QQQ | State 2→3 | stop hit at 561.37
+2026-05-20 11:45:15 | INFO    | Position closed | QQQ long | exit=561.38 | P&L=$-1.09 | reason=SL
+2026-05-20 11:45:15 | DEBUG   | QQQ | State 3 | cooldown 2 bars left
+2026-05-20 11:45:15 | DEBUG   | QQQ | State 3 | cooldown 1 bars left
+2026-05-20 11:45:16 | INFO    | 2026-03-30 done | running P&L: $8.65
+2026-05-20 11:45:16 | INFO    | --- 2026-03-31 (55 bars) ---
+2026-05-20 11:45:16 | DEBUG   | QQQ | State 0→1 | break DN -1.22 SD
+2026-05-20 11:45:16 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:16 | DEBUG   | QQQ | State 0→1 | break UP 1.27 SD
+2026-05-20 11:45:16 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:16 | DEBUG   | QQQ | State 0→1 | break UP 2.97 SD
+2026-05-20 11:45:16 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:45:16 | DEBUG   | QQQ | State 0→1 | break UP 1.05 SD
+2026-05-20 11:45:16 | INFO    | 2026-03-31 done | running P&L: $8.65
+2026-05-20 11:45:16 | INFO    | --- 2026-04-01 (55 bars) ---
+2026-05-20 11:45:16 | DEBUG   | QQQ | State 0→1 | break UP 1.01 SD
+2026-05-20 11:45:16 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:45:16 | DEBUG   | QQQ | State 0→1 | break UP 1.05 SD
+2026-05-20 11:45:16 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:45:16 | DEBUG   | QQQ | State 0→1 | break DN -1.20 SD
+2026-05-20 11:45:17 | INFO    | 2026-04-01 done | running P&L: $8.65
+2026-05-20 11:45:17 | INFO    | --- 2026-04-02 (55 bars) ---
+2026-05-20 11:45:17 | INFO    | 2026-04-02 done | running P&L: $8.65
+2026-05-20 11:45:17 | DEBUG   | 2026-04-03: no market data, skipping
+2026-05-20 11:45:17 | INFO    | --- 2026-04-06 (55 bars) ---
+2026-05-20 11:45:17 | DEBUG   | QQQ | State 0→1 | break DN -1.79 SD
+2026-05-20 11:45:17 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0193 ratio=0.455
+2026-05-20 11:45:17 | INFO    | Position opened | QQQ long | 1 shares @ 586.81 | $587
+2026-05-20 11:45:17 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:45:17 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:45:17 | INFO    | QQQ | State 2→0 | TP hit at 587.61
+2026-05-20 11:45:17 | INFO    | Position closed | QQQ long | exit=587.59 | P&L=$0.78 | reason=TP
+2026-05-20 11:45:17 | DEBUG   | QQQ | State 0→1 | break DN -1.14 SD
+2026-05-20 11:45:17 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0038 ratio=0.505
+2026-05-20 11:45:17 | INFO    | Position opened | QQQ long | 1 shares @ 587.09 | $587
+2026-05-20 11:45:17 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:45:17 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:45:17 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:45:17 | DEBUG   | QQQ | State 2 | bars_in_position=4
+2026-05-20 11:45:17 | INFO    | QQQ | State 2→0 | TP hit at 587.58
+2026-05-20 11:45:17 | INFO    | Position closed | QQQ long | exit=587.59 | P&L=$0.50 | reason=TP
+2026-05-20 11:45:17 | DEBUG   | QQQ | State 0→1 | break DN -1.43 SD
+2026-05-20 11:45:17 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:17 | DEBUG   | QQQ | State 0→1 | break DN -1.13 SD
+2026-05-20 11:45:17 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0163 ratio=0.734
+2026-05-20 11:45:17 | INFO    | Position opened | QQQ long | 1 shares @ 586.38 | $586
+2026-05-20 11:45:17 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:45:17 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:45:18 | INFO    | QQQ | State 2→0 | TP hit at 587.78
+2026-05-20 11:45:18 | INFO    | Position closed | QQQ long | exit=587.77 | P&L=$1.39 | reason=TP
+2026-05-20 11:45:18 | DEBUG   | QQQ | State 0→1 | break UP 1.34 SD
+2026-05-20 11:45:18 | INFO    | 2026-04-06 done | running P&L: $11.31
+2026-05-20 11:45:18 | INFO    | --- 2026-04-07 (55 bars) ---
+2026-05-20 11:45:18 | DEBUG   | QQQ | State 0→1 | break UP 1.33 SD
+2026-05-20 11:45:18 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:18 | INFO    | 2026-04-07 done | running P&L: $11.31
+2026-05-20 11:45:18 | INFO    | --- 2026-04-08 (55 bars) ---
+2026-05-20 11:45:18 | DEBUG   | QQQ | State 0→1 | break UP 1.27 SD
+2026-05-20 11:45:18 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:18 | DEBUG   | QQQ | State 0→1 | break UP 1.21 SD
+2026-05-20 11:45:18 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:18 | DEBUG   | QQQ | State 0→1 | break UP 1.33 SD
+2026-05-20 11:45:18 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:18 | INFO    | 2026-04-08 done | running P&L: $11.31
+2026-05-20 11:45:19 | INFO    | --- 2026-04-09 (55 bars) ---
+2026-05-20 11:45:19 | DEBUG   | QQQ | State 0→1 | break UP 1.97 SD
+2026-05-20 11:45:19 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:45:19 | DEBUG   | QQQ | State 0→1 | break UP 1.12 SD
+2026-05-20 11:45:19 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:19 | INFO    | 2026-04-09 done | running P&L: $11.31
+2026-05-20 11:45:19 | INFO    | --- 2026-04-10 (55 bars) ---
+2026-05-20 11:45:19 | DEBUG   | QQQ | State 0→1 | break DN -1.39 SD
+2026-05-20 11:45:19 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:45:19 | DEBUG   | QQQ | State 0→1 | break DN -1.25 SD
+2026-05-20 11:45:19 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0269 ratio=0.809
+2026-05-20 11:45:19 | INFO    | Position opened | QQQ long | 1 shares @ 610.82 | $611
+2026-05-20 11:45:19 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:45:19 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:45:19 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:45:19 | DEBUG   | QQQ | State 2 | bars_in_position=4
+2026-05-20 11:45:19 | DEBUG   | QQQ | State 2 | bars_in_position=5
+2026-05-20 11:45:19 | DEBUG   | QQQ | State 2 | bars_in_position=6
+2026-05-20 11:45:19 | INFO    | QQQ | State 2→0 | stall exit | progress=-2.4%
+2026-05-20 11:45:19 | INFO    | Position closed | QQQ long | exit=610.79 | P&L=$-0.03 | reason=TP
+2026-05-20 11:45:19 | INFO    | 2026-04-10 done | running P&L: $11.29
+2026-05-20 11:45:19 | INFO    | --- 2026-04-13 (55 bars) ---
+2026-05-20 11:45:19 | DEBUG   | QQQ | State 0→1 | break UP 1.53 SD
+2026-05-20 11:45:19 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:20 | DEBUG   | QQQ | State 0→1 | break UP 1.05 SD
+2026-05-20 11:45:20 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:20 | INFO    | 2026-04-13 done | running P&L: $11.29
+2026-05-20 11:45:20 | INFO    | --- 2026-04-14 (55 bars) ---
+2026-05-20 11:45:20 | DEBUG   | QQQ | State 0→1 | break UP 1.83 SD
+2026-05-20 11:45:20 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:45:20 | INFO    | 2026-04-14 done | running P&L: $11.29
+2026-05-20 11:45:20 | INFO    | --- 2026-04-15 (55 bars) ---
+2026-05-20 11:45:20 | DEBUG   | QQQ | State 0→1 | break UP 1.06 SD
+2026-05-20 11:45:20 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:45:21 | DEBUG   | QQQ | State 0→1 | break UP 1.12 SD
+2026-05-20 11:45:21 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:21 | DEBUG   | QQQ | State 0→1 | break UP 1.31 SD
+2026-05-20 11:45:21 | INFO    | 2026-04-15 done | running P&L: $11.29
+2026-05-20 11:45:21 | INFO    | --- 2026-04-16 (55 bars) ---
+2026-05-20 11:45:21 | DEBUG   | QQQ | State 0→1 | break UP 1.42 SD
+2026-05-20 11:45:21 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:45:21 | DEBUG   | QQQ | State 0→1 | break DN -1.16 SD
+2026-05-20 11:45:21 | INFO    | 2026-04-16 done | running P&L: $11.29
+2026-05-20 11:45:21 | INFO    | --- 2026-04-17 (55 bars) ---
+2026-05-20 11:45:21 | DEBUG   | QQQ | State 0→1 | break UP 1.81 SD
+2026-05-20 11:45:21 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:45:21 | DEBUG   | QQQ | State 0→1 | break UP 1.01 SD
+2026-05-20 11:45:21 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:21 | DEBUG   | QQQ | State 0→1 | break UP 1.06 SD
+2026-05-20 11:45:21 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:21 | DEBUG   | QQQ | State 0→1 | break DN -1.56 SD
+2026-05-20 11:45:21 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:21 | DEBUG   | QQQ | State 0→1 | break DN -1.05 SD
+2026-05-20 11:45:21 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0118 ratio=0.899
+2026-05-20 11:45:21 | INFO    | Position opened | QQQ long | 1 shares @ 647.45 | $647
+2026-05-20 11:45:21 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:45:22 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:45:22 | INFO    | Position closed | QQQ long | exit=648.14 | P&L=$0.69 | reason=EOD
+2026-05-20 11:45:22 | INFO    | 2026-04-17 done | running P&L: $11.98
+2026-05-20 11:45:22 | INFO    | --- 2026-04-20 (55 bars) ---
+2026-05-20 11:45:22 | DEBUG   | QQQ | State 0→1 | break UP 1.22 SD
+2026-05-20 11:45:22 | INFO    | 2026-04-20 done | running P&L: $11.98
+2026-05-20 11:45:22 | INFO    | --- 2026-04-21 (55 bars) ---
+2026-05-20 11:45:22 | DEBUG   | QQQ | State 0→1 | break DN -1.02 SD
+2026-05-20 11:45:22 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:22 | DEBUG   | QQQ | State 0→1 | break DN -1.12 SD
+2026-05-20 11:45:22 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0386 ratio=0.885
+2026-05-20 11:45:22 | INFO    | Position opened | QQQ long | 1 shares @ 646.58 | $647
+2026-05-20 11:45:22 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:45:22 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:45:22 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:45:22 | DEBUG   | QQQ | State 2 | bars_in_position=4
+2026-05-20 11:45:22 | DEBUG   | QQQ | State 2 | bars_in_position=5
+2026-05-20 11:45:22 | DEBUG   | QQQ | State 2 | bars_in_position=6
+2026-05-20 11:45:22 | INFO    | QQQ | State 2→0 | stall exit | progress=-63.4%
+2026-05-20 11:45:22 | INFO    | Position closed | QQQ long | exit=645.85 | P&L=$-0.73 | reason=TP
+2026-05-20 11:45:22 | DEBUG   | QQQ | State 0→1 | break DN -1.13 SD
+2026-05-20 11:45:22 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:45:22 | INFO    | 2026-04-21 done | running P&L: $11.26
+2026-05-20 11:45:23 | INFO    | --- 2026-04-22 (55 bars) ---
+2026-05-20 11:45:23 | DEBUG   | QQQ | State 0→1 | break UP 1.11 SD
+2026-05-20 11:45:23 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:23 | DEBUG   | QQQ | State 0→1 | break UP 1.14 SD
+2026-05-20 11:45:23 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:23 | DEBUG   | QQQ | State 0→1 | break UP 1.05 SD
+2026-05-20 11:45:23 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:23 | DEBUG   | QQQ | State 0→1 | break UP 1.09 SD
+2026-05-20 11:45:23 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:23 | INFO    | 2026-04-22 done | running P&L: $11.26
+2026-05-20 11:45:23 | INFO    | --- 2026-04-23 (55 bars) ---
+2026-05-20 11:45:23 | DEBUG   | QQQ | State 0→1 | break UP 1.70 SD
+2026-05-20 11:45:23 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:45:23 | DEBUG   | QQQ | State 0→1 | break DN -1.22 SD
+2026-05-20 11:45:23 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=False
+2026-05-20 11:45:23 | INFO    | 2026-04-23 done | running P&L: $11.26
+2026-05-20 11:45:23 | INFO    | --- 2026-04-24 (55 bars) ---
+2026-05-20 11:45:23 | DEBUG   | QQQ | State 0→1 | break UP 1.49 SD
+2026-05-20 11:45:24 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:24 | DEBUG   | QQQ | State 0→1 | break UP 1.01 SD
+2026-05-20 11:45:24 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:24 | INFO    | 2026-04-24 done | running P&L: $11.26
+2026-05-20 11:45:24 | INFO    | --- 2026-04-27 (55 bars) ---
+2026-05-20 11:45:24 | DEBUG   | QQQ | State 0→1 | break UP 1.44 SD
+2026-05-20 11:45:24 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:24 | DEBUG   | QQQ | State 0→1 | break UP 1.68 SD
+2026-05-20 11:45:24 | INFO    | 2026-04-27 done | running P&L: $11.26
+2026-05-20 11:45:24 | INFO    | --- 2026-04-28 (55 bars) ---
+2026-05-20 11:45:24 | DEBUG   | QQQ | State 0→1 | break DN -1.40 SD
+2026-05-20 11:45:24 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:45:25 | DEBUG   | QQQ | State 0→1 | break UP 1.02 SD
+2026-05-20 11:45:25 | DEBUG   | QQQ | State 1→0 | short skipped (long-only mode)
+2026-05-20 11:45:25 | DEBUG   | QQQ | State 0→1 | break UP 1.31 SD
+2026-05-20 11:45:25 | INFO    | 2026-04-28 done | running P&L: $11.26
+2026-05-20 11:45:25 | INFO    | --- 2026-04-29 (55 bars) ---
+2026-05-20 11:45:25 | DEBUG   | QQQ | State 0→1 | break DN -1.28 SD
+2026-05-20 11:45:25 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:25 | DEBUG   | QQQ | State 0→1 | break DN -1.49 SD
+2026-05-20 11:45:25 | INFO    | QQQ | State 1→2 | enter_long | slope=-0.0161 ratio=0.832
+2026-05-20 11:45:25 | INFO    | Position opened | QQQ long | 1 shares @ 658.62 | $659
+2026-05-20 11:45:25 | DEBUG   | QQQ | State 2 | bars_in_position=1
+2026-05-20 11:45:25 | DEBUG   | QQQ | State 2 | bars_in_position=2
+2026-05-20 11:45:25 | DEBUG   | QQQ | State 2 | bars_in_position=3
+2026-05-20 11:45:25 | DEBUG   | QQQ | State 2 | bars_in_position=4
+2026-05-20 11:45:25 | DEBUG   | QQQ | State 2 | bars_in_position=5
+2026-05-20 11:45:25 | DEBUG   | QQQ | State 2 | bars_in_position=6
+2026-05-20 11:45:25 | DEBUG   | QQQ | State 2 | bars_in_position=7
+2026-05-20 11:45:25 | INFO    | QQQ | State 2→0 | TP hit at 659.57
+2026-05-20 11:45:25 | INFO    | Position closed | QQQ long | exit=659.60 | P&L=$0.98 | reason=TP
+2026-05-20 11:45:25 | DEBUG   | QQQ | State 0→1 | break DN -1.11 SD
+2026-05-20 11:45:25 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=True ratio_ok=False
+2026-05-20 11:45:25 | INFO    | 2026-04-29 done | running P&L: $12.24
+2026-05-20 11:45:25 | INFO    | --- 2026-04-30 (55 bars) ---
+2026-05-20 11:45:25 | DEBUG   | QQQ | State 0→1 | break UP 1.66 SD
+2026-05-20 11:45:25 | DEBUG   | QQQ | State 1→0 | filters failed slope_ok=False ratio_ok=True
+2026-05-20 11:45:25 | DEBUG   | QQQ | State 0→1 | break UP 1.18 SD
+2026-05-20 11:45:26 | INFO    | 2026-04-30 done | running P&L: $12.24
+2026-05-20 11:45:26 | INFO    | ====================================================
+2026-05-20 11:45:26 | INFO    |   BACKTEST RESULTS
+2026-05-20 11:45:26 | INFO    | ====================================================
+2026-05-20 11:45:26 | INFO    |   Total trades    : 61
+2026-05-20 11:45:26 | INFO    |   Win rate        : 59.0%  (36W / 25L)
+2026-05-20 11:45:26 | INFO    |   Total P&L       : $12.24
+2026-05-20 11:45:26 | INFO    |   Avg winner      : $0.78
+2026-05-20 11:45:26 | INFO    |   Avg loser       : $-0.64
+2026-05-20 11:45:26 | INFO    |   R:R ratio       : 1.23
+2026-05-20 11:45:26 | INFO    |   Profit factor   : 1.76
+2026-05-20 11:45:26 | INFO    |   Max drawdown    : $3.59
+2026-05-20 11:45:26 | INFO    |   Exits — TP:44  SL:9  EOD:8
+2026-05-20 11:45:26 | INFO    | ====================================================
+2026-05-20 11:45:26 | INFO    | Trade log saved → /Users/rishi/Documents/vscode-projects/PNLV_algo/results/trades_2025-09-02_2026-04-30.csv
